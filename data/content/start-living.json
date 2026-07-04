@@ -1,1 +1,687 @@
-[]
+[
+ {
+  "href": "/life/start-living/",
+  "lead": "浜松市に転入・転居したら、住民異動届を起点にマイナンバー・水道・ごみ・ペットなど暮らしの手続きをまとめて片づけましょう。浜松市は3区(中央区・浜名区・天竜区)体制で、住んでいる区や地域によって窓口・ごみの分別方法・交通事情が異なる点に注意してください。",
+  "real_cards": [
+   {"icon": "🏢", "title": "窓口は区役所・行政センターに分散", "body": "中央区役所・浜名区役所・天竜区役所に加え、中央区内の東・西・南行政センター、浜名区内の北行政センターでも住民異動届などの主要な手続きができます。市内約50か所の施設が対応しています。"},
+   {"icon": "📋", "title": "転入から14日以内が基本", "body": "転入届・転居届は引っ越しをした日から14日以内に届け出るのが原則です。マイナンバーカードがあればマイナポータルでの事前手続きも利用できます。"},
+   {"icon": "🗑️", "title": "ごみの分別・収集日は地区で異なる", "body": "分別収集カレンダーは区・地区ごとに番号が異なります。引っ越し直後は自分の地区のカレンダー番号を確認してから出すことが大切です。"},
+   {"icon": "☎️", "title": "迷ったら市民コールセンターへ", "body": "担当窓口が分からないときは市民コールセンター(053-457-2111、平日8時30分〜17時15分)に電話すると、担当課や最寄りの窓口を案内してもらえます。"}
+  ],
+  "action_grid": [
+   {"label": "引越しの手続きのご案内を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tennyu_annai.html"},
+   {"label": "市役所・区役所・行政センターを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/shisetsu-annai/shiyakusho/"},
+   {"label": "分別収集カレンダーを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/"},
+   {"label": "市民コールセンターに電話する", "href": "tel:053-457-2111"}
+  ]
+ },
+ {
+  "href": "/life/start-living/moved-in/",
+  "lead": "浜松市に引っ越してきたら、住民異動届を出したその足で、マイナンバーカードの住所変更、水道の使用開始、ごみの分別ルール確認、犬を飼っている場合は登録変更まで、まとめて済ませるのが効率的です。手続きの多くは区役所・行政センターの同じ窓口でできます。",
+  "note": "外国籍の方や国民健康保険の特例に該当する世帯は、区役所または行政センターでのみ手続きできる場合があります。3月・4月は窓口が混み合うため、市はオンライン手続きや行政センターの利用を呼びかけています。",
+  "real_cards": [
+   {"icon": "📝", "title": "住民異動届がすべての起点", "body": "転入届・転居届を出すと、国民健康保険・児童手当・小中学校の転入学など関連手続きも同時に案内してもらえます。まずはこの届出を済ませましょう。"},
+   {"icon": "💳", "title": "マイナンバーカードの住所書き換え", "body": "マイナンバーカードを持っている場合、住民異動届と同時にカードの券面・電子証明書の住所情報を更新する手続きが必要です。忘れると電子証明書が失効した状態になります。"},
+   {"icon": "🚰", "title": "水道は事前の届出が必要", "body": "上下水道の使用開始届は、上下水道受付センター(0120-09-1132)へ電話・インターネット・FAXのいずれかで、入居の2日〜1週間前を目安に届け出ます。"},
+   {"icon": "🐕", "title": "ペットがいる場合は登録変更も", "body": "犬を飼っている場合、市外からの転入では新住所地での登録手続きが必要です。鑑札(または登録番号)・マイクロチップ番号があれば持参するとスムーズです。"}
+  ],
+  "qa": [
+   {"question": "引っ越し後、最初に何をすればいいですか", "answer": "まず住民異動届(転入届・転居届)を14日以内に区役所・行政センターへ提出してください。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tennyu_annai.html\" target=\"_blank\" rel=\"noopener\">引越しの手続きのご案内</a>で確認できます。"},
+   {"question": "水道はいつまでに手続きすればいいですか", "answer": "使用開始・使用中止とも、希望日の2日〜1週間前を目安に<a href=\"https://www.city.hamamatsu.shizuoka.jp/service/suidou/service/uketsuke.html\" target=\"_blank\" rel=\"noopener\">上下水道受付センター</a>(0120-09-1132)へ届け出るのが安心です。"},
+   {"question": "ごみの分別ルールはどこで確認できますか", "answer": "地区ごとの<a href=\"https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/\" target=\"_blank\" rel=\"noopener\">分別収集カレンダー</a>で収集日と分別区分を確認してください。区・地区でカレンダー番号が異なります。"},
+   {"question": "マイナンバーカードの住所変更はどこでできますか", "answer": "住民異動届と同じ区役所・行政センターの窓口で手続きできます。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/bangouseido/card_henko.html\" target=\"_blank\" rel=\"noopener\">マイナンバーカードの記載内容の変更・追加</a>のページを確認してください。"},
+   {"question": "犬を飼っている場合の手続きは", "answer": "市外から転入した場合、新住所地での犬の登録手続きが必要です。前の市区町村で交付された鑑札や登録番号を持参してください。詳しくは<a href=\"https://www.hama-aikyou.jp/information/kainushi/\" target=\"_blank\" rel=\"noopener\">犬を飼い始めたらどうしたらいいか</a>のページをご覧ください。"},
+   {"question": "何から手をつければいいか分からないときは", "answer": "市民コールセンター(053-457-2111、平日8時30分〜17時15分)に電話すると、必要な手続きと担当窓口をまとめて案内してもらえます。"}
+  ],
+  "tabs": [
+   {"id": "type-tennyu", "label": "市外から転入", "heading": "住民異動届から順番に進める", "bullets": ["前住所地の転出証明書(またはマイナンバーカードの特例)を用意する", "転入届を14日以内に区役所・行政センターへ提出する", "水道・マイナンバー・ごみ・ペット登録もあわせて確認する"], "actions": [
+     {"label": "引越しの手続きのご案内を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tennyu_annai.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-tenkyo", "label": "市内で転居", "heading": "転居届と関連手続きをまとめて済ませる", "bullets": ["転居届を14日以内に提出する", "水道の使用者名義・請求先変更を確認する", "学区が変わる場合は転校手続きも確認する"], "actions": [
+     {"label": "転居届のページを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tenkyo.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-pet", "label": "ペットを飼っている", "heading": "犬の登録・迷子対策も確認する", "bullets": ["犬の登録変更手続きを確認する", "鑑札・注射済票を新居でも装着する", "迷子時の連絡先(動物愛護教育センター)を控えておく"], "actions": [
+     {"label": "犬を飼い始めたらの案内を見る", "href": "https://www.hama-aikyou.jp/information/kainushi/", "source": "浜松市公式"},
+     {"label": "動物愛護教育センターに電話する", "href": "tel:053-487-1616", "source": "053-487-1616"}
+   ]},
+   {"id": "type-unsure", "label": "何をすればいいか分からない", "heading": "まず市民コールセンターに相談する", "bullets": ["担当課・最寄りの窓口を案内してもらう", "必要書類を事前に確認する", "混雑しやすい3月・4月はオンライン手続きも検討する"], "actions": [
+     {"label": "市民コールセンターに電話する", "href": "tel:053-457-2111", "source": "053-457-2111"}
+   ]}
+  ],
+  "steps": {
+   "today": ["転入届・転居届に必要な書類(転出証明書、本人確認書類、マイナンバーカード等)を確認する", "最寄りの区役所・行政センターの場所と受付時間を確認する"],
+   "this_week": ["住民異動届を14日以内に提出する", "水道の使用開始届、マイナンバーカードの住所変更をあわせて済ませる"],
+   "outside": ["ごみの分別収集カレンダーを確認し集積所を把握する", "犬を飼っている場合は登録変更・迷子時の連絡先を控えておく"]
+  },
+  "action_grid": [
+   {"label": "引越しの手続きのご案内を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tennyu_annai.html"},
+   {"label": "上下水道の使用開始・中止を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/service/suidou/service/uketsuke.html"},
+   {"label": "分別収集カレンダーを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/"},
+   {"label": "市民コールセンターに電話する", "href": "tel:053-457-2111"}
+  ]
+ },
+ {
+  "href": "/life/start-living/moving-address-change/",
+  "lead": "浜松市での住所変更(転入届・転居届・転出届)は、引っ越しをした日から14日以内に届け出るのが原則です。転出前には前住所地で転出証明書を受け取るか、マイナンバーカードを使ったマイナポータルでの事前手続きを済ませておくとスムーズです。",
+  "note": "外国籍の方や国民健康保険の特例世帯は、区役所・行政センターでのみ手続きできる場合があります。混雑を避けるため、3月・4月は市民サービスセンターやオンライン手続きの利用が呼びかけられています。",
+  "real_cards": [
+   {"icon": "📅", "title": "届出は引っ越しから14日以内", "body": "転入届・転居届・転出届はいずれも、引っ越しをした日から14日以内に届け出るのが原則です。転出届は郵送やオンラインでも提出できます。"},
+   {"icon": "🏢", "title": "手続きできる場所は約50か所", "body": "区役所・行政センターのほか、支所・協働センター・市民サービスセンターなど市内約50か所の施設で住民異動の届出ができます。"},
+   {"icon": "💻", "title": "マイナポータルでの事前手続き", "body": "マイナンバーカードを持っていれば、マイナポータル経由でオンラインの転出届を提出できます。転入時の窓口手続きが一部簡略化されます。"},
+   {"icon": "👨‍👩‍👧", "title": "関連手続きも同時に確認", "body": "住民異動届の際に、国民健康保険・児童手当・マイナンバーカードの住所変更・学区(通学区域)などもあわせて確認しておくと、後から出直す手間が省けます。"}
+  ],
+  "qa": [
+   {"question": "転入届はいつまでにすればいいですか", "answer": "引っ越しをした日から14日以内が原則です。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tennyu.html\" target=\"_blank\" rel=\"noopener\">転入届のページ</a>で必要書類とあわせて確認してください。"},
+   {"question": "転出届はオンラインでできますか", "answer": "マイナンバーカードがあれば<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tensyutsu_online.html\" target=\"_blank\" rel=\"noopener\">オンラインによる転出届</a>が利用できます。窓口に行けない場合は郵送での転出届も可能です。"},
+   {"question": "市内で引っ越す場合(転居)はどうすればいいですか", "answer": "同じ浜松市内での引っ越しは<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tenkyo.html\" target=\"_blank\" rel=\"noopener\">転居届</a>を14日以内に提出します。区をまたぐ転居でも同様です。"},
+   {"question": "どこで手続きできますか", "answer": "中央区・浜名区・天竜区の区役所のほか、行政センターや市内約50か所の窓口で手続きができます。詳細は<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tennyu_annai.html\" target=\"_blank\" rel=\"noopener\">引越しの手続きのご案内</a>で確認してください。"},
+   {"question": "問い合わせ先はどこですか", "answer": "中央区区民生活課(053-457-2125)、浜名区区民生活課(053-585-1111)、天竜区区民生活課(053-922-0019)、または市民コールセンター(053-457-2111)に問い合わせできます。"},
+   {"question": "外国籍ですが手続きは同じですか", "answer": "外国籍の方は区役所または行政センターでのみ対応となる場合があります。在留カード等が必要になるため、事前に窓口へ確認することをおすすめします。"}
+  ],
+  "tabs": [
+   {"id": "type-tennyu", "label": "市外から転入", "heading": "転入届の準備を進める", "bullets": ["前住所地で転出証明書を受け取る(またはマイナポータルで特例手続き)", "引っ越しから14日以内に転入届を出す", "国民健康保険・児童手当など関連手続きも同時に確認する"], "actions": [
+     {"label": "転入届のページを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tennyu.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-tenkyo", "label": "市内で転居", "heading": "転居届を出す", "bullets": ["引っ越しから14日以内に転居届を出す", "最寄りの区役所・行政センター・協働センター等で手続きする", "学区が変わる場合は転校手続きもあわせて確認する"], "actions": [
+     {"label": "転居届のページを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tenkyo.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-tenshutsu", "label": "浜松市外へ転出", "heading": "転出届を先に済ませる", "bullets": ["引っ越し前に転出届を出し転出証明書を受け取る(郵送も可)", "マイナンバーカードがあればオンライン特例手続きも選べる", "転出後は新住所地で14日以内に転入届を出す"], "actions": [
+     {"label": "郵送による転出届を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tensyutsu_yuso.html", "source": "浜松市公式"},
+     {"label": "オンラインによる転出届を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tensyutsu_online.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-foreign", "label": "外国籍で転入", "heading": "在留カードを準備して窓口へ", "bullets": ["在留カード・パスポート等を準備する", "区役所または行政センターでの手続きになる場合がある", "国民健康保険等の特例要件も確認する"], "actions": [
+     {"label": "市民コールセンターに電話する", "href": "tel:053-457-2111", "source": "053-457-2111"}
+   ]}
+  ],
+  "steps": {
+   "today": ["転出証明書など必要書類の有無を確認する", "住民異動の窓口(区役所・行政センター等)の場所と受付時間を確認する"],
+   "this_week": ["引っ越しから14日以内に転入届・転居届を出す", "国民健康保険・児童手当・学区など関連手続きをまとめて済ませる"],
+   "outside": ["マイナンバーカードの住所変更もあわせて行う", "郵便物の転送届など民間手続きも忘れずに行う"]
+  },
+  "action_grid": [
+   {"label": "転入届のページを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tennyu.html"},
+   {"label": "転居届のページを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tenkyo.html"},
+   {"label": "郵送による転出届を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tensyutsu_yuso.html"},
+   {"label": "市民コールセンターに電話する", "href": "tel:053-457-2111"}
+  ]
+ },
+ {
+  "href": "/life/start-living/city-hall-branches/",
+  "lead": "浜松市は2024年1月から中央区・浜名区・天竜区の3区体制になり、区役所に加えて中央区内の東・西・南行政センター、浜名区内の北行政センターでも住民異動届などの主要な手続きができます。行き先を間違えないよう、事前にどこで何ができるかを確認しましょう。",
+  "note": "行政センターは旧区役所庁舎で、区役所と同等の窓口サービスを提供していますが、一部の専門的な手続きは本庁や区役所でしか扱っていない場合があります。天竜区は行政センターがなく天竜区役所が窓口の中心です。",
+  "real_cards": [
+   {"icon": "🏛️", "title": "本庁は中央区元城町", "body": "浜松市役所本庁は〒430-8652 中央区元城町103番地の2にあります。多くの手続きは区役所・行政センターでも扱っているため、必ずしも本庁まで行く必要はありません。"},
+   {"icon": "🏢", "title": "3区役所+4行政センター", "body": "中央区役所・浜名区役所・天竜区役所の3区役所と、中央区内の東・西・南行政センター、浜名区内の北行政センターがあります。天竜区には行政センターはありません。"},
+   {"icon": "📮", "title": "支所・協働センターなど約50か所", "body": "住民異動届などは区役所・行政センターに加え、支所・協働センター・市民サービスセンターなど市内約50か所の施設でも取り扱っています。"},
+   {"icon": "☎️", "title": "迷ったら市民コールセンター", "body": "どの窓口に行けばよいか分からない場合は、市民コールセンター(053-457-2111、平日8時30分〜17時15分)に電話すると案内してもらえます。"}
+  ],
+  "qa": [
+   {"question": "浜松市役所の本庁はどこにありますか", "answer": "〒430-8652 中央区元城町103番地の2です。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/shisetsu-annai/shiyakusho/\" target=\"_blank\" rel=\"noopener\">市役所・区役所・行政センターのページ</a>で確認してください。"},
+   {"question": "行政センターは区役所と同じ手続きができますか", "answer": "住民異動届や証明書発行など多くの手続きは行政センターでも区役所と同様に扱っています。ただし一部の専門的な手続きは対象外の場合があるため、心配な場合は事前に電話確認をおすすめします。"},
+   {"question": "各区の区民生活課の電話番号は", "answer": "中央区区民生活課053-457-2125、浜名区区民生活課053-585-1111、天竜区区民生活課053-922-0019です。"},
+   {"question": "3区再編前の中区・東区・西区・南区・北区・浜北区はどうなりましたか", "answer": "2024年1月の再編で、中区・東区・西区・南区は中央区に、北区・浜北区は浜名区に統合されました。天竜区はそのまま天竜区として残っています。旧区役所庁舎はそれぞれ東・西・南・北行政センターとして手続き窓口の機能を継続しています。"},
+   {"question": "証明書発行の混雑状況は事前に分かりますか", "answer": "行政センターによっては混雑予想カレンダーを公開している場合があります。最新の有無や具体的な混雑状況は<a href=\"https://www.city.hamamatsu.shizuoka.jp/shisetsu-annai/shiyakusho/\" target=\"_blank\" rel=\"noopener\">市役所・区役所・行政センターの案内</a>や各窓口への電話で確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-chuo", "label": "中央区在住", "heading": "中央区役所または東・西・南行政センターへ", "bullets": ["中央区役所(区民生活課053-457-2125)が中心窓口", "東行政センター(053-424-0154)・西行政センター(053-597-1115)・南行政センター(053-425-1346)でも手続き可能", "自宅から近い窓口を選んで問題ない"], "actions": [
+     {"label": "市役所・区役所・行政センターを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/shisetsu-annai/shiyakusho/", "source": "浜松市公式"}
+   ]},
+   {"id": "type-hamana", "label": "浜名区在住", "heading": "浜名区役所または北行政センターへ", "bullets": ["浜名区役所(区民生活課053-585-1111)が中心窓口", "北行政センター(053-523-1116)でも同様の手続きが可能", "細江・三ヶ日・引佐・浜北など地区ごとの出先窓口も確認する"], "actions": [
+     {"label": "市役所・区役所・行政センターを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/shisetsu-annai/shiyakusho/", "source": "浜松市公式"}
+   ]},
+   {"id": "type-tenryu", "label": "天竜区在住", "heading": "天竜区役所が窓口の中心", "bullets": ["天竜区役所(区民生活課053-922-0019)が主な窓口", "行政センターはなく、山間部は支所・協働センターも活用する", "遠方の場合は郵送・オンライン手続きも検討する"], "actions": [
+     {"label": "市役所・区役所・行政センターを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/shisetsu-annai/shiyakusho/", "source": "浜松市公式"}
+   ]},
+   {"id": "type-unsure", "label": "どこに行けばいいか分からない", "heading": "市民コールセンターに確認する", "bullets": ["手続き内容を伝えて担当窓口を教えてもらう", "最寄りの窓口の受付時間を確認する", "必要書類も事前に聞いておく"], "actions": [
+     {"label": "市民コールセンターに電話する", "href": "tel:053-457-2111", "source": "053-457-2111"}
+   ]}
+  ],
+  "steps": {
+   "today": ["自分が住む区(中央区・浜名区・天竜区)を確認する", "最寄りの区役所・行政センターの場所と受付時間を確認する"],
+   "this_week": ["必要な手続きがその窓口で扱っているか電話で確認する", "混雑しやすい時期であればオンライン・郵送手続きも検討する"],
+   "outside": ["引っ越し等で管轄区が変わる場合は新しい窓口を確認しておく", "本庁でしか扱わない専門手続きがないか確認する"]
+  },
+  "action_grid": [
+   {"label": "市役所・区役所・行政センターを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/shisetsu-annai/shiyakusho/"},
+   {"label": "浜松市役所庁舎案内を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/koho2/sosiki/build01.html"},
+   {"label": "住民異動届出先機関のご案内を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/oshirase_desaki.html"},
+   {"label": "市民コールセンターに電話する", "href": "tel:053-457-2111"}
+  ]
+ },
+ {
+  "href": "/life/start-living/resident-registration/",
+  "lead": "会社や学校の提出用に住民票の写しが必要なときは、平日窓口・コンビニ交付・郵送のいずれかで取得できます。急ぎの場合はマイナンバーカードを使ったコンビニ交付が便利ですが、対応していない証明内容もあるため事前確認が安心です。",
+  "note": "コンビニ交付サービスは全国のセミセルフレジ・マルチコピー機で利用でき、窓口より手数料が安く設定されています。ただし世帯全員分や本籍の記載などは条件によって対応できない場合があります。",
+  "real_cards": [
+   {"icon": "🧾", "title": "平日窓口での請求", "body": "本人または同一世帯の方が、本人確認書類を持参して区役所・行政センター等の窓口で請求できます。受付時間は平日8時30分〜17時15分です。"},
+   {"icon": "💳", "title": "マイナンバーカードでコンビニ交付", "body": "マイナンバーカードがあれば、全国のコンビニのマルチコピー機で住民票の写し・印鑑登録証明書・戸籍の附票などを取得できます。窓口より手数料が安く、早朝・夜間・土日も利用可能です。"},
+   {"icon": "✉️", "title": "郵送での請求も可能", "body": "窓口に行けない場合は、郵送での請求もできます。定額小為替による手数料の同封や返信用封筒の準備が必要です。"},
+   {"icon": "👪", "title": "代理人が請求する場合", "body": "同一世帯以外の方が請求する場合は委任状が必要です。会社が従業員のために請求する場合など、法人請求には別の手続きがあります。"}
+  ],
+  "qa": [
+   {"question": "住民票の写しはどこで請求できますか", "answer": "区役所・行政センター・支所・協働センター・市民サービスセンターの窓口で請求できます。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/jyuminhyo_heijitsu.html\" target=\"_blank\" rel=\"noopener\">住民票の写し請求方法(平日窓口)</a>で確認してください。"},
+   {"question": "コンビニでも取得できますか", "answer": "マイナンバーカードがあれば<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/conveni.html\" target=\"_blank\" rel=\"noopener\">証明書コンビニ交付サービス</a>で全国のコンビニから取得できます。窓口より手数料が安く、早朝・夜間も利用できます。"},
+   {"question": "郵送でも請求できますか", "answer": "はい。<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/jyuminhyo_yuso.html\" target=\"_blank\" rel=\"noopener\">戸籍・住民票の郵送請求</a>のページで必要書類・手数料を確認してください。"},
+   {"question": "自分以外の家族の分を代わりに取得できますか", "answer": "同一世帯の方であれば請求できます。別世帯の方が請求する場合は委任状が必要です。"},
+   {"question": "手数料はいくらですか", "answer": "証明書の種類により異なります。最新の手数料は<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/tesuuryo.html\" target=\"_blank\" rel=\"noopener\">印鑑証明・戸籍・住民票関係の証明書等交付手数料</a>のページで確認してください。"},
+   {"question": "問い合わせ先はどこですか", "answer": "各区の区民生活課、または市民コールセンター(053-457-2111)に問い合わせできます。"}
+  ],
+  "tabs": [
+   {"id": "type-window", "label": "窓口ですぐ欲しい", "heading": "平日窓口で請求する", "bullets": ["本人確認書類を持参する", "同一世帯以外は委任状を用意する", "最寄りの区役所・行政センター・支所等へ行く"], "actions": [
+     {"label": "住民票の写し請求方法(平日窓口)を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/jyuminhyo_heijitsu.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-conveni", "label": "コンビニで取得したい", "heading": "マイナンバーカードでコンビニ交付を使う", "bullets": ["マイナンバーカードと暗証番号を準備する", "全国のマルチコピー機対応コンビニで操作する", "早朝・夜間・土日でも利用できる"], "actions": [
+     {"label": "証明書コンビニ交付サービスを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/conveni.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-mail", "label": "窓口に行けない", "heading": "郵送で請求する", "bullets": ["請求書・本人確認書類の写しを用意する", "定額小為替で手数料分を同封する", "返信用封筒(切手付き)を同封する"], "actions": [
+     {"label": "戸籍・住民票の郵送請求を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/jyuminhyo_yuso.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-corp", "label": "会社として請求する", "heading": "法人請求の手続きを確認する", "bullets": ["請求理由・利用目的を明確にする", "法人であることが分かる書類を用意する", "郵送での請求方法を確認する"], "actions": [
+     {"label": "法人による住民票の写し請求方法を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/kakunin_ji.html", "source": "浜松市公式"}
+   ]}
+  ],
+  "steps": {
+   "today": ["必要な証明書の種類(住民票の写し・記載事項証明書など)を確認する", "マイナンバーカードの有無で取得方法を選ぶ"],
+   "this_week": ["窓口・コンビニ・郵送のいずれかで請求手続きを行う", "会社提出用など部数・記載事項の指定があれば確認する"],
+   "outside": ["定期的に必要になる場合はコンビニ交付の使い方に慣れておく", "本籍地が浜松市外の場合は戸籍関連の請求先も確認しておく"]
+  },
+  "action_grid": [
+   {"label": "住民票の写し請求方法(平日窓口)を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/jyuminhyo_heijitsu.html"},
+   {"label": "証明書コンビニ交付サービスを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/conveni.html"},
+   {"label": "戸籍・住民票の郵送請求を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/jyuminhyo_yuso.html"},
+   {"label": "証明書等交付手数料を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/tesuuryo.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/certificates/",
+  "lead": "住民票・戸籍謄本・印鑑登録証明書など、提出先ごとに必要な証明書の種類は異なります。浜松市ではマイナンバーカードによるコンビニ交付、平日窓口、郵送の3つの方法で取得でき、種類によって取得できる場所が異なる点に注意してください。",
+  "note": "戸籍謄本・抄本は本籍地でしか取得できません。浜松市に本籍がない方は本籍地の市区町村へ請求する必要があります。印鑑登録証明書はあらかじめ印鑑登録を済ませていることが前提です。",
+  "real_cards": [
+   {"icon": "📄", "title": "住民票・住民票記載事項証明書", "body": "住所や世帯構成を証明する書類です。会社・学校提出用や各種契約でよく求められます。コンビニ交付・平日窓口・郵送で取得できます。"},
+   {"icon": "📜", "title": "戸籍謄本・抄本・戸籍の附票", "body": "婚姻・相続・パスポート申請などで必要になります。浜松市に本籍がある方のみ取得できます。附票は住所の履歴を証明する書類です。"},
+   {"icon": "🔴", "title": "印鑑登録証明書", "body": "不動産や自動車の契約などで実印とあわせて必要になります。事前に印鑑登録をしていることが条件です。登録した印鑑の種類にも制限があります。"},
+   {"icon": "💰", "title": "税に関する証明書", "body": "所得証明・課税証明・納税証明など、ローン審査や補助金申請で必要になる書類です。担当は税務関連の窓口になります。"}
+  ],
+  "qa": [
+   {"question": "住民票と戸籍謄本、何が違いますか", "answer": "住民票は現在の住所・世帯構成を証明するもの、戸籍謄本は出生から婚姻・親族関係までを証明するものです。提出先が求めているのがどちらか確認してから請求してください。"},
+   {"question": "本籍が浜松市外にある場合、戸籍謄本はどこで取れますか", "answer": "戸籍謄本・抄本は本籍地の市区町村でのみ取得できます。浜松市に本籍がない方は本籍地へ郵送請求するか、本籍地の窓口で取得してください。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/koseki_heijitsu.html\" target=\"_blank\" rel=\"noopener\">戸籍全部事項証明書の請求方法</a>を確認してください。"},
+   {"question": "印鑑登録証明書をもらうにはどうすればいいですか", "answer": "まず印鑑登録を済ませ、登録した印鑑と印鑑登録証(カード)を持参して窓口で請求します。マイナンバーカードがあればコンビニ交付も利用できます。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/inkan_mado.html\" target=\"_blank\" rel=\"noopener\">住民票の写し・印鑑登録証明書 請求受付窓口</a>を確認してください。"},
+   {"question": "戸籍の附票とはどんな書類ですか", "answer": "本籍地に置かれる、住所の異動履歴を証明する書類です。相続や住所変更の履歴証明で使われます。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/fuhyou_heijitsu.html\" target=\"_blank\" rel=\"noopener\">戸籍の附票の写し請求方法</a>を確認してください。"},
+   {"question": "身分証明書(禁治産・後見関係の証明)はどこで取れますか", "answer": "本籍地の市区町村で発行されます。郵送での請求方法は<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/mibun_yuso.html\" target=\"_blank\" rel=\"noopener\">身分証明書 請求方法(郵送)</a>のページで確認してください。"},
+   {"question": "手数料はどこで確認できますか", "answer": "証明書の種類ごとの手数料は<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/tesuuryo.html\" target=\"_blank\" rel=\"noopener\">証明書等交付手数料のページ</a>にまとまっています。"}
+  ],
+  "tabs": [
+   {"id": "type-jyuminhyo", "label": "住民票が必要", "heading": "住所・世帯を証明する書類を取る", "bullets": ["提出先が求める記載事項(世帯全員分か本人のみか等)を確認する", "コンビニ交付・平日窓口・郵送から選ぶ", "マイナンバーカードがあれば手数料が安いコンビニ交付が便利"], "actions": [
+     {"label": "住民票の写し請求方法(平日窓口)を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/jyuminhyo_heijitsu.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-koseki", "label": "戸籍謄本・抄本が必要", "heading": "本籍地で戸籍関連書類を取る", "bullets": ["浜松市に本籍があるか確認する", "本籍がなければ本籍地の市区町村へ請求する", "婚姻・相続など目的に応じた種類を確認する"], "actions": [
+     {"label": "戸籍全部事項証明書の請求方法を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/koseki_heijitsu.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-inkan", "label": "印鑑登録証明書が必要", "heading": "印鑑登録の有無を確認する", "bullets": ["未登録なら先に印鑑登録を済ませる", "登録できる印鑑の条件を確認する", "コンビニ交付にも対応している"], "actions": [
+     {"label": "印鑑登録証明書 請求受付窓口を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/inkan_mado.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-tax", "label": "税に関する証明が必要", "heading": "所得・課税・納税証明を取る", "bullets": ["ローン審査・補助金申請の指定書類を確認する", "年度・年分の指定を間違えないようにする", "取得先の窓口を確認する"], "actions": [
+     {"label": "市民税および納税に関する証明を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/tesuuryo.html", "source": "浜松市公式"}
+   ]}
+  ],
+  "steps": {
+   "today": ["提出先が求める証明書の種類・部数を確認する", "本籍地が浜松市かどうかを確認する"],
+   "this_week": ["コンビニ交付・平日窓口・郵送のいずれかで取得する", "手数料をあらかじめ確認しておく"],
+   "outside": ["定期的に証明書が必要な場合はマイナンバーカードの取得を検討する", "本籍地が別の市区町村の場合は郵送請求の流れを確認しておく"]
+  },
+  "action_grid": [
+   {"label": "住民票の写し請求方法(平日窓口)を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/jyuminhyo_heijitsu.html"},
+   {"label": "戸籍全部事項証明書の請求方法を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/koseki_heijitsu.html"},
+   {"label": "証明書コンビニ交付サービスを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/conveni.html"},
+   {"label": "証明書等交付手数料を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/tesuuryo.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/mynumber/",
+  "lead": "マイナンバーカードは、スマートフォン・パソコン・郵便・申請サポート窓口のいずれかの方法で申請できます。交付準備ができると通知はがきが届き、指定された会場で受け取る流れです。日曜交付や代理受取の制度もあります。",
+  "note": "混雑を避けるため予約制の受け取り窓口があります。日曜交付は事前予約が必要で、予約枠が埋まりやすいため早めの手配が安心です。",
+  "real_cards": [
+   {"icon": "📱", "title": "申請方法は4通り", "body": "交付申請書のQRコードからのスマートフォン申請、パソコン申請、郵便申請、市の申請サポート窓口(無料で写真撮影・手続き支援)のいずれかで申請できます。"},
+   {"icon": "📮", "title": "交付準備ができたら通知はがき", "body": "審査が完了すると交付通知書(はがき)が届きます。記載された受け取り会場・持ち物を確認してから受け取りに行きましょう。"},
+   {"icon": "🗓️", "title": "日曜交付・予約制", "body": "平日に来庁できない方向けに、予約制の日曜交付を実施しています。混雑緩和のため、通常の受け取りも予約を案内している場合があります。"},
+   {"icon": "👪", "title": "代理受取もできる", "body": "本人が病気・身体の障がい・長期入院などやむを得ない理由で来庁できない場合、代理人による受け取り制度があります。委任状や本人の状況を証明する書類が必要です。"}
+  ],
+  "qa": [
+   {"question": "マイナンバーカードはどうやって申請しますか", "answer": "スマートフォン・パソコン・郵便での申請のほか、市の申請サポート窓口で職員が写真撮影から手続きまでサポートしてくれます。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/bangouseido/card_sinsei.html\" target=\"_blank\" rel=\"noopener\">マイナンバーカードの申請</a>のページで確認してください。"},
+   {"question": "カードはどこで受け取りますか", "answer": "交付通知書(はがき)に記載された受け取り会場(区役所・行政センター等)で受け取ります。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/bangouseido/card_uketori.html\" target=\"_blank\" rel=\"noopener\">マイナンバーカードの受取</a>のページを確認してください。"},
+   {"question": "平日に行けない場合はどうすればいいですか", "answer": "予約制の日曜交付を利用できます。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/bid/sunday-myno.html\" target=\"_blank\" rel=\"noopener\">マイナンバーカードの日曜交付について</a>のページで予約方法を確認してください。"},
+   {"question": "本人が行けない場合、代理受取はできますか", "answer": "病気や障がい等のやむを得ない理由がある場合、代理人による受け取りができます。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/kojin_dairiuketori.html\" target=\"_blank\" rel=\"noopener\">マイナンバーカードの代理受取</a>のページで必要書類を確認してください。"},
+   {"question": "申請サポート窓口では何をしてもらえますか", "answer": "顔写真の撮影と交付申請書の記入・送信をその場でサポートしてもらえます。無料で利用できます。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/dsc/bangou/sinsapo.html\" target=\"_blank\" rel=\"noopener\">マイナンバーカード申請サポート窓口</a>のページを確認してください。"},
+   {"question": "出生届と同時に申請できますか", "answer": "はい。出生届の提出時にマイナンバーカードの交付申請をあわせて行うことができます。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/koseki/syussei_08.html\" target=\"_blank\" rel=\"noopener\">出生届と一緒に行う手続き</a>のページを確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-apply", "label": "これから申請する", "heading": "自分に合った申請方法を選ぶ", "bullets": ["スマートフォン・パソコンで交付申請書のQRコードから申請する", "パソコン・スマホが苦手なら申請サポート窓口を利用する", "郵便申請なら送付用封筒に記入・投函する"], "actions": [
+     {"label": "マイナンバーカードの申請を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/bangouseido/card_sinsei.html", "source": "浜松市公式"},
+     {"label": "申請サポート窓口を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/dsc/bangou/sinsapo.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-ready", "label": "交付通知書が届いた", "heading": "持ち物を確認して受け取りに行く", "bullets": ["交付通知書に記載の会場・時間を確認する", "本人確認書類・通知カード等の持ち物をそろえる", "平日に行けなければ日曜交付を予約する"], "actions": [
+     {"label": "マイナンバーカードの受取を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/bangouseido/card_uketori.html", "source": "浜松市公式"},
+     {"label": "日曜交付の予約を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/bid/sunday-myno.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-proxy", "label": "本人が来庁できない", "heading": "代理受取の条件を確認する", "bullets": ["病気・障がい等のやむを得ない理由を確認する", "委任状・診断書等の必要書類をそろえる", "事前に窓口へ相談しておく"], "actions": [
+     {"label": "マイナンバーカードの代理受取を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/kojin_dairiuketori.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-change", "label": "住所変更等で記載内容を変えたい", "heading": "券面・電子証明書の更新をする", "bullets": ["転入・転居後は住所変更の手続きが必要", "電子証明書の有効期限も確認する", "区役所・行政センターの窓口で手続きする"], "actions": [
+     {"label": "記載内容の変更・追加を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/bangouseido/card_henko.html", "source": "浜松市公式"}
+   ]}
+  ],
+  "steps": {
+   "today": ["申請方法(スマホ・PC・郵便・窓口サポート)を選ぶ", "顔写真を準備する"],
+   "this_week": ["交付申請書を提出する", "交付通知書が届いたら受け取り会場・持ち物を確認する"],
+   "outside": ["受け取り後は電子証明書の有効期限を確認しておく", "住所・氏名変更があれば速やかに記載内容の変更手続きをする"]
+  },
+  "action_grid": [
+   {"label": "マイナンバーカードの申請を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/bangouseido/card_sinsei.html"},
+   {"label": "マイナンバーカードの受取を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/bangouseido/card_uketori.html"},
+   {"label": "申請サポート窓口を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/dsc/bangou/sinsapo.html"},
+   {"label": "日曜交付の予約を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/siminkj/bid/sunday-myno.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/water-sewer/",
+  "lead": "浜松市の水道・下水道は市上下水道部が所管する市営水道です。毎月の料金の仕組みや支払い方法、届出の窓口である上下水道受付センター(0120-09-1132)の使い方を知っておくと、引っ越し時にも慌てずに済みます。",
+  "note": "水道と下水道は同じ検針・請求でまとめて扱われますが、下水道が未整備の地域では浄化槽の維持管理が別途必要になる場合があります。エリアによる違いがあるため、自宅が下水道接続区域かどうか事前に確認してください。",
+  "real_cards": [
+   {"icon": "💧", "title": "浜松市上下水道部が所管", "body": "水道・下水道はいずれも浜松市上下水道部が運営する市営事業です。料金体系や届出窓口は水道・下水道で共通です。"},
+   {"icon": "📞", "title": "上下水道受付センターが窓口", "body": "使用開始・使用中止・名義変更・支払い方法の変更などは上下水道受付センター(0120-09-1132)で電話・インターネット・FAXにより受け付けています。"},
+   {"icon": "💴", "title": "料金・下水道使用料の仕組み", "body": "水道料金と下水道使用料は使用水量に応じて算定され、あわせて請求されます。口座振替・クレジットカード・コンビニ払いなど複数の支払い方法があります。"},
+   {"icon": "🔧", "title": "漏水時の減免制度", "body": "漏水が発見しにくい場所で発生した場合、修理を条件に料金の一部が減免される制度があります。心当たりがある場合は早めに相談してください。"}
+  ],
+  "qa": [
+   {"question": "水道の使用開始・中止はどこに届け出ますか", "answer": "上下水道受付センター(0120-09-1132、平日8時〜19時)に電話・インターネット・FAX(053-476-8101)で届け出ます。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/service/suidou/service/uketsuke.html\" target=\"_blank\" rel=\"noopener\">使用開始・中止の受付</a>のページで確認してください。"},
+   {"question": "料金はどうやって支払えますか", "answer": "口座振替・クレジットカード・コンビニ払い・PayPay等のスマホ決済など複数の方法があります。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/suido/index.html\" target=\"_blank\" rel=\"noopener\">浜松市の上下水道</a>のページで確認してください。"},
+   {"question": "下水道に接続されているか分かりません", "answer": "地域によって下水道が未整備で浄化槽を利用している場合があります。自宅の状況は上下水道受付センターまたは上下水道部の窓口で確認できます。"},
+   {"question": "漏水で水道料金が急に高くなった場合はどうすればいいですか", "answer": "発見しにくい場所での漏水は、修理を条件に料金が減免される場合があります。まず上下水道受付センターまたは最寄りの上下水道窓口に相談してください。"},
+   {"question": "引っ越しの際、水道の名義変更は必要ですか", "answer": "使用者が変わる場合は名義変更の届出が必要です。使用開始・中止の届出とあわせて上下水道受付センターで手続きできます。"},
+   {"question": "問い合わせ先はどこですか", "answer": "上下水道受付センター(0120-09-1132)が総合窓口です。災害時の断水情報などは別途上下水道部のページで案内されます。"}
+  ],
+  "tabs": [
+   {"id": "type-newuser", "label": "これから使用開始", "heading": "入居前に使用開始届を出す", "bullets": ["入居日の2日〜1週間前を目安に届け出る", "電話・インターネット・FAXのいずれかで申し込む", "立ち合いは原則不要"], "actions": [
+     {"label": "使用開始・中止の受付を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/service/suidou/service/uketsuke.html", "source": "浜松市公式"},
+     {"label": "上下水道受付センターに電話する", "href": "tel:0120-09-1132", "source": "0120-09-1132"}
+   ]},
+   {"id": "type-payment", "label": "支払い方法を変えたい", "heading": "口座振替・キャッシュレス払いを確認する", "bullets": ["口座振替の申込方法を確認する", "クレジットカード・スマホ決済の対応状況を確認する", "請求先(名義)変更もあわせて届け出る"], "actions": [
+     {"label": "浜松市の上下水道を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/suido/index.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-leak", "label": "漏水が心配", "heading": "減免制度の対象か確認する", "bullets": ["メーターの異常な回転がないか確認する", "発見しにくい場所での漏水か確認する", "修理業者に依頼し証明書類を準備する"], "actions": [
+     {"label": "水道管に関するQ&Aを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/service/suidou/qa/konnatokiha2.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-faq", "label": "その他の疑問がある", "heading": "よくある質問で確認する", "bullets": ["届出・お問い合わせのQ&Aを確認する", "解決しない場合は電話で相談する", "災害時の断水情報も別途確認する"], "actions": [
+     {"label": "届け出とお問い合わせを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/service/suidou/qa/qa1.html", "source": "浜松市公式"}
+   ]}
+  ],
+  "steps": {
+   "today": ["自宅が水道・下水道どちらに接続されているか確認する", "上下水道受付センターの電話番号を控えておく"],
+   "this_week": ["使用開始・中止・名義変更など必要な届出を行う", "支払い方法(口座振替等)を設定する"],
+   "outside": ["漏水の兆候がないか定期的にメーターを確認する", "下水道未整備地域では浄化槽の維持管理業者を確認しておく"]
+  },
+  "action_grid": [
+   {"label": "使用開始・中止の受付を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/service/suidou/service/uketsuke.html"},
+   {"label": "浜松市の上下水道を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/suido/index.html"},
+   {"label": "届け出とお問い合わせを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/service/suidou/qa/qa1.html"},
+   {"label": "上下水道受付センターに電話する", "href": "tel:0120-09-1132"}
+  ]
+ },
+ {
+  "href": "/life/start-living/water-start-stop-fees/",
+  "lead": "引っ越し当日に水が出ない事態を防ぐため、水道の使用開始・使用中止の届出は入居・退去日の2日〜1週間前を目安に済ませておきましょう。上下水道受付センターへの電話・インターネット・FAXのいずれかで手続きでき、立ち合いは原則不要です。",
+  "note": "3月10日〜4月10日の引っ越し繁忙期は土日祝日も電話受付を行っています。この時期は特に早めの届出が安心です。",
+  "real_cards": [
+   {"icon": "📞", "title": "電話受付は平日8時〜19時", "body": "上下水道受付センター(0120-09-1132)は平日8時〜19時に電話受付しています。繁忙期(3月10日〜4月10日)は土日祝日も8時30分〜17時に受付しています。"},
+   {"icon": "💻", "title": "インターネットは24時間受付", "body": "使用開始・使用中止・使用継続それぞれの専用フォームが用意されており、24時間いつでも申し込みができます(処理は平日8時30分〜17時15分)。"},
+   {"icon": "📠", "title": "FAXでの申し込みも可能", "body": "FAX(053-476-8101)でも24時間受付しています。専用の用紙をダウンロードして必要事項を記入し送信します。"},
+   {"icon": "🚪", "title": "立ち合い不要・受付完了連絡なし", "body": "使用開始・使用中止とも、原則として現地での立ち合いは不要です。受付完了の連絡は行われないため、内容に不備がある場合のみ市から確認の連絡が来ます。"}
+  ],
+  "qa": [
+   {"question": "いつまでに届け出ればいいですか", "answer": "使用開始・使用中止とも、希望日の2日〜1週間前を目安に届け出るとされています。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/service/suidou/service/uketsuke.html\" target=\"_blank\" rel=\"noopener\">使用開始・中止の受付</a>のページで確認してください。"},
+   {"question": "電話の受付時間は", "answer": "平日8時〜19時です。3月10日〜4月10日の引っ越し繁忙期は土日祝日も8時30分〜17時に受付しています。"},
+   {"question": "立ち合いは必要ですか", "answer": "原則不要です。ただし特殊なケースでは立ち合いが必要になる場合もあるため、不安な場合は電話で確認してください。"},
+   {"question": "同じ日に退去と入居がある場合はどうすればいいですか", "answer": "使用中止と同時に使用開始を届け出る「使用中止同時使用開始届」の仕組みがあります。上下水道受付センターに相談してください。"},
+   {"question": "受付が完了したかどうかはどう分かりますか", "answer": "浜松市は原則として受付完了の連絡を行いません。内容に不備がある場合のみ、市から確認の連絡があります。"},
+   {"question": "料金の請求先(名義)も同時に変更できますか", "answer": "はい。使用開始・使用中止の届出と同時に、料金の請求先や支払い方法の変更もあわせて依頼できます。"}
+  ],
+  "tabs": [
+   {"id": "type-moving-in", "label": "これから入居する", "heading": "使用開始届を早めに出す", "bullets": ["入居日の2日〜1週間前を目安に届け出る", "電話・インターネット・FAXから選ぶ", "支払い方法もあわせて設定する"], "actions": [
+     {"label": "使用開始・中止の受付を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/service/suidou/service/uketsuke.html", "source": "浜松市公式"},
+     {"label": "上下水道受付センターに電話する", "href": "tel:0120-09-1132", "source": "0120-09-1132"}
+   ]},
+   {"id": "type-moving-out", "label": "これから退去する", "heading": "使用中止届を早めに出す", "bullets": ["退去日の2日〜1週間前を目安に届け出る", "最終請求の送付先を確認する", "同日に新居の使用開始がある場合は同時届出を検討する"], "actions": [
+     {"label": "使用開始・中止の受付を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/service/suidou/service/uketsuke.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-busy", "label": "3月・4月の繁忙期", "heading": "土日祝日の電話受付を活用する", "bullets": ["3月10日〜4月10日は土日祝日も電話受付", "インターネット申し込みなら24時間可能", "早めの届出で当日のトラブルを防ぐ"], "actions": [
+     {"label": "水道・下水道の各種手続きを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/suido/cus_uketsuke.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-fax", "label": "電話が苦手・つながらない", "heading": "インターネット・FAXで申し込む", "bullets": ["インターネットの専用フォームを使う(24時間受付)", "FAX(053-476-8101)用の用紙をダウンロードする", "処理は平日8時30分〜17時15分に行われる点に注意"], "actions": [
+     {"label": "使用開始・中止の受付を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/service/suidou/service/uketsuke.html", "source": "浜松市公式"}
+   ]}
+  ],
+  "steps": {
+   "today": ["入居・退去日を確定させる", "電話・インターネット・FAXのどれで届け出るか決める"],
+   "this_week": ["希望日の2日〜1週間前までに使用開始・中止を届け出る", "支払い方法・請求先の変更もあわせて済ませる"],
+   "outside": ["繁忙期(3月10日〜4月10日)は早めの届出を心がける", "水道メーターの位置を確認しておく"]
+  },
+  "action_grid": [
+   {"label": "使用開始・中止の受付を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/service/suidou/service/uketsuke.html"},
+   {"label": "水道・下水道の各種手続きを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/suido/cus_uketsuke.html"},
+   {"label": "浜松市の上下水道を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/suido/index.html"},
+   {"label": "上下水道受付センターに電話する", "href": "tel:0120-09-1132"}
+  ]
+ },
+ {
+  "href": "/life/start-living/how-to-garbage/",
+  "lead": "浜松市のごみは収集日の朝8時30分までに、地域で決められた集積所へ指定ごみ袋で出すのが基本です。もえるごみ・もえないごみ・プラスチック製容器包装・びん/かん/ペットボトルなど分別区分が細かく決まっているため、引っ越し直後は分別ルールを先に確認しましょう。",
+  "note": "分別区分や集積所は地区(自治会)ごとに細かいルールがある場合があります。分からないときは自治会役員や近隣の方に確認するか、環境部一般廃棄物対策課に問い合わせてください。",
+  "real_cards": [
+   {"icon": "⏰", "title": "収集日朝8時30分までに", "body": "ごみは収集日の朝8時30分までに、地域で決められた集積所に出すのが基本ルールです。前日夜に出すとカラスや猫による散乱の原因になるため避けましょう。"},
+   {"icon": "🗑️", "title": "指定ごみ袋での分別", "body": "もえるごみ・もえないごみ・プラスチック製容器包装はそれぞれ指定ごみ袋を使用します。びん・かん・ペットボトルは色別コンテナに、蛍光管・電池・スプレー缶等の特定品目は専用コンテナに分けて出します。"},
+   {"icon": "📍", "title": "集積所の場所は近隣で確認", "body": "ごみを出す集積所は地域(自治会)ごとに決まっています。引っ越し直後は自治会関係者や近隣の方に確認するのが確実です。"},
+   {"icon": "🛋️", "title": "家具・大型ごみは連絡ごみ", "body": "60cmを超える家具などの大型ごみは、指定ごみ袋では出せません。事前申し込みが必要な「連絡ごみ」として、連絡ごみ受付センター(053-453-2288)で手続きします。"}
+  ],
+  "qa": [
+   {"question": "ごみは何時までに出せばいいですか", "answer": "収集日当日の朝8時30分までに、指定された集積所に出してください。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/dashikata.html\" target=\"_blank\" rel=\"noopener\">ごみの分別方法について</a>のページで確認してください。"},
+   {"question": "分別区分が分かりません", "answer": "もえるごみ・もえないごみ・プラスチック製容器包装・びん/かん/ペットボトル・特定品目(蛍光管・電池等)に分かれています。品目ごとの分別は分別収集カレンダーやごみ分別検索サイトで確認できます。"},
+   {"question": "集積所の場所はどこで確認しますか", "answer": "地域(自治会)ごとに決まっているため、自治会の役員や近隣の方に確認するのが確実です。新しい集積所の設置・変更についても自治会を通じて相談する場合があります。"},
+   {"question": "指定ごみ袋はどこで買えますか", "answer": "スーパーやコンビニなど市内の多くの小売店で販売されています。もえるごみ・もえないごみ・プラスチック製容器包装でそれぞれ指定袋が異なります。"},
+   {"question": "家具などの大型ごみはどうすればいいですか", "answer": "「連絡ごみ」として事前申し込みが必要です。連絡ごみ受付センター(053-453-2288)、インターネット、LINEで申し込みできます。"},
+   {"question": "問い合わせ先はどこですか", "answer": "環境部一般廃棄物対策課(053-453-0011)が総合窓口です。大型ごみの申し込みは連絡ごみ受付センター(053-453-2288)が窓口です。"}
+  ],
+  "tabs": [
+   {"id": "type-new", "label": "引っ越したばかり", "heading": "まず自分の地区のルールを確認する", "bullets": ["集積所の場所を自治会・近隣に確認する", "分別収集カレンダーで収集日を確認する", "指定ごみ袋を用意する"], "actions": [
+     {"label": "ごみの分別方法についてを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/dashikata.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-sort", "label": "分別に迷っている", "heading": "品目ごとの分別を調べる", "bullets": ["分別収集カレンダーの分別表を確認する", "ごみ分別検索サイトで品目を検索する", "特定品目(電池・蛍光管等)は専用コンテナへ"], "actions": [
+     {"label": "分別収集カレンダーを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/", "source": "浜松市公式"}
+   ]},
+   {"id": "type-bulky", "label": "大型の家具を捨てたい", "heading": "連絡ごみを申し込む", "bullets": ["連絡ごみ受付センターに電話・ネット・LINEで申し込む", "収集日・料金の案内を受ける", "処理券を購入して品物に貼る"], "actions": [
+     {"label": "連絡ごみの出し方を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/renrakugomi_in_nagare.html", "source": "浜松市公式"},
+     {"label": "連絡ごみ受付センターに電話する", "href": "tel:053-453-2288", "source": "053-453-2288"}
+   ]},
+   {"id": "type-large-amount", "label": "大量に出るごみがある", "heading": "自己搬入も検討する", "bullets": ["清掃工場等への自己搬入が可能か確認する", "搬入できる品目・時間を確認する", "大量にある場合は連絡ごみより自己搬入が早い場合も"], "actions": [
+     {"label": "家庭ごみを自己搬入する場合を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/jikohannyu.html", "source": "浜松市公式"}
+   ]}
+  ],
+  "steps": {
+   "today": ["自分の地区の集積所の場所を確認する", "指定ごみ袋を購入する"],
+   "this_week": ["分別収集カレンダーで収集日・分別区分を確認する", "収集日の朝8時30分までに出す習慣をつける"],
+   "outside": ["大型ごみが出る場合は連絡ごみ受付センターへ事前相談する", "特定品目(電池・スプレー缶等)の出し方も確認しておく"]
+  },
+  "action_grid": [
+   {"label": "ごみの分別方法についてを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/dashikata.html"},
+   {"label": "分別収集カレンダーを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/"},
+   {"label": "連絡ごみの出し方を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/renrakugomi_in_nagare.html"},
+   {"label": "連絡ごみ受付センターに電話する", "href": "tel:053-453-2288"}
+  ]
+ },
+ {
+  "href": "/life/start-living/garbage-sorting-calendar/",
+  "lead": "浜松市の分別収集カレンダーは、住んでいる区・地区ごとに番号が割り振られています。引っ越し先が決まったら、まず自分の地区のカレンダー番号を確認し、収集日と分別区分を間違えないようにしましょう。",
+  "note": "カレンダーは年度(4月〜翌3月)ごとに更新され、例年2月頃に各戸配布されます。転入時期によっては最新版が手元にないことがあるため、公式サイトでの確認が確実です。",
+  "real_cards": [
+   {"icon": "🗓️", "title": "地区ごとに番号が違う", "body": "分別収集カレンダーは中央区・浜名区・天竜区それぞれの中でも地区ごとに番号が分かれています。自分の住所がどの番号に該当するかをまず確認する必要があります。"},
+   {"icon": "📬", "title": "年度更新・2月頃に配布", "body": "カレンダーは年度単位(4月始まり)で更新され、例年2月頃に各世帯に配布されます。市役所・区役所・行政センター・支所・協働センターでも入手できます。"},
+   {"icon": "💻", "title": "Web版でいつでも確認可能", "body": "紙のカレンダーが手元になくても、浜松市公式サイトで区・地区別のPDFカレンダーを閲覧・ダウンロードできます。転入直後はこちらを確認するのが早道です。"},
+   {"icon": "📵", "title": "収集日は地区で異なる", "body": "同じ市内でも収集日(曜日)は地区ごとに異なります。前の住所の感覚で出すと収集日を間違えるので注意してください。"}
+  ],
+  "qa": [
+   {"question": "自分の地区のカレンダー番号はどこで分かりますか", "answer": "引っ越し時に配布される案内や、区役所・行政センターの窓口で確認できます。<a href=\"https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/\" target=\"_blank\" rel=\"noopener\">分別収集カレンダー</a>のページから区ごとの一覧を確認することもできます。"},
+   {"question": "カレンダーはどこでもらえますか", "answer": "例年2月頃に各世帯へ配布されるほか、市役所・区役所・行政センター・支所・協働センターの窓口でも入手できます。"},
+   {"question": "引っ越したばかりでカレンダーが手元にありません", "answer": "浜松市公式サイトの<a href=\"https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/\" target=\"_blank\" rel=\"noopener\">分別収集カレンダー</a>のページから、区・地区別のPDFをその場で確認・印刷できます。"},
+   {"question": "中央区のカレンダーはどこにありますか", "answer": "<a href=\"https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/08/chuoku08.html\" target=\"_blank\" rel=\"noopener\">中央区の分別収集カレンダー</a>のページで確認できます(掲載年度は随時更新されます)。"},
+   {"question": "浜名区のカレンダーはどこにありますか", "answer": "<a href=\"https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/08/hamanaku08.html\" target=\"_blank\" rel=\"noopener\">浜名区の分別収集カレンダー</a>のページで確認できます(掲載年度は随時更新されます)。"},
+   {"question": "カレンダー以外に配布物はありますか", "answer": "ごみ・集積所に関する各種配布物(分別ガイドブック等)も用意されています。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/ippai/haihubutsu.html\" target=\"_blank\" rel=\"noopener\">ごみ・集積所に関する配布物(データ)</a>のページで確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-chuo", "label": "中央区在住", "heading": "中央区版のカレンダーを確認する", "bullets": ["自分の地区のカレンダー番号を確認する", "収集日・分別区分を確認する", "紙のカレンダーがなければWeb版を見る"], "actions": [
+     {"label": "中央区の分別収集カレンダーを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/08/chuoku08.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-hamana", "label": "浜名区在住", "heading": "浜名区版のカレンダーを確認する", "bullets": ["自分の地区のカレンダー番号を確認する", "収集日・分別区分を確認する", "細江・三ヶ日・引佐・浜北など地区差に注意する"], "actions": [
+     {"label": "浜名区の分別収集カレンダーを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/08/hamanaku08.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-tenryu", "label": "天竜区在住", "heading": "天竜区版のカレンダーを確認する", "bullets": ["自分の地区のカレンダー番号を確認する", "山間部は収集頻度が異なる場合がある", "分からなければ天竜区役所に確認する"], "actions": [
+     {"label": "分別収集カレンダー一覧を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/", "source": "浜松市公式"}
+   ]},
+   {"id": "type-lost", "label": "カレンダーが見つからない", "heading": "Webまたは窓口で確認する", "bullets": ["公式サイトでPDFを検索・印刷する", "区役所・行政センター・支所の窓口でもらう", "環境部一般廃棄物対策課に問い合わせる"], "actions": [
+     {"label": "環境部一般廃棄物対策課に電話する", "href": "tel:053-453-0011", "source": "053-453-0011"}
+   ]}
+  ],
+  "steps": {
+   "today": ["自分の住所の区・地区を確認する", "分別収集カレンダーのページで該当番号を探す"],
+   "this_week": ["収集日・分別区分を確認し指定ごみ袋を用意する", "紙のカレンダーが必要なら窓口で入手する"],
+   "outside": ["年度更新(4月)のタイミングで最新版を確認する", "引っ越しの多い時期は近隣に最新ルールを確認する"]
+  },
+  "action_grid": [
+   {"label": "分別収集カレンダーを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/"},
+   {"label": "中央区の分別収集カレンダーを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/08/chuoku08.html"},
+   {"label": "浜名区の分別収集カレンダーを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/08/hamanaku08.html"},
+   {"label": "環境部一般廃棄物対策課に電話する", "href": "tel:053-453-0011"}
+  ]
+ },
+ {
+  "href": "/life/start-living/bulky-garbage-dropoff/",
+  "lead": "浜松市では大型の家具・寝具などの粗大ごみを「連絡ごみ」と呼び、事前申し込みが必要です。連絡ごみ受付センター(053-453-2288)への電話のほか、インターネット・LINEでも申し込めます。自分で処理施設に持ち込む「自己搬入」の方法もあります。",
+  "note": "連絡ごみは有料で、品目・サイズごとに処理手数料が異なります。処理手数料納付済証(シール)をコンビニ等で事前購入し、品物に貼って出す仕組みです。自己搬入の場合は施設への持ち込み手数料が別途かかります。",
+  "real_cards": [
+   {"icon": "📞", "title": "連絡ごみ受付センターに申し込む", "body": "電話(053-453-2288)、インターネット、LINEのいずれかで申し込みます。品目・数量を伝えると、収集日・料金・処理手数料納付済証の購入方法が案内されます。"},
+   {"icon": "🏷️", "title": "処理手数料納付済証を購入", "body": "申し込み後、指定された処理手数料納付済証(シール)をコンビニ等の取扱店で購入し、品物の見えやすい場所に貼って収集日に出します。"},
+   {"icon": "🚚", "title": "自分で持ち込む(自己搬入)", "body": "急ぎの場合や量が多い場合は、清掃工場等へ自分で持ち込む自己搬入も選べます。持ち込み可能な品目・時間・手数料は事前に確認が必要です。"},
+   {"icon": "📅", "title": "早めの申し込みが安心", "body": "引っ越しシーズンなど繁忙期は予約が集中しやすいため、収集希望日の余裕を持って早めに申し込むことをおすすめします。"}
+  ],
+  "qa": [
+   {"question": "粗大ごみはどう呼ばれていますか", "answer": "浜松市では「連絡ごみ」と呼ばれています。家具・布団など指定ごみ袋に入らない大型のごみが対象です。"},
+   {"question": "申し込み方法は何がありますか", "answer": "電話(連絡ごみ受付センター053-453-2288)、インターネット、LINEの3つの方法があります。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/renrakugomi_in_nagare.html\" target=\"_blank\" rel=\"noopener\">連絡ごみ(粗大ごみ)の出し方について</a>のページで確認してください。"},
+   {"question": "料金はどう支払いますか", "answer": "申し込み時に案内される処理手数料納付済証(シール)をコンビニ等で購入し、品物に貼って出します。取扱店は<a href=\"https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/renrakugomitenpo.html\" target=\"_blank\" rel=\"noopener\">連絡ごみ処理手数料納付済証取扱所一覧</a>で確認できます。"},
+   {"question": "自分で持ち込むこともできますか", "answer": "はい。清掃工場等への自己搬入も可能です。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/jikohannyu.html\" target=\"_blank\" rel=\"noopener\">家庭ごみを自己搬入する場合</a>のページで持ち込み条件を確認してください。"},
+   {"question": "LINEでも申し込めますか", "answer": "はい。<a href=\"https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/linemoushikomi.html\" target=\"_blank\" rel=\"noopener\">連絡ごみを申し込む(LINE申込)</a>のページから手続きできます。"},
+   {"question": "受付時間は何時までですか", "answer": "連絡ごみ受付センターの電話受付は平日8時30分〜17時15分です(土日祝日・年末年始を除く)。インターネット・LINEは時間を気にせず申し込める場合があります。"}
+  ],
+  "tabs": [
+   {"id": "type-phone", "label": "電話で申し込みたい", "heading": "連絡ごみ受付センターに電話する", "bullets": ["品目・数量を伝える", "収集日・料金の案内を受ける", "処理手数料納付済証の購入方法を確認する"], "actions": [
+     {"label": "連絡ごみ受付センターに電話する", "href": "tel:053-453-2288", "source": "053-453-2288"}
+   ]},
+   {"id": "type-online", "label": "ネットやLINEで申し込みたい", "heading": "インターネット・LINEで申し込む", "bullets": ["24時間申し込みできる場合がある", "品目を選択して見積りを確認する", "処理手数料納付済証をコンビニで購入する"], "actions": [
+     {"label": "連絡ごみの出し方(インターネット受付)を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/renrakugomi_in_nagare.html", "source": "浜松市公式"},
+     {"label": "連絡ごみを申し込む(LINE申込)を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/linemoushikomi.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-selfcarry", "label": "自分で持ち込みたい", "heading": "清掃工場等への自己搬入を検討する", "bullets": ["持ち込み可能な品目・時間を確認する", "持ち込み手数料を確認する", "車での搬入経路・混雑状況を確認する"], "actions": [
+     {"label": "家庭ごみを自己搬入する場合を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/jikohannyu.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-lots", "label": "大量に処分したい(引っ越し等)", "heading": "早めに申し込み・搬入計画を立てる", "bullets": ["引っ越しシーズンは予約が集中しやすい", "自己搬入と連絡ごみを品目ごとに使い分ける", "処理手数料納付済証の取扱店を事前に確認する"], "actions": [
+     {"label": "処理手数料納付済証取扱所一覧を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/renrakugomitenpo.html", "source": "浜松市公式"}
+   ]}
+  ],
+  "steps": {
+   "today": ["処分したい品目・数量をリストアップする", "連絡ごみか自己搬入かを決める"],
+   "this_week": ["連絡ごみ受付センターまたはネット・LINEで申し込む", "処理手数料納付済証を購入し品物に貼る"],
+   "outside": ["引っ越しシーズンは早めに予約する", "自己搬入する場合は施設の受入時間・手数料を確認しておく"]
+  },
+  "action_grid": [
+   {"label": "連絡ごみ(粗大ごみ)の出し方についてを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/renrakugomi_in_nagare.html"},
+   {"label": "家庭ごみを自己搬入する場合を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/jikohannyu.html"},
+   {"label": "連絡ごみ処理手数料納付済証取扱所一覧を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/renrakugomitenpo.html"},
+   {"label": "連絡ごみ受付センターに電話する", "href": "tel:053-453-2288"}
+  ]
+ },
+ {
+  "href": "/life/start-living/dog-registration/",
+  "lead": "犬を新しく飼い始めたときや、他の市区町村から転入してきたときは、浜松市への犬の登録が法律で義務づけられています。窓口は浜松市動物愛護教育センター(053-487-1616)で、登録と同時に鑑札の交付、狂犬病予防注射の案内も受けられます。",
+  "note": "登録は生涯に1回ですが、転入した場合は新住所地での登録変更手続きが必要です。マイナポータル経由のオンライン手続きにも一部対応しています。",
+  "real_cards": [
+   {"icon": "🐕", "title": "生後91日以上の犬は登録義務", "body": "生後91日以上の犬を飼う場合、生涯に1回の登録が法律(狂犬病予防法)で義務づけられています。登録手数料は1頭につき3,000円です。"},
+   {"icon": "🏷️", "title": "鑑札の交付と装着", "body": "登録が完了すると「鑑札」が交付されます。犬に装着する義務があり、迷子になった際の身元確認にも役立ちます。"},
+   {"icon": "🔄", "title": "転入時は登録変更が必要", "body": "他の市区町村ですでに登録済みの犬を連れて浜松市に転入した場合、前の自治体で交付された鑑札(または登録番号)・マイクロチップ番号があれば持参して登録変更の手続きをします。"},
+   {"icon": "🏢", "title": "窓口は動物愛護教育センター", "body": "犬の登録・鑑札交付の主な窓口は浜松市動物愛護教育センター(中央区、053-487-1616)です。マイナポータルでのオンライン手続きに対応した項目もあります。"}
+  ],
+  "qa": [
+   {"question": "犬を飼い始めたらまず何をすればいいですか", "answer": "生後91日以上であれば登録(手数料3,000円)が必要です。詳しくは<a href=\"https://www.hama-aikyou.jp/information/kainushi/\" target=\"_blank\" rel=\"noopener\">犬を飼い始めたらどうしたらいいか</a>のページで確認してください。"},
+   {"question": "他の市から引っ越してきました。登録はどうなりますか", "answer": "前の市区町村で交付された鑑札や登録番号、マイクロチップ番号があれば持参し、浜松市で登録変更の手続きをします。詳しくは<a href=\"https://www.hama-aikyou.jp/information/kainushi/\" target=\"_blank\" rel=\"noopener\">犬の登録は引っ越す際どうしたらいいか</a>のページを確認してください。"},
+   {"question": "浜松市から市外へ転出する場合はどうすればいいですか", "answer": "転出先の市区町村の窓口へ、犬の鑑札と必要書類を持参して登録の届出をします。"},
+   {"question": "マイナポータルでの手続きはできますか", "answer": "一部の手続き(転入・転出に伴う届出等)はマイナポータル経由でのオンライン申請に対応しています。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/aikyou/hikkoshi_oss.html\" target=\"_blank\" rel=\"noopener\">マイナポータルで申請した方へのご案内(犬登録)</a>のページを確認してください。"},
+   {"question": "登録の窓口はどこですか", "answer": "浜松市動物愛護教育センター(中央区、053-487-1616)が主な窓口です。区役所・行政センターで一部対応している場合もあるため、事前に確認すると安心です。"},
+   {"question": "登録済みの犬が死亡した場合はどうすればいいですか", "answer": "死亡届の提出が必要です。動物愛護教育センターに連絡し手続き方法を確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-newdog", "label": "新しく犬を飼い始めた", "heading": "登録と鑑札交付の手続きをする", "bullets": ["生後91日以上なら登録(手数料3,000円)が必要", "登録後に交付される鑑札を装着する", "同時に狂犬病予防注射の案内も受ける"], "actions": [
+     {"label": "犬を飼い始めたらどうしたらいいかを見る", "href": "https://www.hama-aikyou.jp/information/kainushi/", "source": "浜松市公式"},
+     {"label": "動物愛護教育センターに電話する", "href": "tel:053-487-1616", "source": "053-487-1616"}
+   ]},
+   {"id": "type-movein", "label": "他市から犬を連れて転入", "heading": "登録変更の手続きをする", "bullets": ["前の自治体の鑑札・登録番号を持参する", "マイクロチップがあれば番号も準備する", "動物愛護教育センターで登録変更する"], "actions": [
+     {"label": "犬の登録は引っ越す際どうしたらいいかを見る", "href": "https://www.hama-aikyou.jp/information/kainushi/", "source": "浜松市公式"}
+   ]},
+   {"id": "type-moveout", "label": "浜松市外へ転出", "heading": "転出先での登録手続きを確認する", "bullets": ["浜松市の鑑札を持参する", "転出先の窓口で登録の届出をする", "狂犬病予防注射済票の扱いも確認する"], "actions": [
+     {"label": "犬の登録は引っ越す際どうしたらいいかを見る", "href": "https://www.hama-aikyou.jp/information/kainushi/", "source": "浜松市公式"}
+   ]},
+   {"id": "type-online", "label": "オンラインで手続きしたい", "heading": "マイナポータル経由の手続きを確認する", "bullets": ["対象となる手続きかどうか確認する", "マイナンバーカードを準備する", "対応していない項目は窓口で手続きする"], "actions": [
+     {"label": "マイナポータルで申請した方へのご案内を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/aikyou/hikkoshi_oss.html", "source": "浜松市公式"}
+   ]}
+  ],
+  "steps": {
+   "today": ["犬の登録状況(未登録・他市登録済み)を確認する", "必要書類(鑑札・マイクロチップ番号等)を準備する"],
+   "this_week": ["動物愛護教育センターで登録・登録変更の手続きをする", "鑑札を犬に装着する"],
+   "outside": ["毎年の狂犬病予防注射の時期を確認しておく", "引っ越し予定がある場合は転出先の手続きも調べておく"]
+  },
+  "action_grid": [
+   {"label": "犬を飼い始めたらどうしたらいいかを見る", "href": "https://www.hama-aikyou.jp/information/kainushi/"},
+   {"label": "犬の登録は引っ越す際どうしたらいいかを見る", "href": "https://www.hama-aikyou.jp/information/kainushi/"},
+   {"label": "マイナポータルで申請した方へのご案内を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/aikyou/hikkoshi_oss.html"},
+   {"label": "動物愛護教育センターに電話する", "href": "tel:053-487-1616"}
+  ]
+ },
+ {
+  "href": "/life/start-living/dog-registration-rabies/",
+  "lead": "登録した犬は、毎年1回の狂犬病予防注射(生後91日以上)が法律で義務づけられています。動物病院での個別接種のほか、市が実施する集合注射(狂犬病予防定期集合注射)も利用できます。注射後は注射済票の交付を受けて犬に装着してください。",
+  "note": "動物病院で接種した場合は、その証明書を持って別途注射済票の交付申請(手数料550円)が必要です。集合注射では原則その場で注射済票を受け取れます。",
+  "real_cards": [
+   {"icon": "💉", "title": "毎年1回の接種が義務", "body": "狂犬病予防法により、生後91日以上の登録犬は年に1回、狂犬病予防注射を受けることが義務づけられています。"},
+   {"icon": "🏥", "title": "動物病院での個別接種", "body": "かかりつけの動物病院で通年接種できます。接種後は証明書をもとに、注射済票の交付申請(手数料550円)を市の窓口で行う必要があります。"},
+   {"icon": "📅", "title": "市の集合注射も利用可能", "body": "春頃を中心に、市内各地で「狂犬病予防定期集合注射」が実施されます。会場・日程は事前に公表され、その場で注射と注射済票交付が完了します。"},
+   {"icon": "🏷️", "title": "注射済票も装着する", "body": "鑑札と同様、注射済票も犬に装着する義務があります。紛失した場合は再交付の手続きが必要です。"}
+  ],
+  "qa": [
+   {"question": "狂犬病予防注射は毎年必要ですか", "answer": "はい。生後91日以上の登録犬は年に1回の接種が法律で義務づけられています。"},
+   {"question": "動物病院で打った場合、市への手続きは必要ですか", "answer": "はい。動物病院発行の証明書を持って、注射済票の交付申請(手数料550円)を市の窓口で行う必要があります。詳しくは<a href=\"https://www.hama-aikyou.jp/vaccin/\" target=\"_blank\" rel=\"noopener\">狂犬病予防定期集合注射について</a>のページや動物愛護教育センターで確認してください。"},
+   {"question": "市の集合注射はいつ実施されますか", "answer": "例年春頃を中心に市内各地の会場で実施されます。日程・会場は浜松市動物愛護教育センターの案内で確認してください。"},
+   {"question": "注射済票を紛失した場合はどうすればいいですか", "answer": "動物愛護教育センター(053-487-1616)で再交付の手続きができます。手数料が必要な場合があります。"},
+   {"question": "注射を受けさせないとどうなりますか", "answer": "狂犬病予防法違反となり罰則の対象になり得ます。忘れずに毎年接種を受けさせてください。"},
+   {"question": "問い合わせ先はどこですか", "answer": "浜松市動物愛護教育センター(053-487-1616)が窓口です。北区・浜北区・天竜区エリアは保健所浜北支所(053-585-1398)でも相談できます。"}
+  ],
+  "tabs": [
+   {"id": "type-hospital", "label": "動物病院で接種したい", "heading": "個別接種後に注射済票を申請する", "bullets": ["かかりつけの動物病院で接種を受ける", "接種証明書を受け取る", "証明書を持って注射済票交付(手数料550円)を申請する"], "actions": [
+     {"label": "犬を飼い始めたらどうしたらいいかを見る", "href": "https://www.hama-aikyou.jp/information/kainushi/", "source": "浜松市公式"}
+   ]},
+   {"id": "type-group", "label": "集合注射を利用したい", "heading": "市の集合注射日程を確認する", "bullets": ["実施時期・会場を確認する", "会場でその場で接種・注射済票交付を受ける", "登録済みか確認しておく"], "actions": [
+     {"label": "狂犬病予防定期集合注射についてを見る", "href": "https://www.hama-aikyou.jp/vaccin/", "source": "浜松市動物愛護教育センター"}
+   ]},
+   {"id": "type-lost-tag", "label": "注射済票を紛失した", "heading": "再交付の手続きをする", "bullets": ["動物愛護教育センターに連絡する", "必要書類・手数料を確認する", "新しい注射済票を犬に装着する"], "actions": [
+     {"label": "動物愛護教育センターに電話する", "href": "tel:053-487-1616", "source": "053-487-1616"}
+   ]},
+   {"id": "type-new-owner", "label": "初めて犬を飼う", "heading": "登録と注射をセットで進める", "bullets": ["まず犬の登録(手数料3,000円)を済ませる", "登録後、狂犬病予防注射を受ける", "鑑札・注射済票の両方を装着する"], "actions": [
+     {"label": "犬・猫の飼い方を見る", "href": "https://www.hama-aikyou.jp/information/kainushi/", "source": "浜松市公式"}
+   ]}
+  ],
+  "steps": {
+   "today": ["犬の登録状況と前回接種日を確認する", "動物病院での接種か集合注射かを決める"],
+   "this_week": ["接種を受け、注射済票の交付を受ける(または申請する)", "注射済票を犬に装着する"],
+   "outside": ["毎年の接種時期をカレンダーに控えておく", "引っ越しの予定がある場合は転出先の手続きも調べておく"]
+  },
+  "action_grid": [
+   {"label": "狂犬病予防定期集合注射についてを見る", "href": "https://www.hama-aikyou.jp/vaccin/"},
+   {"label": "犬を飼い始めたらどうしたらいいかを見る", "href": "https://www.hama-aikyou.jp/information/kainushi/"},
+   {"label": "犬の登録は引っ越す際どうしたらいいかを見る", "href": "https://www.hama-aikyou.jp/information/kainushi/"},
+   {"label": "動物愛護教育センターに電話する", "href": "tel:053-487-1616"}
+  ]
+ },
+ {
+  "href": "/life/start-living/pets-lost-animals/",
+  "lead": "飼っている犬や猫がいなくなったときは、地域によって連絡先が異なります。中央区(旧中区・東区・西区・南区)は浜松市動物愛護教育センター(053-487-1616)、浜名区・天竜区(旧北区・浜北区・天竜区)は保健所浜北支所(053-585-1398)が窓口です。あわせて最寄りの警察署にも連絡してください。",
+  "note": "夜間・休日に見つけた場合は、平日と窓口が異なることがあります。各区役所の守衛への連絡が案内されている場合もあるため、緊急時は迷わず警察と両方に連絡してください。",
+  "real_cards": [
+   {"icon": "☎️", "title": "地域で連絡先が異なる", "body": "中央区エリアは浜松市動物愛護教育センター(053-487-1616)、浜名区・天竜区エリアは保健所浜北支所(053-585-1398)が窓口です。受付時間は平日8時30分〜17時15分です。"},
+   {"icon": "🚓", "title": "警察署への連絡も重要", "body": "迷子の犬猫は保護された際に警察に届けられることもあります。動物愛護教育センターとあわせて最寄りの警察署にも連絡しておくと見つかる可能性が高まります。"},
+   {"icon": "🌙", "title": "夜間・休日の連絡先", "body": "夜間・休日は各区役所の守衛への連絡が案内される場合があります。緊急時は事前に浜松市公式サイトで最新の案内を確認してください。"},
+   {"icon": "🔍", "title": "保護犬情報のチェック", "body": "浜松市動物愛護教育センターの公式サイトでは、保護されている犬の情報が掲載されています。定期的に確認すると発見の助けになります。"}
+  ],
+  "qa": [
+   {"question": "犬がいなくなりました。どこに連絡すればいいですか", "answer": "お住まいのエリアにより窓口が異なります。中央区(旧中区・東区・西区・南区)は動物愛護教育センター(053-487-1616)、浜名区・天竜区(旧北区・浜北区・天竜区)は保健所浜北支所(053-585-1398)です。詳しくは<a href=\"https://www.hama-aikyou.jp/hogoinu/\" target=\"_blank\" rel=\"noopener\">迷い犬について知りたい</a>のページで確認してください。"},
+   {"question": "警察にも連絡すべきですか", "answer": "はい。保護された犬猫が警察に届けられるケースもあるため、動物愛護教育センターとあわせて最寄りの警察署にも連絡することをおすすめします。"},
+   {"question": "夜間や休日に見つけた場合はどうすればいいですか", "answer": "夜間・休日は各区役所の守衛への連絡が案内される場合があります。緊急時は浜松市動物愛護教育センターの公式サイトで最新の連絡先を確認してください。"},
+   {"question": "保護されている犬猫の情報は見られますか", "answer": "はい。<a href=\"https://www.hama-aikyou.jp/hogoinu/\" target=\"_blank\" rel=\"noopener\">保護犬情報</a>のページで確認できます。"},
+   {"question": "猫の場合も同じ連絡先でいいですか", "answer": "基本的には同じ動物愛護教育センター・保健所浜北支所が窓口です。ただし猫は法律上の登録制度がないため、鑑札等での身元確認ができない点に注意してください。"},
+   {"question": "県の施設に相談することはできますか", "answer": "静岡県動物愛護センターでも情報提供を受け付けています。詳しくは<a href=\"https://www.pref.shizuoka.jp/kenkofukushi/eiseiyakuji/dobutsuaigo/1003146/1003134/1025173.html\" target=\"_blank\" rel=\"noopener\">飼犬・飼猫がいなくなってしまった時</a>のページ(静岡県公式)を確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-central", "label": "中央区エリアで探している", "heading": "動物愛護教育センターに連絡する", "bullets": ["特徴(犬種・毛色・首輪等)を整理して伝える", "警察署にも同時に連絡する", "保護犬情報のページを定期的に確認する"], "actions": [
+     {"label": "動物愛護教育センターに電話する", "href": "tel:053-487-1616", "source": "053-487-1616"},
+     {"label": "保護犬情報を見る", "href": "https://www.hama-aikyou.jp/hogoinu/", "source": "浜松市動物愛護教育センター"}
+   ]},
+   {"id": "type-hamana-tenryu", "label": "浜名区・天竜区エリアで探している", "heading": "保健所浜北支所に連絡する", "bullets": ["保健所浜北支所(053-585-1398)に連絡する", "警察署にも同時に連絡する", "近隣への聞き込みもあわせて行う"], "actions": [
+     {"label": "迷い犬について知りたいを見る", "href": "https://www.hama-aikyou.jp/hogoinu/", "source": "浜松市公式"}
+   ]},
+   {"id": "type-found", "label": "迷い犬・猫を保護した", "heading": "保健所・動物愛護教育センターに届け出る", "bullets": ["エリアに応じた窓口に連絡する", "保護した場所・状況を伝える", "警察にも遺失物として届けられている場合がある"], "actions": [
+     {"label": "動物愛護教育センターに電話する", "href": "tel:053-487-1616", "source": "053-487-1616"}
+   ]},
+   {"id": "type-night", "label": "夜間・休日に見つけた", "heading": "区役所守衛または警察に連絡する", "bullets": ["緊急性が高い場合はまず警察に連絡する", "各区役所の守衛への連絡先を確認する", "翌平日に動物愛護教育センターへ改めて連絡する"], "actions": [
+     {"label": "迷い犬について知りたいを見る", "href": "https://www.hama-aikyou.jp/hogoinu/", "source": "浜松市公式"}
+   ]}
+  ],
+  "steps": {
+   "today": ["犬・猫の特徴(犬種・毛色・首輪・マイクロチップの有無等)を整理する", "エリアに応じた窓口(動物愛護教育センターまたは保健所浜北支所)に連絡する"],
+   "this_week": ["警察署にも遺失届・拾得情報を確認する", "保護犬情報のページを定期的にチェックする"],
+   "outside": ["普段から鑑札・マイクロチップで身元確認できるようにしておく", "近隣や自治会にも情報提供を依頼しておく"]
+  },
+  "action_grid": [
+   {"label": "迷い犬について知りたいを見る", "href": "https://www.hama-aikyou.jp/hogoinu/"},
+   {"label": "保護犬情報を見る", "href": "https://www.hama-aikyou.jp/hogoinu/"},
+   {"label": "静岡県の案内(飼犬・飼猫がいなくなってしまった時)を見る", "href": "https://www.pref.shizuoka.jp/kenkofukushi/eiseiyakuji/dobutsuaigo/1003146/1003134/1025173.html"},
+   {"label": "動物愛護教育センターに電話する", "href": "tel:053-487-1616"}
+  ]
+ },
+ {
+  "href": "/life/start-living/public-transit/",
+  "lead": "浜松市の移動手段は、遠鉄バス・遠州鉄道・天竜浜名湖鉄道が充実する中央区の市街地と、細江みをつくしバスや天竜ふれあいバスなど地域ごとのコミュニティバス・デマンド交通が生活の足になる浜名区・天竜区とで大きく事情が異なります。",
+  "note": "天竜区の一部路線は予約制のデマンド運行です。運行日・時刻表は路線ごとに異なるため、利用前に必ず各路線のページで最新の運行状況を確認してください。",
+  "real_cards": [
+   {"icon": "🚃", "title": "遠州鉄道・天竜浜名湖鉄道", "body": "遠州鉄道(遠鉄電車)は浜松駅と西鹿島駅を結び、天竜浜名湖鉄道(天浜線)は掛川駅と新所原駅を結ぶ単線67.7kmの路線です。市内を通る鉄道の中で最も長い距離を走ります。"},
+   {"icon": "🚌", "title": "遠鉄バスは浜松駅発着が中心", "body": "路線バス(遠鉄バス)は浜松駅バスターミナルを起点に放射状に運行しており、中央区の市街地では公共交通中心の生活も現実的です。"},
+   {"icon": "🚐", "title": "地域ごとのコミュニティバス", "body": "浜名区には細江みをつくしバス・三ヶ日オレンジふれあいバス・いなさみどりバスなど、天竜区には天竜ふれあいバス(熊・大白木線、阿多古線、門原線等)・春野ふれあいバス・龍山ふれあいバスなどがあります。多くは予約制のデマンド運行です。"},
+   {"icon": "🚕", "title": "デマンド型乗合タクシー", "body": "地域によっては事前予約が必要なデマンド型の乗合タクシーが運行しています。運行日・予約方法は地域ごとに異なります。"}
+  ],
+  "qa": [
+   {"question": "自分の地域の交通手段はどこで確認できますか", "answer": "<a href=\"https://www.city.hamamatsu.shizuoka.jp/kotsu/traffic/unkou/index.html\" target=\"_blank\" rel=\"noopener\">各地域での運行状況のページ</a>で、区・地域ごとのバス路線を確認できます。天竜区は<a href=\"https://www.city.hamamatsu.shizuoka.jp/tn-machi/traffic/unkou/index.html\" target=\"_blank\" rel=\"noopener\">天竜区の公共交通のページ</a>でも詳細が見られます。"},
+   {"question": "天竜区の山間部で車がない場合はどうすればいいですか", "answer": "予約制の「天竜ふれあいバス」が複数路線運行しています。ただし便数が限られるため、車の利用を前提とした生活設計もあわせて検討することをおすすめします。"},
+   {"question": "浜名区のコミュニティバスにはどんなものがありますか", "answer": "細江みをつくしバス・三ヶ日オレンジふれあいバス・いなさみどりバスなど、旧町村エリアごとのバスがあります。運行日・予約要否は路線ごとに異なります。"},
+   {"question": "鉄道の駅から遠い場合はどうすればいいですか", "answer": "遠鉄バスやコミュニティバスとの乗り継ぎを確認してください。区・地域ごとの運行状況のページで最寄りのバス停・乗り継ぎ情報を確認できます。"},
+   {"question": "観光や下見での移動に便利な切符はありますか", "answer": "遠鉄電車・天竜浜名湖鉄道・遠鉄バス・浜名湖遊覧船・かんざんじロープウェイが乗り放題になる「浜松・浜名湖まるっとパス」があります。日常利用の下見にも活用できます。"},
+   {"question": "問い合わせ先はどこですか", "answer": "都市整備部交通政策課(053-457-2441)が窓口です。天竜区内の路線については天竜区役所地域振興課でも案内しています。"}
+  ],
+  "tabs": [
+   {"id": "type-central", "label": "中央区の市街地", "heading": "鉄道・バス中心の生活を検討する", "bullets": ["遠鉄バス・遠州鉄道の沿線を候補にする", "浜松駅からの所要時間を確認する", "運行本数が多く車がなくても生活しやすい"], "actions": [
+     {"label": "各地域の運行状況を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kotsu/traffic/unkou/index.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-hamana", "label": "浜名区在住", "heading": "地域コミュニティバスを確認する", "bullets": ["細江・三ヶ日・引佐・浜北などエリアごとのバス路線を確認する", "運行本数と予約の要否を確認する", "天竜浜名湖鉄道の駅からの距離も確認する"], "actions": [
+     {"label": "各地域の運行状況を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kotsu/traffic/unkou/index.html", "source": "浜松市公式"}
+   ]},
+   {"id": "type-tenryu", "label": "天竜区の山間部", "heading": "デマンド交通と車を前提に考える", "bullets": ["天竜ふれあいバスの対象路線・予約方法を確認する", "運行日・便数が少ない前提で生活設計を考える", "マイカー利用を基本にする場合は駐車場事情も確認する"], "actions": [
+     {"label": "天竜区の公共交通を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/tn-machi/traffic/unkou/index.html", "source": "浜松市公式"},
+     {"label": "交通政策課に電話する", "href": "tel:053-457-2441", "source": "053-457-2441"}
+   ]},
+   {"id": "type-visit", "label": "下見・お出かけで使いたい", "heading": "フリーパスの活用を検討する", "bullets": ["浜松・浜名湖まるっとパスの対象交通機関を確認する", "行きたいエリアの運行状況もあわせて確認する", "土日祝の運行本数は平日と異なる場合がある"], "actions": [
+     {"label": "各地域の運行状況を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kotsu/traffic/unkou/index.html", "source": "浜松市公式"}
+   ]}
+  ],
+  "steps": {
+   "today": ["候補地・目的地の運行状況ページを確認する", "予約制(デマンド)かどうかを確認する"],
+   "this_week": ["実際の便数・始発終電の時刻を確認する", "乗り継ぎが必要な場合はルートを具体的に確認する"],
+   "outside": ["通勤・通学ルートの所要時間を試算する", "フリーパス等の活用も含めて交通費を試算する"]
+  },
+  "action_grid": [
+   {"label": "各地域の運行状況を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kotsu/traffic/unkou/index.html"},
+   {"label": "天竜区の公共交通を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/tn-machi/traffic/unkou/index.html"},
+   {"label": "交通政策課に電話する", "href": "tel:053-457-2441"}
+  ]
+ }
+]

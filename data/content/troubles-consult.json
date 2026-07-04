@@ -1,1 +1,1838 @@
-[]
+[
+  {
+    "href": "/life/troubles-consult/",
+    "lead": "税金、介護、子ども、農地、空き家など、暮らしの中の「困った」は種類によって相談先が変わります。浜松市は政令指定都市で区ごとに窓口が分かれていることも多いため、まずは何を相談したいのかを整理してから、担当窓口を確認するのが近道です。",
+    "note": "担当課が分からないときは、市民コールセンター(053-457-2111、平日8時30分〜17時15分)に問い合わせると、内容に応じた窓口を案内してもらえます。",
+    "real_cards": [
+      {
+        "icon": "🧩",
+        "title": "相談内容ごとに窓口が分かれる",
+        "body": "税金、介護、子ども、消費者トラブル、農地、空き家など、悩みの種類によって担当課がまったく異なります。まず「誰に相談すべきか」を確認することが第一歩です。"
+      },
+      {
+        "icon": "🏙️",
+        "title": "浜松市は区ごとに窓口が分かれることが多い",
+        "body": "2024年1月の区再編で中央区・浜名区・天竜区の3区体制になりました。介護や農地などの窓口は区(または旧区)単位で分かれているため、お住まいの地域を確認してから連絡するとスムーズです。"
+      },
+      {
+        "icon": "📞",
+        "title": "迷ったら市民コールセンターへ",
+        "body": "担当課が分からない場合や、複数の悩みが絡んでいる場合は、市民コールセンター(053-457-2111)に電話すれば適切な窓口を案内してもらえます。"
+      }
+    ],
+    "action_grid": [
+      { "label": "浜松市公式サイトを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/" },
+      { "label": "各種相談窓口一覧を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/jose/together/soudanmadoguchi.html" },
+      { "label": "空き家相談を見る", "href": "/life/troubles-consult/vacant-house-consultation/" },
+      { "label": "農地の相談を見る", "href": "/life/troubles-consult/farmland/" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/animal-pet-consultation/",
+    "lead": "犬や猫の飼い方、迷子や野良猫の対応、多頭飼育の悩みなど、動物・ペットに関する相談は浜松市動物愛護教育センターが窓口です。飼育前の疑問から近隣トラブルまで幅広く相談できます。",
+    "note": "動物愛護教育センターは中央区舘山寺町にある1か所の施設で、区による窓口の違いはありません。ただし犬の登録や死亡動物の回収など一部手続きは区の窓口でも対応することがあるため、内容によって確認してください。",
+    "real_cards": [
+      {
+        "icon": "🐾",
+        "title": "動物愛護教育センターが総合窓口",
+        "body": "犬・猫の飼い方相談、野良猫対策、多頭飼育の相談、負傷動物の対応などをまとめて相談できます。電話は053-487-1616、平日8時30分〜17時15分です。"
+      },
+      {
+        "icon": "🐕",
+        "title": "犬の登録・狂犬病予防注射は義務",
+        "body": "犬を飼い始めたら生涯に1回の登録と、毎年1回の狂犬病予防注射が法律で義務付けられています。手続きは動物愛護教育センターまたは区の窓口で行えます。"
+      },
+      {
+        "icon": "🐈",
+        "title": "野良猫の不妊去勢手術に負担金制度",
+        "body": "地域猫活動などを対象に、野良猫の不妊・去勢手術費用の一部を負担する制度があります。詳細は動物愛護教育センターに確認してください。"
+      },
+      {
+        "icon": "🚗",
+        "title": "道路上の死亡動物はLINEやシステムで通報可能",
+        "body": "道路上で犬・猫などが死んでいる場合は、浜松市路上死亡動物回収申込システムやLINEで通報できます。緊急性が高い場合は電話でも受け付けています。"
+      }
+    ],
+    "qa": [
+      {
+        "question": "犬を飼い始めたら、まず何をすればいいですか",
+        "answer": "生涯に1回の犬の登録と、毎年1回の狂犬病予防注射が必要です。詳しくは<a href=\"https://www.hama-aikyou.jp/information/kainushi/\" target=\"_blank\" rel=\"noopener\">浜松市公式サイト</a>をご確認ください。"
+      },
+      {
+        "question": "野良猫のフン害や多頭飼育で困っています",
+        "answer": "浜松市動物愛護教育センター(053-487-1616)に相談できます。飼い主が分かる場合とそうでない場合で対応が異なるため、状況を伝えて相談してください。"
+      },
+      {
+        "question": "道路で犬や猫が死んでいるのを見つけました",
+        "answer": "浜松市路上死亡動物回収申込システムやLINE「しゃんべぇ情報局」から通報できます。詳細は動物愛護教育センターまたは区の窓口で確認してください。"
+      },
+      {
+        "question": "野良猫の不妊去勢手術の費用を補助してもらえますか",
+        "answer": "地域猫活動などを対象にした負担金制度があります。対象条件や申請方法は動物愛護教育センターにお問い合わせください。"
+      },
+      {
+        "question": "動物愛護教育センターの場所と受付時間は",
+        "answer": "浜松市中央区舘山寺町199番地、平日8時30分〜17時15分です。電話は053-487-1616です。"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "type-new-owner",
+        "label": "これから飼う・飼い始めた",
+        "heading": "犬・猫を飼い始めるときの手続き",
+        "bullets": [
+          "犬は生涯1回の登録と毎年1回の狂犬病予防注射が必須",
+          "猫は屋内飼育と不妊去勢手術が推奨されている",
+          "分からないことは動物愛護教育センターに電話で相談"
+        ],
+        "actions": [
+          { "label": "動物愛護教育センターの案内を見る", "href": "https://www.hama-aikyou.jp/information/kainushi/", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-trouble",
+        "label": "近隣トラブルで困っている",
+        "heading": "野良猫や多頭飼育などのトラブル",
+        "bullets": [
+          "野良猫のフン害は飼い主の有無で対応が変わる",
+          "多頭飼育崩壊が疑われる場合も早めに相談",
+          "地域猫活動の負担金制度も選択肢のひとつ"
+        ],
+        "actions": [
+          { "label": "動物愛護教育センターに相談する", "href": "https://www.hama-aikyou.jp/information/kainushi/", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-found",
+        "label": "死亡動物・負傷動物を見つけた",
+        "heading": "道路上の死亡動物・負傷動物への対応",
+        "bullets": [
+          "道路上の死亡動物はLINEまたは専用システムで通報",
+          "国道は道路管理者、市道は市の窓口が対応",
+          "緊急性が高い場合は電話で直接連絡"
+        ],
+        "actions": [
+          { "label": "路上死亡動物回収申込を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/rojyousiboudoubutsu.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-disaster",
+        "label": "災害時のペット対応が心配",
+        "heading": "災害時のペット同行避難",
+        "bullets": [
+          "避難所によってはペット同行避難のルールが異なる",
+          "普段からキャリーバッグやフードの備蓄を用意する",
+          "詳細は防災担当や動物愛護教育センターに確認"
+        ],
+        "actions": [
+          { "label": "ペットの同行避難について見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kiki/petdokohinan.html", "source": "浜松市公式サイト" }
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["困りごとの内容(飼育・トラブル・死亡動物など)を整理する"],
+      "this_week": ["浜松市動物愛護教育センター(053-487-1616)に電話で相談する"],
+      "outside": ["緊急性が高い場合はLINEや専用通報システムを使う"]
+    },
+    "action_grid": [
+      { "label": "動物愛護教育センターの案内を見る（浜松市公式）", "href": "https://www.hama-aikyou.jp/information/kainushi/" },
+      { "label": "ペット・動物の総合案内を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/pet/index.html" },
+      { "label": "路上死亡動物の回収を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/rojyousiboudoubutsu.html" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/cannot-pay-tax/",
+    "lead": "市税や国民健康保険料の支払いが難しくなったときは、放置せず早めに相談することが大切です。浜松市には猶予制度や納税センターなど、状況に応じて相談できる窓口が複数用意されています。",
+    "note": "延滞が進むと財産調査や差押えにつながる場合があります。区による窓口の違いはなく、収納対策課・納税センターが市内共通の窓口です。",
+    "real_cards": [
+      {
+        "icon": "💴",
+        "title": "市税の猶予制度がある",
+        "body": "災害や病気、事業の休廃止などの事情で一括納付が難しい場合、徴収猶予や換価の猶予という制度が使えることがあります。窓口は財務部収納対策課(053-457-2251)です。"
+      },
+      {
+        "icon": "📮",
+        "title": "催告書が届いたら早めに連絡を",
+        "body": "納付が遅れると督促状や催告書が送られ、延滞金が加算されます。放置せず、記載された窓口に早めに連絡することで対応の選択肢が広がります。"
+      },
+      {
+        "icon": "☎️",
+        "title": "浜松市納税センターでも相談できる",
+        "body": "未納の市税・国民健康保険料の案内や納付方法の相談は浜松市納税センター(053-478-7200)で受け付けています。平日夜間や土日祝日に対応する日もあります。"
+      },
+      {
+        "icon": "⚠️",
+        "title": "高額・長期滞納は特別滞納対策室が担当",
+        "body": "高額または長期にわたる滞納は特別滞納対策室が対応し、財産調査や差押えが行われる場合があります。差押えの前に相談することが重要です。"
+      }
+    ],
+    "qa": [
+      {
+        "question": "市税が払えなくなりそうです。どこに相談すればいいですか",
+        "answer": "まず財務部収納対策課(053-457-2251)に相談してください。事情によっては<a href=\"https://www.city.hamamatsu.shizuoka.jp/noze/sizeiyuuyo.html\" target=\"_blank\" rel=\"noopener\">市税の猶予制度</a>が使えることがあります。"
+      },
+      {
+        "question": "催告書が届きました。どうすればいいですか",
+        "answer": "催告書には連絡先が記載されています。放置すると延滞金が増えたり財産調査に進んだりするため、早めに浜松市納税センター(053-478-7200)か記載の窓口に連絡してください。"
+      },
+      {
+        "question": "国民健康保険料も同じ窓口で相談できますか",
+        "answer": "はい。浜松市納税センターでは市税と国民健康保険料の両方について、未納の案内や納付相談に対応しています。"
+      },
+      {
+        "question": "差押えを避けるにはどうすればいいですか",
+        "answer": "差押えの前に相談することが何より大切です。特別滞納対策室が対応する前の段階で、収納対策課や納税センターに早めに連絡してください。"
+      },
+      {
+        "question": "分割納付はできますか",
+        "answer": "状況に応じて分割納付の相談が可能な場合があります。まずは収納対策課(053-457-2251)に事情を伝えて相談してください。"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "type-early",
+        "label": "まだ滞納していない・不安がある",
+        "heading": "納付が難しくなりそうなとき",
+        "bullets": [
+          "早めに収納対策課へ事情を伝える",
+          "猶予制度の対象になるか確認する",
+          "分割納付の相談も可能な場合がある"
+        ],
+        "actions": [
+          { "label": "市税の猶予制度を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/noze/sizeiyuuyo.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-notice",
+        "label": "催告書・督促状が届いた",
+        "heading": "すでに書類が届いている場合",
+        "bullets": [
+          "延滞金が加算される前に連絡する",
+          "記載された窓口またはセンターに電話する",
+          "外国語対応の催告書もある"
+        ],
+        "actions": [
+          { "label": "納付が遅れるとどうなるかを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/zekin/zei/noze/okure/index.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-consult",
+        "label": "電話で相談したい",
+        "heading": "浜松市納税センターへの相談",
+        "bullets": [
+          "未納市税・国保料の案内を受けられる",
+          "口座振替や納付書再発行も相談可能",
+          "夜間・土日祝の対応日もある"
+        ],
+        "actions": [
+          { "label": "浜松市納税センターを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/noze/nouzeicenter.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-serious",
+        "label": "差押えなど深刻な段階",
+        "heading": "高額・長期滞納の対応",
+        "bullets": [
+          "特別滞納対策室が財産調査を行うことがある",
+          "差押え前の相談が重要",
+          "専門的な事情がある場合は早めに申し出る"
+        ],
+        "actions": [
+          { "label": "特別滞納対策室を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/noze/taisaku.html", "source": "浜松市公式サイト" }
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["催告書や納付書など手元の書類を確認する"],
+      "this_week": ["収納対策課(053-457-2251)または納税センター(053-478-7200)に相談する"],
+      "outside": ["猶予制度の対象になるか、必要書類を確認する"]
+    },
+    "action_grid": [
+      { "label": "市税の猶予制度を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/noze/sizeiyuuyo.html" },
+      { "label": "浜松市納税センターを見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/noze/nouzeicenter.html" },
+      { "label": "特別滞納対策室を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/noze/taisaku.html" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/care-consultation/",
+    "lead": "介護のことで困ったら、まずお住まいの地域を担当する地域包括支援センター(高齢者相談センター)への相談が入口になります。浜松市は3区体制で、区ごとに介護保険の窓口も分かれています。",
+    "note": "2024年1月の区再編で中央区・浜名区・天竜区になりました。地域包括支援センターは市内22か所あり、担当地区が細かく分かれているため、まず担当地区を確認してください。",
+    "real_cards": [
+      {
+        "icon": "🏘️",
+        "title": "地域包括支援センターが相談の入口",
+        "body": "介護の悩み全般を相談できる窓口で、市内に22か所あります。主任ケアマネジャーや社会福祉士、保健師などが対応します。担当地区ごとに窓口が分かれています。"
+      },
+      {
+        "icon": "📋",
+        "title": "介護保険サービスには要介護認定が必要",
+        "body": "介護保険サービスを使うには要介護認定の申請が必要です。窓口は中央区が長寿支援課、浜名区・天竜区が長寿保険課です。"
+      },
+      {
+        "icon": "🧠",
+        "title": "認知症の相談も同じ窓口から",
+        "body": "もの忘れが気になる段階から地域包括支援センターや高齢者福祉課に相談できます。診断の有無を問わず相談できます。"
+      }
+    ],
+    "qa": [
+      {
+        "question": "介護について何から相談すればいいですか",
+        "answer": "お住まいの地域を担当する<a href=\"https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html\" target=\"_blank\" rel=\"noopener\">地域包括支援センター(高齢者相談センター)</a>に電話するのが最初の一歩です。"
+      },
+      {
+        "question": "介護保険サービスを使うにはどうすればいいですか",
+        "answer": "まず要介護認定の申請が必要です。窓口は区によって異なり、中央区は長寿支援課、浜名区・天竜区は長寿保険課です。"
+      },
+      {
+        "question": "地域包括支援センターはどこにありますか",
+        "answer": "市内に22か所あり、担当地区ごとに分かれています。<a href=\"https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html\" target=\"_blank\" rel=\"noopener\">浜松市公式サイトの一覧</a>で担当地区を確認してください。"
+      },
+      {
+        "question": "親のもの忘れが心配です",
+        "answer": "診断の有無にかかわらず、地域包括支援センターや高齢者福祉課に相談できます。早めの相談で使える制度の選択肢が広がります。"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "type-first",
+        "label": "初めて相談する",
+        "heading": "介護がまだ始まっていない・始まったばかり",
+        "bullets": [
+          "お住まいの地域包括支援センターに電話する",
+          "区ごとの介護保険窓口(長寿支援課・長寿保険課)を確認する",
+          "焦らず一つずつ手続きを進める"
+        ],
+        "actions": [
+          { "label": "地域包括支援センター一覧を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-certify",
+        "label": "認定を進めたい",
+        "heading": "要介護認定の手続きを進める",
+        "bullets": [
+          "区ごとに異なる申請窓口を確認する",
+          "結果通知までおおむね1か月かかる",
+          "行政センターでも申請を受け付けている"
+        ],
+        "actions": [
+          { "label": "介護保険のしくみを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/index.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-dementia",
+        "label": "認知症が心配",
+        "heading": "もの忘れ・判断能力の心配",
+        "bullets": [
+          "地域包括支援センターや高齢者福祉課へ相談",
+          "早めの相談で選択肢が広がる",
+          "成年後見制度も検討材料になる"
+        ],
+        "actions": [
+          { "label": "地域包括支援センターを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/houkatsu/top.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-daily",
+        "label": "日々の暮らしを支えたい",
+        "heading": "在宅サービス・見守り",
+        "bullets": [
+          "配食サービスや緊急通報システムがある",
+          "在宅で受けられるサービスを確認する",
+          "詳しくは区の窓口や地域包括支援センターへ"
+        ],
+        "actions": [
+          { "label": "在宅で受けられるサービスを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/zaitaku.html", "source": "浜松市公式サイト" }
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["今の困りごとを簡単にメモする"],
+      "this_week": ["お住まいの地域包括支援センターに電話で相談する"],
+      "outside": ["必要に応じて要介護認定の申請に進む"]
+    },
+    "action_grid": [
+      { "label": "地域包括支援センター一覧を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html" },
+      { "label": "介護保険を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/index.html" },
+      { "label": "在宅サービスを見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/zaitaku.html" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/child-consultation/",
+    "lead": "子育ての不安や発達の心配、児童虐待の疑いなど、子どものことで困ったときは、こども家庭センターや浜松市児童相談所が相談先になります。ひとりで抱え込む前に電話で相談できます。",
+    "note": "浜松市には中央・東・西・南・浜名・北・天竜の各こども家庭センターがあり、区や地域によって担当窓口が分かれます。緊急の虐待通告は189番(いちはやく)でも受け付けています。",
+    "real_cards": [
+      {
+        "icon": "👶",
+        "title": "こども家庭センターが身近な相談窓口",
+        "body": "子育ての悩みや発達の心配など、幅広い相談を受け付けています。地域ごとに中央・東・西・南・浜名・北・天竜のセンターが設置されています。"
+      },
+      {
+        "icon": "🏢",
+        "title": "浜松市児童相談所は専門的な相談窓口",
+        "body": "養育、性格・行動やしつけ、非行、障害についての相談を専門的に受け付けています。電話は053-457-2703、住所は中央区中央一丁目の県浜松総合庁舎内です。"
+      },
+      {
+        "icon": "🚨",
+        "title": "虐待が疑われるときは189番",
+        "body": "児童虐待の疑いがある場合は、児童相談所虐待対応ダイヤル「189(いちはやく)」に電話すると、24時間いつでも近くの児童相談所につながります。"
+      },
+      {
+        "icon": "🎓",
+        "title": "不登校・いじめは教育委員会の相談窓口も",
+        "body": "学校生活に関する悩みは浜松市教育委員会の相談窓口でも対応しています。ヤングケアラーの相談窓口も別途用意されています。"
+      }
+    ],
+    "qa": [
+      {
+        "question": "子育ての悩みはどこに相談すればいいですか",
+        "answer": "お住まいの地域を担当するこども家庭センターに相談できます。相談内容によっては<a href=\"https://www.city.hamamatsu.shizuoka.jp/jidosodan/soudan/jiso/index.html\" target=\"_blank\" rel=\"noopener\">浜松市児童相談所</a>(053-457-2703)につながることもあります。"
+      },
+      {
+        "question": "虐待かもしれないと思ったらどうすればいいですか",
+        "answer": "児童相談所虐待対応ダイヤル「189(いちはやく)」に電話してください。24時間対応で、匿名でも相談できます。"
+      },
+      {
+        "question": "子どもの発達や性格・しつけについて相談したいです",
+        "answer": "浜松市児童相談所(053-457-2703)で専門的な相談を受け付けています。まずは電話で相談内容を伝えてください。"
+      },
+      {
+        "question": "不登校や学校での悩みはどこに相談すればいいですか",
+        "answer": "浜松市教育委員会の相談窓口で対応しています。学校を通じて相談することもできます。"
+      },
+      {
+        "question": "ヤングケアラーかもしれない子どもがいます",
+        "answer": "こども家庭センターやヤングケアラーの相談窓口に相談できます。本人だけでなく、周囲の大人からの相談も可能です。"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "type-daily",
+        "label": "日々の子育ての悩み",
+        "heading": "育児や発達に関する相談",
+        "bullets": [
+          "お住まいの地域のこども家庭センターに相談する",
+          "発達の心配は早めに相談すると選択肢が広がる",
+          "電話でも面談でも相談できる"
+        ],
+        "actions": [
+          { "label": "浜松市児童相談所を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/jidosodan/soudan/jiso/index.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-abuse",
+        "label": "虐待が疑われる",
+        "heading": "児童虐待の早期発見・相談",
+        "bullets": [
+          "189(いちはやく)は24時間対応",
+          "匿名での相談・通告も可能",
+          "早期発見・早期対応が子どもを守る"
+        ],
+        "actions": [
+          { "label": "ストップ！児童虐待を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kosodate/gyakutai/index.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-school",
+        "label": "学校生活の悩み",
+        "heading": "不登校・いじめ・思春期の相談",
+        "bullets": [
+          "教育委員会の相談窓口が対応",
+          "思春期特有の悩みの相談先もある",
+          "学校と連携しながら進められる"
+        ],
+        "actions": [
+          { "label": "教育委員会の相談窓口を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kyoiku/kyoiku/sodan/index.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-youngcarer",
+        "label": "ヤングケアラーが心配",
+        "heading": "家族の世話を担う子どもの相談",
+        "bullets": [
+          "本人・周囲どちらからの相談も受け付けている",
+          "こども家庭センターが窓口のひとつ",
+          "国のヤングケアラー相談窓口も利用できる"
+        ],
+        "actions": [
+          { "label": "相談窓口・支援サービス一覧を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kosodate/20210916.html", "source": "浜松市公式サイト" }
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["困りごとの内容を簡単にメモする"],
+      "this_week": ["お住まいの地域のこども家庭センターまたは児童相談所(053-457-2703)に相談する"],
+      "outside": ["緊急性が高い場合は189(いちはやく)に電話する"]
+    },
+    "action_grid": [
+      { "label": "浜松市児童相談所を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/jidosodan/soudan/jiso/index.html" },
+      { "label": "ストップ！児童虐待を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kosodate/gyakutai/index.html" },
+      { "label": "相談窓口・支援サービス一覧を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kosodate/20210916.html" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/consumer-fraud/",
+    "lead": "「だまされたかも」「解約したいのにできない」といった消費者トラブルは、早めの相談がカギです。浜松市はくらしのセンター(消費生活センター)で相談を受け付けています。",
+    "note": "くらしのセンターは中央区海老塚町の1か所が窓口ですが、電話やテレビ電話でも相談できます。土日祝や夜間に困ったときは全国共通の消費者ホットライン188も使えます。",
+    "real_cards": [
+      {
+        "icon": "🛍️",
+        "title": "くらしのセンター（消費生活センター）が窓口",
+        "body": "契約トラブルや詐欺被害の相談を受け付けています。電話は053-457-2205、平日9時〜16時30分です。メールでの相談は受け付けていません。"
+      },
+      {
+        "icon": "☎️",
+        "title": "迷ったら消費者ホットライン188",
+        "body": "土日祝や営業時間外に相談したい場合は、全国共通の消費者ホットライン「188(いやや!)」から最寄りの相談窓口につながります。"
+      },
+      {
+        "icon": "📄",
+        "title": "クーリング・オフには期限がある",
+        "body": "訪問販売や電話勧誘販売などは契約書面を受け取った日から8日以内(マルチ商法などは20日以内)であればクーリング・オフができます。早めの相談が重要です。"
+      },
+      {
+        "icon": "🚔",
+        "title": "特殊詐欺が疑われる場合は警察へも相談",
+        "body": "オレオレ詐欺や還付金詐欺などが疑われる場合は、消費生活相談とあわせて警察(相談専用ダイヤル#9110)にも相談してください。"
+      }
+    ],
+    "qa": [
+      {
+        "question": "契約してしまったが解約したいです",
+        "answer": "契約内容や経過日数によってクーリング・オフや契約の取消しができる場合があります。<a href=\"https://www.city.hamamatsu.shizuoka.jp/kurashi/shiminnsoudann.html\" target=\"_blank\" rel=\"noopener\">くらしのセンター</a>(053-457-2205)に早めに相談してください。"
+      },
+      {
+        "question": "くらしのセンターの受付時間は",
+        "answer": "平日午前9時〜午後4時30分です。面談相談やテレビ電話相談にも対応していますが、メールでの相談は受け付けていません。"
+      },
+      {
+        "question": "土日や夜間に相談したいときはどうすればいいですか",
+        "answer": "全国共通の消費者ホットライン「188」にかけると、最寄りの相談窓口や国民生活センターの土日祝相談窓口を案内してもらえます。"
+      },
+      {
+        "question": "還付金詐欺やオレオレ詐欺が心配です",
+        "answer": "消費生活相談とあわせて、警察の相談専用ダイヤル「#9110」にも相談してください。特殊詐欺対策の情報は警察庁のサイトでも確認できます。"
+      },
+      {
+        "question": "訪問販売で契約したが、やっぱりやめたいです",
+        "answer": "契約書面を受け取った日から8日以内であればクーリング・オフができる場合があります。期限が近い場合は先にくらしのセンターへ相談してください。"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "type-contract",
+        "label": "契約トラブル",
+        "heading": "訪問販売・通信販売などの契約トラブル",
+        "bullets": [
+          "クーリング・オフの期限を確認する",
+          "契約書面や領収書を保管しておく",
+          "早めにくらしのセンターへ相談する"
+        ],
+        "actions": [
+          { "label": "市民相談・消費生活相談を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kurashi/shiminnsoudann.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-fraud",
+        "label": "詐欺・特殊詐欺が疑われる",
+        "heading": "オレオレ詐欺・還付金詐欺などの対応",
+        "bullets": [
+          "お金を振り込む前に一度電話を切って確認する",
+          "警察相談専用ダイヤル#9110にも相談する",
+          "家族や周囲にも早めに共有する"
+        ],
+        "actions": [
+          { "label": "特殊詐欺対策を見る", "href": "https://www.npa.go.jp/bureau/safetylife/sos47/", "source": "警察庁" }
+        ]
+      },
+      {
+        "id": "type-weekend",
+        "label": "土日・夜間に困っている",
+        "heading": "営業時間外の相談先",
+        "bullets": [
+          "消費者ホットライン188にかける",
+          "国民生活センターの休日相談も利用できる",
+          "緊急性が高い場合は警察にも連絡する"
+        ],
+        "actions": [
+          { "label": "消費者ホットライン188の案内を見る", "href": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/hotline/", "source": "消費者庁" }
+        ]
+      },
+      {
+        "id": "type-coolingoff",
+        "label": "クーリング・オフをしたい",
+        "heading": "クーリング・オフの手続き",
+        "bullets": [
+          "契約形態によって期間が異なる(8日・20日など)",
+          "書面で通知するのが基本",
+          "不安な場合は先に相談してから手続きする"
+        ],
+        "actions": [
+          { "label": "クーリング・オフの説明を見る", "href": "https://www.kokusen.go.jp/soudan_now/data/coolingoff.html", "source": "国民生活センター" }
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["契約書やメールなど関連する書類を手元に集める"],
+      "this_week": ["くらしのセンター(053-457-2205)または消費者ホットライン188に相談する"],
+      "outside": ["特殊詐欺が疑われる場合は警察にも相談する"]
+    },
+    "action_grid": [
+      { "label": "市民相談・消費生活相談を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kurashi/shiminnsoudann.html" },
+      { "label": "消費者ホットライン188の案内を見る（消費者庁）", "href": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/hotline/" },
+      { "label": "全国の消費生活センター等を見る（国民生活センター）", "href": "https://www.kokusen.go.jp/map/" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/disability-consultation/",
+    "lead": "障害のあるご本人やご家族が相談できる窓口は、浜松市では区(地域)ごとに障がい者相談支援センターが設置されています。福祉サービスの利用から日常の困りごとまで幅広く相談できます。",
+    "note": "浜松市の障がい者相談支援センターは地域(中・東・西・南・浜北・北・天竜)ごとに分かれています。お住まいの地域の窓口を確認してから連絡してください。",
+    "real_cards": [
+      {
+        "icon": "🧩",
+        "title": "地域ごとの障がい者相談支援センター",
+        "body": "中・東・西・南・浜北・北・天竜の各地域にセンターが設置されており、相談に応じて情報提供や関係機関の紹介を行っています。"
+      },
+      {
+        "icon": "🏛️",
+        "title": "基幹相談支援事業が全体を支える",
+        "body": "各相談支援センターへの専門的な助言や、相談支援員の人材育成、権利擁護・虐待防止の推進などを行う基幹相談支援事業が設けられています。"
+      },
+      {
+        "icon": "💬",
+        "title": "こころの健康相談も別窓口で対応",
+        "body": "精神的な不調や生きづらさの相談は、こころの健康相談(精神保健福祉相談)でも受け付けています。障害の種別を問わず相談可能です。"
+      }
+    ],
+    "qa": [
+      {
+        "question": "障害のことで、まずどこに相談すればいいですか",
+        "answer": "お住まいの地域の<a href=\"https://www.city.hamamatsu.shizuoka.jp/syoghuku/welfare/obstacle/kyougikai/itiran_17.html\" target=\"_blank\" rel=\"noopener\">障がい者相談支援センター</a>に相談してください。地域ごとに窓口が分かれています。"
+      },
+      {
+        "question": "自分の住んでいる地域の窓口が分かりません",
+        "answer": "浜松市公式サイトの事業所一覧で、中・東・西・南・浜北・北・天竜の各地域担当センターの電話番号を確認できます。分からない場合は市民コールセンター(053-457-2111)でも案内してもらえます。"
+      },
+      {
+        "question": "精神的な不調について相談したいです",
+        "answer": "こころの健康相談(精神保健福祉相談)でも対応しています。障がい者相談支援センターとあわせて利用できます。"
+      },
+      {
+        "question": "障害福祉サービスを利用したい場合はどうすればいいですか",
+        "answer": "障がい者相談支援センターに相談すると、サービス利用計画の作成や事業所の紹介につながります。"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "type-first",
+        "label": "初めて相談する",
+        "heading": "障害についての初めての相談",
+        "bullets": [
+          "お住まいの地域の障がい者相談支援センターへ連絡する",
+          "本人だけでなく家族からの相談も可能",
+          "サービス利用計画の作成にもつながる"
+        ],
+        "actions": [
+          { "label": "障がい者相談支援センター一覧を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/syoghuku/welfare/obstacle/kyougikai/itiran_17.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-service",
+        "label": "福祉サービスを利用したい",
+        "heading": "障害福祉サービスの利用手続き",
+        "bullets": [
+          "相談支援センターでサービス利用計画を作成できる",
+          "身体・精神・知的で利用できるサービスが異なる",
+          "手帳の有無にかかわらず相談は可能"
+        ],
+        "actions": [
+          { "label": "障害福祉サービス等事業所一覧を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/syoghuku/welfare/obstacle/kyougikai/itiran.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-mental",
+        "label": "こころの不調が心配",
+        "heading": "精神的な不調・生きづらさの相談",
+        "bullets": [
+          "こころの健康相談を利用できる",
+          "予約制の場合があるので事前に確認する",
+          "本人以外の家族からの相談も可能"
+        ],
+        "actions": [
+          { "label": "こころの健康相談を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/syoghuku/welfare/obstacle/seishin/kokoro.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-work",
+        "label": "就労について相談したい",
+        "heading": "障がい者の就労支援",
+        "bullets": [
+          "障がい者就労支援機関に相談できる",
+          "就労移行支援や就労継続支援の情報も得られる",
+          "地域の相談支援センターからもつなげる"
+        ],
+        "actions": [
+          { "label": "障がい者就労支援機関お問い合わせ先を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/syoghuku/welfare/obstacle/syurousien/otoiawas.html", "source": "浜松市公式サイト" }
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["困りごとの内容と、お住まいの地域を確認する"],
+      "this_week": ["地域の障がい者相談支援センターに電話で相談する"],
+      "outside": ["必要に応じてサービス利用計画の作成に進む"]
+    },
+    "action_grid": [
+      { "label": "障がい者相談支援センター一覧を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/syoghuku/welfare/obstacle/kyougikai/itiran_17.html" },
+      { "label": "こころの健康相談を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/syoghuku/welfare/obstacle/seishin/kokoro.html" },
+      { "label": "障がい者就労支援機関を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/syoghuku/welfare/obstacle/syurousien/otoiawas.html" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/farmland/",
+    "lead": "相続した田んぼや畑をどうすればいいか分からないときは、まず放置せず窓口に相談することが大切です。浜松市の農地手続きは農業委員会が担当し、地域(中央区・浜名区・天竜区)によって窓口が分かれています。",
+    "note": "浜松市の農地窓口は本局(中央区・農地利用課)、北部農地利用グループ(浜名区の旧北区エリア)、浜北農地利用グループ(浜名区の旧浜北区エリア・天竜区)に分かれています。土地の所在地によって担当が変わるため、まず窓口を確認してください。",
+    "real_cards": [
+      {
+        "icon": "🌾",
+        "title": "農地の手続きは農業委員会が窓口",
+        "body": "相続の届出、転用、農振除外、証明の発行など、農地に関する手続きはすべて農業委員会事務局が担当します。本局は中央区(053-457-2481)です。"
+      },
+      {
+        "icon": "🗺️",
+        "title": "地域ごとに担当窓口が分かれる",
+        "body": "中央区は本局、浜名区(旧北区)は北部農地利用グループ(053-523-3106)、浜名区(旧浜北区)・天竜区は浜北農地利用グループ(053-585-1118)が担当します。"
+      },
+      {
+        "icon": "📝",
+        "title": "相続した農地は10か月以内に届出",
+        "body": "農地を相続した場合は農地法第3条の3に基づく届出が必要です。相続開始から10か月以内が期限です。"
+      },
+      {
+        "icon": "🔄",
+        "title": "売買・貸借・転用は目的で手続きが変わる",
+        "body": "農地として貸したり売ったりする場合は農地法第3条、転用する場合は第4条・第5条の手続きが必要です。用途を決めてから窓口に相談してください。"
+      }
+    ],
+    "action_grid": [
+      { "label": "「農地」について（農業委員会）を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchi.html" },
+      { "label": "農地の相続の届出を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchisouzoku.html" },
+      { "label": "農地転用の手続きを見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html" },
+      { "label": "農地を買いたい・借りたいを見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchisyutoku.html" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/farmland/certificates/",
+    "lead": "農地に関する証明(農地法許可証明、農地台帳記載事項証明、耕作面積証明など)が必要なときは、農業委員会事務局の窓口で申請します。用途によって必要な証明の種類が異なります。",
+    "note": "証明の申請窓口は本局(中央区)のほか、地域ごとの農地利用グループでも受け付けています。証明書は原則として窓口へ持参して申請します。",
+    "real_cards": [
+      {
+        "icon": "📜",
+        "title": "証明は3種類ある",
+        "body": "農地法許可履歴の照会・証明、農地台帳記載事項証明、耕作面積証明の3種類があります。用途に応じて必要な証明を確認してください。"
+      },
+      {
+        "icon": "💴",
+        "title": "手数料は証明の種類による",
+        "body": "農地法許可証明と農地台帳記載事項証明は1通350円、耕作面積証明と農地法許可履歴の照会のみは無料です。"
+      },
+      {
+        "icon": "🧾",
+        "title": "申請には本人確認書類等が必要",
+        "body": "申請書のほか、本人確認書類、土地所有者の同意書または委任状が必要になる場合があります。事前に必要書類を確認してから窓口へ行くとスムーズです。"
+      }
+    ],
+    "action_grid": [
+      { "label": "各種証明（農地法許可証明等）を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/syoumei.html" },
+      { "label": "農地に関する許可申請・届出・証明等を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/tetuduki.html" },
+      { "label": "農業委員会事務局に相談する", "href": "tel:053-457-2481" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/farmland/change-use/",
+    "lead": "農地を宅地や駐車場など別の用途に変えたいとき、市街化区域か市街化調整区域かによって「届出」か「許可申請」かが変わります。まず土地の区域区分を確認することが最初の一歩です。",
+    "note": "手続きの窓口は農業委員会事務局で、地域(中央区・浜名区旧北区・浜名区旧浜北区/天竜区)ごとに担当が分かれています。土地の所在地によって担当窓口が異なる点に注意してください。",
+    "real_cards": [
+      {
+        "icon": "🏗️",
+        "title": "市街化区域は届出、調整区域は許可申請",
+        "body": "市街化区域内の農地は農地法第4条・第5条の届出のみで済みますが、市街化調整区域等では許可申請が必要です。区分は都市計画の窓口でも確認できます。"
+      },
+      {
+        "icon": "📐",
+        "title": "農振除外が必要な場合もある",
+        "body": "農用地区域(青地)に指定されている場合は、転用の前に農振除外の手続きが必要です。除外には最短でも8か月程度かかります。"
+      },
+      {
+        "icon": "⚖️",
+        "title": "違反転用には罰則がある",
+        "body": "許可や届出をせずに農地を転用すると、農地法違反として是正指導や罰則の対象になることがあります。着工前に必ず窓口へ相談してください。"
+      }
+    ],
+    "qa": [
+      {
+        "question": "農地を駐車場にしたいのですが、何をすればいいですか",
+        "answer": "まず土地が市街化区域か市街化調整区域かを確認し、<a href=\"https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchitenyou.html\" target=\"_blank\" rel=\"noopener\">農地転用</a>の届出または許可申請が必要か農業委員会事務局に確認してください。"
+      },
+      {
+        "question": "農用地区域(青地)かどうかはどこで分かりますか",
+        "answer": "農地区分(立地基準)の照会を農業委員会事務局で行えます。青地の場合は農振除外の手続きが先に必要です。"
+      },
+      {
+        "question": "無断で転用してしまったらどうなりますか",
+        "answer": "農地法違反として是正指導の対象になり、原状回復を求められることがあります。心当たりがある場合は早めに農業委員会事務局へ相談してください。"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "type-check",
+        "label": "まず区分を確認したい",
+        "heading": "市街化区域・調整区域の確認",
+        "bullets": [
+          "都市計画の区域区分を確認する",
+          "農用地区域(青地)かどうかも確認する",
+          "地域ごとの農地利用グループに問い合わせる"
+        ],
+        "actions": [
+          { "label": "農地区分の照会について見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/nouchikubun.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-notify",
+        "label": "市街化区域で届出したい",
+        "heading": "農地法第4条・第5条の届出",
+        "bullets": [
+          "所有者による転用は第4条届出",
+          "所有者以外による転用は第5条届出",
+          "許可は不要だが届出は必須"
+        ],
+        "actions": [
+          { "label": "農地転用（届出・許可申請）を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-permit",
+        "label": "調整区域で許可申請したい",
+        "heading": "農地法第4条・第5条の許可申請",
+        "bullets": [
+          "市街化調整区域等では許可申請が必要",
+          "審査に一定の期間がかかる",
+          "農振除外が必要な場合は先に済ませる"
+        ],
+        "actions": [
+          { "label": "農地を住宅や事業用地として利用したいを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchitenyou.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-violation",
+        "label": "無断転用が心配",
+        "heading": "違反転用について",
+        "bullets": [
+          "無許可転用は罰則の対象になりうる",
+          "農業委員会がパトロールで確認している",
+          "心当たりがあれば早めに相談する"
+        ],
+        "actions": [
+          { "label": "違反転用（農地法違反）について見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/ihantenyou.html", "source": "浜松市公式サイト" }
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["土地の区域区分(市街化区域か調整区域か)を確認する"],
+      "this_week": ["農業委員会事務局(053-457-2481)に相談する"],
+      "outside": ["必要な届出・許可申請の書類を準備する"]
+    },
+    "action_grid": [
+      { "label": "農地転用（届出・許可申請）を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html" },
+      { "label": "農地区分の照会について見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/nouchikubun.html" },
+      { "label": "違反転用について見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/ihantenyou.html" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/farmland/conversion/",
+    "lead": "農地を宅地や駐車場に転用するときの正式な手続きは農地法第4条(自己転用)・第5条(権利移転を伴う転用)です。市街化区域内は届出、それ以外は許可申請となり、必要書類も異なります。",
+    "note": "申請窓口は農業委員会事務局です。中央区は本局(053-457-2481)、浜名区(旧北区)は北部農地利用グループ(053-523-3106)、浜名区(旧浜北区)・天竜区は浜北農地利用グループ(053-585-1118)が担当します。",
+    "real_cards": [
+      {
+        "icon": "📋",
+        "title": "第4条は自己転用、第5条は権利移転を伴う転用",
+        "body": "農地の所有者自身が転用する場合は第4条、売買や賃貸などで権利を移転しながら転用する場合は第5条の手続きが必要です。"
+      },
+      {
+        "icon": "🏙️",
+        "title": "市街化区域は届出、それ以外は許可申請",
+        "body": "市街化区域内であれば届出のみで完了しますが、市街化調整区域などでは許可申請が必要で、審査に時間がかかります。"
+      },
+      {
+        "icon": "📌",
+        "title": "地目が変わらないケースに注意",
+        "body": "転用の手続きをしても、登記上の地目が自動的に「田・畑」から変わるわけではありません。地目変更登記は別途、法務局での手続きが必要です。"
+      }
+    ],
+    "qa": [
+      {
+        "question": "農地法第4条と第5条の違いは何ですか",
+        "answer": "第4条は所有者自身が転用する場合、第5条は所有権移転や賃借権設定を伴って転用する場合の手続きです。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html\" target=\"_blank\" rel=\"noopener\">浜松市公式サイト</a>をご確認ください。"
+      },
+      {
+        "question": "手続きをしたのに地目が農地のままです。なぜですか",
+        "answer": "農地転用の許可・届出と登記上の地目変更は別の手続きです。地目変更登記は法務局で別途行う必要があります。"
+      },
+      {
+        "question": "審査にはどれくらい時間がかかりますか",
+        "answer": "市街化区域内の届出は比較的早く完了しますが、許可申請が必要な場合は審査に一定の期間を要します。早めに農業委員会事務局へご相談ください。"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "type-art4",
+        "label": "自分の農地を転用したい",
+        "heading": "農地法第4条の手続き",
+        "bullets": [
+          "所有者自身が転用する場合の手続き",
+          "市街化区域は届出、それ以外は許可申請",
+          "用途(住宅・駐車場等)を明確にしておく"
+        ],
+        "actions": [
+          { "label": "農地転用（農地法第4条・第5条届出・許可申請）を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-art5",
+        "label": "売買・貸借と一緒に転用したい",
+        "heading": "農地法第5条の手続き",
+        "bullets": [
+          "所有権移転・賃借権設定を伴う転用",
+          "買主・借主と共同で申請する",
+          "市街化区域は届出のみで可能"
+        ],
+        "actions": [
+          { "label": "農地転用（農地法第4条・第5条届出・許可申請）を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-regtitle",
+        "label": "地目変更もしたい",
+        "heading": "地目変更登記について",
+        "bullets": [
+          "転用手続きと地目変更登記は別手続き",
+          "地目変更登記は法務局が窓口",
+          "転用完了後の届出が必要な場合もある"
+        ],
+        "actions": [
+          { "label": "「農地」について（農業委員会）を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchi.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-consult",
+        "label": "まず相談したい",
+        "heading": "農業委員会事務局への相談",
+        "bullets": [
+          "地域ごとに担当窓口が分かれる",
+          "土地の場所を伝えて担当を確認する",
+          "着工前の相談が重要"
+        ],
+        "actions": [
+          { "label": "農地に関する許可申請・届出等を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/tetuduki.html", "source": "浜松市公式サイト" }
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["転用したい農地の場所と用途を整理する"],
+      "this_week": ["農業委員会事務局(担当地域の窓口)に相談する"],
+      "outside": ["必要書類を準備し届出・許可申請を行う"]
+    },
+    "action_grid": [
+      { "label": "農地転用（農地法第4条・第5条）を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html" },
+      { "label": "農地転用（農地法第4条・第5条）を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html" },
+      { "label": "農地に関する許可申請・届出等を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/tetuduki.html" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/farmland/inheritance/",
+    "lead": "相続した田んぼや畑は、耕作するかどうかにかかわらず「農地法第3条の3届出」が必要です。相続開始から10か月以内という期限があるため、早めに手続きを進めましょう。",
+    "note": "届出窓口は農業委員会事務局で、地域(中央区・浜名区旧北区・浜名区旧浜北区/天竜区)によって担当が分かれます。相続登記自体は2024年から義務化されており、あわせて法務局への確認も必要です。",
+    "real_cards": [
+      {
+        "icon": "📝",
+        "title": "相続開始から10か月以内に届出",
+        "body": "農地を相続で取得したときは、農地法第3条の3に基づく届出を農業委員会に提出する必要があります。期限は相続が発生した日から10か月以内です。"
+      },
+      {
+        "icon": "🏠",
+        "title": "相続登記も2024年から義務化",
+        "body": "農地に限らず不動産全般で相続登記の申請が義務化されています。農地の届出とあわせて、法務局での相続登記も確認してください。"
+      },
+      {
+        "icon": "❓",
+        "title": "耕作しない場合の選択肢もある",
+        "body": "高齢や後継者不在で耕作が難しい場合は、農地バンク(農地中間管理事業)を使った貸し出しや、農業委員会への相談を通じた売却の選択肢があります。"
+      },
+      {
+        "icon": "🗺️",
+        "title": "所有者不明農地の活用制度もある",
+        "body": "相続未登記のまま放置された農地についても、活用のための制度が用意されています。心当たりがある場合は農業委員会事務局へ相談してください。"
+      }
+    ],
+    "qa": [
+      {
+        "question": "農地を相続しました。何をすればいいですか",
+        "answer": "まず農地法第3条の3に基づく<a href=\"https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchisouzoku.html\" target=\"_blank\" rel=\"noopener\">相続の届出</a>を、相続開始から10か月以内に農業委員会事務局へ提出してください。"
+      },
+      {
+        "question": "届出をしないとどうなりますか",
+        "answer": "届出は法律上の義務で、正当な理由なく怠ると過料の対象となる場合があります。忘れずに手続きしてください。"
+      },
+      {
+        "question": "耕作するつもりがない農地はどうすればいいですか",
+        "answer": "農地バンク(農地中間管理事業)を使って貸し出す、または農業委員会に相談して売却を検討するなどの方法があります。"
+      },
+      {
+        "question": "相続登記もしなければいけませんか",
+        "answer": "はい。2024年から相続登記の申請が義務化されています。農地の届出とは別に、法務局での相続登記の手続きも必要です。"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "type-notify",
+        "label": "届出をしたい",
+        "heading": "農地法第3条の3の届出手続き",
+        "bullets": [
+          "相続開始から10か月以内が期限",
+          "農業委員会事務局の窓口で申請書を提出",
+          "代理人が提出する場合は委任状が必要"
+        ],
+        "actions": [
+          { "label": "農地の相続（届出）を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchisouzoku.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-notuse",
+        "label": "耕作しない予定",
+        "heading": "農地を貸す・売る選択肢",
+        "bullets": [
+          "農地バンク(農地中間管理事業)を利用できる",
+          "農業委員会に相談すると仲介の情報が得られる",
+          "放置すると雑草や害虫の問題につながる"
+        ],
+        "actions": [
+          { "label": "農地を買いたい・借りたいを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchisyutoku.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-unregistered",
+        "label": "相続登記が済んでいない",
+        "heading": "相続登記の義務化",
+        "bullets": [
+          "2024年から相続登記が義務化されている",
+          "法務局が窓口になる",
+          "農地の届出とあわせて確認する"
+        ],
+        "actions": [
+          { "label": "相続登記の申請義務化を見る", "href": "https://www.moj.go.jp/MINJI/minji05_00590.html", "source": "法務省" }
+        ]
+      },
+      {
+        "id": "type-unknown",
+        "label": "所有者不明農地に心当たりがある",
+        "heading": "所有者不明農地の活用",
+        "bullets": [
+          "相続未登記農地の活用制度がある",
+          "農業委員会事務局に相談する",
+          "地域計画への影響も考慮される"
+        ],
+        "actions": [
+          { "label": "所有者不明農地の活用について見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/syoyuusyafumeinouchi.html", "source": "浜松市公式サイト" }
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["相続した農地の場所・面積・地目を確認する"],
+      "this_week": ["農業委員会事務局(担当地域の窓口)に相続の届出を相談する"],
+      "outside": ["耕作の予定がなければ農地バンク等の活用も検討する"]
+    },
+    "action_grid": [
+      { "label": "農地の相続（届出）を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchisouzoku.html" },
+      { "label": "所有者不明農地の活用について見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/syoyuusyafumeinouchi.html" },
+      { "label": "相続登記の申請義務化を見る（法務省）", "href": "https://www.moj.go.jp/MINJI/minji05_00590.html" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/farmland/noshin-exclusion/",
+    "lead": "農用地区域(青地)に指定された農地を宅地などに転用したい場合は、先に農振除外の手続きが必要です。受付は年2回のみで、決定までは半年以上かかることが多いため、早めの相談が欠かせません。",
+    "note": "申出窓口は農業委員会ではなく、中央区は産業部農地利用課、浜名区(旧北区)は北部農地利用グループ、浜名区(旧浜北区)は浜北農地利用グループ、天竜区は農業振興課天竜農業グループが担当します。",
+    "real_cards": [
+      {
+        "icon": "🗓️",
+        "title": "受付は年2回のみ",
+        "body": "農振除外の申出受付は通常、2〜3月と7〜8月のそれぞれ2週間程度です。時期を逃すと次の受付まで待つ必要があるため、早めの準備が重要です。"
+      },
+      {
+        "icon": "⏳",
+        "title": "決定までおよそ8か月〜1年",
+        "body": "除外の決定までは最短でも8か月程度、異議申出があった場合はさらに時間がかかり、1年近くを要することもあります。"
+      },
+      {
+        "icon": "✅",
+        "title": "除外には複数の要件がある",
+        "body": "代替地がないこと、周辺農地への支障がないこと、土地改良事業完了後8年経過していることなど、複数の要件をすべて満たす必要があります。"
+      },
+      {
+        "icon": "🗺️",
+        "title": "地域ごとに申出窓口が異なる",
+        "body": "中央区は産業部農地利用課(053-457-2335)、浜名区(旧北区)は北部農地利用グループ(053-523-3106)、浜名区(旧浜北区)は浜北農地利用グループ(053-585-1118)、天竜区は農業振興課天竜農業グループ(053-922-0030)です。"
+      }
+    ],
+    "qa": [
+      {
+        "question": "農振除外はいつでも申請できますか",
+        "answer": "いいえ。受付は年2回のみで、通常2〜3月と7〜8月の各2週間程度です。詳細は<a href=\"https://www.city.hamamatsu.shizuoka.jp/nouriyou/jogai/jogai2.html\" target=\"_blank\" rel=\"noopener\">浜松市公式サイト</a>の広報はままつ1月号・6月号でご確認ください。"
+      },
+      {
+        "question": "自分の土地が農用地区域(青地)かどうかはどこで確認できますか",
+        "answer": "農業委員会事務局または担当の農地利用課で農地区分(立地基準)の照会ができます。"
+      },
+      {
+        "question": "除外にはどれくらい時間がかかりますか",
+        "answer": "最短でおよそ8か月、異議申出がある場合はさらに長くなり、1年近くかかることもあります。余裕を持って申出時期を検討してください。"
+      },
+      {
+        "question": "どこに申出をすればいいですか",
+        "answer": "土地の所在地によって窓口が異なります。中央区は産業部農地利用課、浜名区・天竜区はそれぞれの地域担当グループが窓口です。"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "type-check",
+        "label": "まず確認したい",
+        "heading": "農用地区域(青地)かどうかの確認",
+        "bullets": [
+          "農地区分(立地基準)の照会を行う",
+          "青地であれば除外の手続きが先に必要",
+          "土地の所在地で担当窓口が変わる"
+        ],
+        "actions": [
+          { "label": "農地区分の照会について見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/nouchikubun.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-apply",
+        "label": "除外を申し出たい",
+        "heading": "農振除外の申出手続き",
+        "bullets": [
+          "受付時期(2〜3月・7〜8月)を逃さない",
+          "6つの要件をすべて満たす必要がある",
+          "決定まで半年〜1年程度かかる"
+        ],
+        "actions": [
+          { "label": "青地を白地にしたい（除外）を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nouriyou/jogai/jogai2.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-central",
+        "label": "中央区の土地",
+        "heading": "中央区の申出窓口",
+        "bullets": [
+          "産業部農地利用課が担当",
+          "電話053-457-2335",
+          "元城町の本庁舎内"
+        ],
+        "actions": [
+          { "label": "産業部農地利用課に相談する", "href": "tel:053-457-2335", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-other",
+        "label": "浜名区・天竜区の土地",
+        "heading": "浜名区・天竜区の申出窓口",
+        "bullets": [
+          "旧北区は北部農地利用グループ(053-523-3106)",
+          "旧浜北区・天竜区は浜北農地利用グループ(053-585-1118)",
+          "天竜区は農業振興課天竜農業グループ(053-922-0030)も窓口"
+        ],
+        "actions": [
+          { "label": "「農地」について（農業委員会）を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchi.html", "source": "浜松市公式サイト" }
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["土地が農用地区域(青地)かどうかを確認する"],
+      "this_week": ["担当窓口(地域による)に相談し、次の受付時期を確認する"],
+      "outside": ["6つの要件を満たしているか整理し、申出書類を準備する"]
+    },
+    "action_grid": [
+      { "label": "青地を白地にしたい（除外）を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nouriyou/jogai/jogai2.html" },
+      { "label": "農地区分の照会について見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/nouchikubun.html" },
+      { "label": "「農地」について（農業委員会）を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchi.html" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/farmland/sell-or-rent/",
+    "lead": "使っていない農地を売りたい・貸したいときは、農地法第3条の許可(または農地バンクの利用)が必要です。個人間の売買・賃貸借と、農地中間管理機構を通す方法の2通りがあります。",
+    "note": "農地法第3条の許可申請窓口は農業委員会事務局で、地域(中央区・浜名区・天竜区)によって担当が分かれます。農地バンクは静岡県農業振興公社が運営し、浜松市農地銀行システムからも農地情報を探せます。",
+    "real_cards": [
+      {
+        "icon": "🤝",
+        "title": "個人間の売買・貸借は農地法第3条許可",
+        "body": "農地を農地のまま売買・賃貸する場合は、農業委員会の許可(農地法第3条)が必要です。買主・借主にも農業経営の要件があります。"
+      },
+      {
+        "icon": "🏦",
+        "title": "農地バンク（農地中間管理事業）という選択肢もある",
+        "body": "個人で借り手を探すのが難しい場合、静岡県農業振興公社の農地中間管理事業(農地バンク)を通じて貸し出す方法があります。契約期間は原則10年です。"
+      },
+      {
+        "icon": "💻",
+        "title": "浜松市農地銀行システムで農地を探せる",
+        "body": "浜松市では独自の農地銀行システムがあり、農地を探している人・貸したい人をマッチングする仕組みがあります。"
+      },
+      {
+        "icon": "👴",
+        "title": "後継者不在の場合は早めの相談を",
+        "body": "高齢で耕作が難しい、後継者がいないといった場合、放置すると雑草や害虫の発生、再耕作の困難化につながります。早めに農業委員会に相談してください。"
+      }
+    ],
+    "qa": [
+      {
+        "question": "農地を売りたいのですが、誰にでも売れますか",
+        "answer": "いいえ。農地のまま売買する場合は、買主が農業経営を行うなどの要件を満たし、農業委員会の許可(農地法第3条)を得る必要があります。"
+      },
+      {
+        "question": "借り手が見つからないのですが、どうすればいいですか",
+        "answer": "<a href=\"https://www.shizuoka-nk.or.jp/t-kanri/\" target=\"_blank\" rel=\"noopener\">静岡県農業振興公社の農地中間管理事業(農地バンク)</a>を利用する方法や、浜松市農地銀行システムでの情報掲載を検討してください。"
+      },
+      {
+        "question": "農地バンクを使うとどんな仕組みになりますか",
+        "answer": "農地中間管理機構が一旦農地を借り受け、担い手にまとめて貸し付ける仕組みです。契約期間は原則10年で、個人間の賃貸借とは異なる制度です。"
+      },
+      {
+        "question": "まずどこに相談すればいいですか",
+        "answer": "土地の所在地を担当する農業委員会事務局(本局・北部農地利用グループ・浜北農地利用グループ)に相談してください。"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "type-direct",
+        "label": "個人間で売買・貸借したい",
+        "heading": "農地法第3条の許可申請",
+        "bullets": [
+          "買主・借主に農業経営の要件がある",
+          "農業委員会の許可が必要",
+          "許可前の契約・引き渡しはできない"
+        ],
+        "actions": [
+          { "label": "農地を買いたい・借りたいを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchisyutoku.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-bank",
+        "label": "農地バンクを使いたい",
+        "heading": "農地中間管理事業（農地バンク）",
+        "bullets": [
+          "静岡県農業振興公社が運営",
+          "契約期間は原則10年",
+          "個人での借り手探しが難しいときの選択肢"
+        ],
+        "actions": [
+          { "label": "農地中間管理事業について見る", "href": "https://www.shizuoka-nk.or.jp/t-kanri/", "source": "静岡県農業振興公社" }
+        ]
+      },
+      {
+        "id": "type-system",
+        "label": "浜松市のシステムで探したい",
+        "heading": "浜松市農地銀行システム",
+        "bullets": [
+          "市独自のマッチングシステム",
+          "貸したい・探したい農地の情報を掲載",
+          "利用には農業委員会への相談が前提"
+        ],
+        "actions": [
+          { "label": "農地の貸借（農地バンク事業）を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/20220411.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-nosuccessor",
+        "label": "後継者がいない・耕作できない",
+        "heading": "耕作できない農地の相談",
+        "bullets": [
+          "放置すると雑草・害虫の問題が生じる",
+          "早めに農業委員会へ相談する",
+          "売却・貸し出し・農地バンクなど選択肢がある"
+        ],
+        "actions": [
+          { "label": "「農地」について（農業委員会）を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchi.html", "source": "浜松市公式サイト" }
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["農地の場所・面積・現況を整理する"],
+      "this_week": ["農業委員会事務局(担当地域の窓口)に売買・貸借の相談をする"],
+      "outside": ["農地バンクや農地銀行システムの利用も検討する"]
+    },
+    "action_grid": [
+      { "label": "農地を買いたい・借りたいを見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchisyutoku.html" },
+      { "label": "農地の貸借（農地バンク事業）を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/20220411.html" },
+      { "label": "農地中間管理事業について見る（静岡県農業振興公社）", "href": "https://www.shizuoka-nk.or.jp/t-kanri/" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/foreign-resident-consultation/",
+    "lead": "浜松市は日系ブラジル人をはじめ外国籍住民の比率が全国有数に高いことで知られ、多言語での生活相談窓口が整備されています。多文化共生センターが総合的な相談窓口です。",
+    "note": "多文化共生センターはクリエート浜松内の1か所ですが、電話・窓口とも複数言語に対応しています。区役所での住民登録手続きとは窓口が異なるため、相談内容によって使い分けてください。",
+    "real_cards": [
+      {
+        "icon": "🌏",
+        "title": "多文化共生センターが総合相談窓口",
+        "body": "クリエート浜松4階にあり、電話は053-458-2170、平日9時〜17時30分です。生活全般の相談を多言語で受け付けています。"
+      },
+      {
+        "icon": "🗣️",
+        "title": "やさしい日本語や多言語資料を整備",
+        "body": "浜松市はポルトガル語、スペイン語、タガログ語、中国語など複数言語の案内資料や「やさしい日本語」による情報発信を進めています。"
+      },
+      {
+        "icon": "📇",
+        "title": "住民登録や在留手続きは区役所・出入国在留管理局",
+        "body": "住民票や印鑑登録などの手続きはお住まいの区役所、在留資格に関する手続きは出入国在留管理局が窓口です。多文化共生センターでは手続き自体の代行はできません。"
+      },
+      {
+        "icon": "💼",
+        "title": "就労に関する相談窓口もある",
+        "body": "外国人の雇用・就労に関する相談事業も行われており、就職や労働条件についての相談も可能です。"
+      }
+    ],
+    "qa": [
+      {
+        "question": "生活のことで日本語が不安なとき、どこに相談すればいいですか",
+        "answer": "<a href=\"https://www.city.hamamatsu.shizuoka.jp/kokusai/tabunka/index.html\" target=\"_blank\" rel=\"noopener\">浜松市多文化共生センター</a>(053-458-2170)で多言語の相談ができます。"
+      },
+      {
+        "question": "住民票の手続きも多文化共生センターでできますか",
+        "answer": "いいえ。住民票や印鑑登録などの手続きはお住まいの区役所が窓口です。多文化共生センターは相談・情報提供が中心です。"
+      },
+      {
+        "question": "在留資格の相談はどこにすればいいですか",
+        "answer": "在留資格そのものの手続きは出入国在留管理局が窓口です。生活面での不安があれば多文化共生センターにも相談できます。"
+      },
+      {
+        "question": "ポルトガル語で相談できますか",
+        "answer": "浜松市はポルトガル語をはじめ複数言語の案内資料を整備しています。対応可能な言語は時期により変わることがあるため、事前に多文化共生センターへ確認してください。"
+      },
+      {
+        "question": "仕事のことで相談したいです",
+        "answer": "外国人の雇用・就労に関する相談事業が行われています。多文化共生センターに問い合わせると案内を受けられます。"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "type-life",
+        "label": "生活全般の相談",
+        "heading": "多文化共生センターへの相談",
+        "bullets": [
+          "クリエート浜松4階、電話053-458-2170",
+          "平日9時〜17時30分",
+          "やさしい日本語や多言語資料も用意"
+        ],
+        "actions": [
+          { "label": "浜松市の多文化共生・国際交流を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kokusai/tabunka/index.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-registration",
+        "label": "住民登録の手続き",
+        "heading": "区役所での手続き",
+        "bullets": [
+          "住民票・印鑑登録などは区役所が窓口",
+          "お住まいの区(中央・浜名・天竜)を確認する",
+          "手続きに必要な書類は事前に確認する"
+        ],
+        "actions": [
+          { "label": "浜松市多文化共生センターを見る（地図）", "href": "https://www.city.hamamatsu.shizuoka.jp/maps/c-tabunkakyousei.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-work",
+        "label": "仕事のことで困っている",
+        "heading": "外国人の雇用・就労相談",
+        "bullets": [
+          "雇用・就労に関する相談事業を利用できる",
+          "労働条件のトラブルも相談できる",
+          "多文化共生センターが窓口のひとつ"
+        ],
+        "actions": [
+          { "label": "外国人の雇用・就労に関する相談事業を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/zaisek/budget/budget02/detail/d_072.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-japanese",
+        "label": "日本語を学びたい",
+        "heading": "外国人学習支援センター",
+        "bullets": [
+          "浜松市外国人学習支援センターがある",
+          "愛称は「カナル・ハママツ」",
+          "日本語学習の相談ができる"
+        ],
+        "actions": [
+          { "label": "浜松市外国人学習支援センターを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/hamaj/11japanese/11_1.html", "source": "浜松市公式サイト" }
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["相談したい内容(生活・手続き・仕事など)を整理する"],
+      "this_week": ["多文化共生センター(053-458-2170)に電話または来所で相談する"],
+      "outside": ["住民登録などはお住まいの区役所で手続きする"]
+    },
+    "action_grid": [
+      { "label": "浜松市の多文化共生・国際交流を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kokusai/tabunka/index.html" },
+      { "label": "浜松市多文化共生センターを見る（地図）（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/maps/c-tabunkakyousei.html" },
+      { "label": "浜松市外国人学習支援センターを見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/hamaj/11japanese/11_1.html" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/legal-general-consultation/",
+    "lead": "誰に相談すればいいか分からない法律的な悩みは、市の無料法律相談やあいホール相談室、行政相談などを組み合わせて使うことができます。まずは市民相談窓口に電話するのが近道です。",
+    "note": "予約制の相談が多いため、事前の電話予約が必要です。窓口は区による違いはなく、中央区の市役所本庁舎周辺に集約されています。",
+    "real_cards": [
+      {
+        "icon": "⚖️",
+        "title": "弁護士による無料法律相談がある",
+        "body": "浜松市では弁護士による無料法律相談を予約制で実施しています。申込は市民相談窓口(053-457-2025)から行います。"
+      },
+      {
+        "icon": "🏛️",
+        "title": "行政相談・人権相談も利用できる",
+        "body": "行政サービスへの苦情や人権に関する悩みは、行政相談・人権身の上相談で対応しています。内容に応じて適切な相談員につながります。"
+      },
+      {
+        "icon": "👩",
+        "title": "女性のための法律相談もある",
+        "body": "あいホール相談室では、女性の生き方相談や女性のための法律相談(女性弁護士による面談)を実施しています。一時保育の利用も可能です。"
+      },
+      {
+        "icon": "💳",
+        "title": "多重債務は消費生活センターでも相談可能",
+        "body": "借金の悩みは消費生活相談(053-457-2205)でも受け付けており、必要に応じて法律相談や法テラスへつなぐことができます。"
+      }
+    ],
+    "qa": [
+      {
+        "question": "無料の法律相談を受けたいのですが、どうすればいいですか",
+        "answer": "市民相談窓口(053-457-2025)に電話して予約してください。<a href=\"https://www.city.hamamatsu.shizuoka.jp/kurashi/shiminnsoudann.html\" target=\"_blank\" rel=\"noopener\">浜松市公式サイト</a>で開催日程を確認できます。"
+      },
+      {
+        "question": "女性ならではの悩みを相談できる場所はありますか",
+        "answer": "あいホール相談室で、女性の生き方相談や女性弁護士による法律相談を受けられます。一時保育の予約も可能です。"
+      },
+      {
+        "question": "借金の相談も市役所でできますか",
+        "answer": "多重債務を含む借金の悩みは消費生活相談(053-457-2205)で受け付けています。必要に応じて法律相談や法テラスを案内してもらえます。"
+      },
+      {
+        "question": "行政の対応に納得がいかないときはどうすればいいですか",
+        "answer": "行政相談窓口を利用できます。国や自治体の行政サービスに関する苦情・意見を相談できます。"
+      },
+      {
+        "question": "相談は予約が必要ですか",
+        "answer": "多くの相談は予約制です。事前に市民相談窓口(053-457-2025)へ電話して日程を確認してください。"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "type-lawyer",
+        "label": "弁護士に相談したい",
+        "heading": "弁護士による無料法律相談",
+        "bullets": [
+          "予約制、市民相談窓口から申込む",
+          "相続・登記・遺言なども相談可能な場合がある",
+          "予約は早めに行う"
+        ],
+        "actions": [
+          { "label": "市民相談・交通事故相談・消費生活相談を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kurashi/shiminnsoudann.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-women",
+        "label": "女性としての悩みがある",
+        "heading": "あいホール相談室",
+        "bullets": [
+          "女性の生き方相談、女性のための法律相談がある",
+          "女性弁護士による面談相談",
+          "一時保育の利用も可能(要事前予約)"
+        ],
+        "actions": [
+          { "label": "あいホール相談室を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/jose/together/soudan.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-debt",
+        "label": "借金・多重債務の悩み",
+        "heading": "多重債務の相談",
+        "bullets": [
+          "消費生活相談(053-457-2205)で対応",
+          "必要に応じて法テラス等を案内",
+          "早めの相談で選択肢が広がる"
+        ],
+        "actions": [
+          { "label": "市民相談窓口を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kurashi/shiminnsoudann.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-admin",
+        "label": "行政への苦情・人権の悩み",
+        "heading": "行政相談・人権身の上相談",
+        "bullets": [
+          "行政相談は国・自治体への苦情を扱う",
+          "人権相談は差別やハラスメントなどを扱う",
+          "相談員が中立的な立場で対応する"
+        ],
+        "actions": [
+          { "label": "各種相談窓口一覧を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/jose/together/soudanmadoguchi.html", "source": "浜松市公式サイト" }
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["相談したい内容(法律・行政・人権など)を整理する"],
+      "this_week": ["市民相談窓口(053-457-2025)に電話して予約する"],
+      "outside": ["必要な資料(契約書・通知書など)を準備しておく"]
+    },
+    "action_grid": [
+      { "label": "市民相談・交通事故相談・消費生活相談を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kurashi/shiminnsoudann.html" },
+      { "label": "あいホール相談室を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/jose/together/soudan.html" },
+      { "label": "各種相談窓口一覧を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/jose/together/soudanmadoguchi.html" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/living-costs-trouble/",
+    "lead": "生活費が足りない、生活に困っているというときは、ひとりで抱え込まず早めに相談することが大切です。浜松市は生活困窮者自立支援制度と生活保護の両方の窓口を用意しています。",
+    "note": "相談窓口は区ごとの福祉事務所(中央・東・西・南・浜名・北・天竜)に分かれています。お住まいの区の窓口に相談してください。",
+    "real_cards": [
+      {
+        "icon": "🆘",
+        "title": "生活困窮者自立支援制度がある",
+        "body": "自立相談支援員が個別に支援プランを作成し、住居確保給付金や家計改善支援、就労準備支援など幅広いメニューが用意されています。"
+      },
+      {
+        "icon": "📋",
+        "title": "生活保護の相談も可能",
+        "body": "生活を維持できないほど困窮している場合は生活保護の相談ができます。相談・申請は区ごとの福祉事務所が窓口です。"
+      },
+      {
+        "icon": "🏠",
+        "title": "住居確保給付金など一時的な支援もある",
+        "body": "離職などで住居を失った、または失うおそれがある場合に家賃相当額を支給する住居確保給付金があります。要件は状況により異なります。"
+      },
+      {
+        "icon": "📞",
+        "title": "まずは区の福祉事務所へ電話を",
+        "body": "生活の困りごとは区ごとの福祉事務所(生活支援担当)が窓口です。お住まいの区が分からない場合は市民コールセンター(053-457-2111)でも案内してもらえます。"
+      }
+    ],
+    "qa": [
+      {
+        "question": "生活費が足りません。どこに相談すればいいですか",
+        "answer": "お住まいの区の福祉事務所に相談してください。<a href=\"https://www.city.hamamatsu.shizuoka.jp/fukushisomu/bid/tsunagari.html\" target=\"_blank\" rel=\"noopener\">生活困窮者自立支援制度</a>の対象になる場合があります。"
+      },
+      {
+        "question": "生活保護を受けるにはどうすればいいですか",
+        "answer": "お住まいの区の福祉事務所(生活保護担当)に相談し、資産や収入の状況などを確認したうえで申請の手続きに進みます。"
+      },
+      {
+        "question": "家賃が払えなくなりそうです",
+        "answer": "離職などの事情がある場合、住居確保給付金の対象になることがあります。生活困窮者自立支援の窓口に早めに相談してください。"
+      },
+      {
+        "question": "仕事が見つからず困っています",
+        "answer": "生活困窮者自立支援制度には就労準備支援や認定就労訓練などのメニューがあります。福祉事務所に相談すると個別の支援プランを作成してもらえます。"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "type-first",
+        "label": "まず相談したい",
+        "heading": "生活困窮者自立支援制度への相談",
+        "bullets": [
+          "自立相談支援員が個別プランを作成",
+          "お住まいの区の福祉事務所が窓口",
+          "収入・資産の状況を伝えて相談する"
+        ],
+        "actions": [
+          { "label": "生活困窮者自立支援を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/fukushisomu/bid/tsunagari.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-seikatsuhogo",
+        "label": "生活保護を検討したい",
+        "heading": "生活保護の相談・申請",
+        "bullets": [
+          "区の福祉事務所で相談・申請できる",
+          "資産や収入の調査が行われる",
+          "困窮の程度に応じて支給内容が決まる"
+        ],
+        "actions": [
+          { "label": "生活保護を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/fukushisomu/welfare/life/index.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-housing",
+        "label": "住居を失いそう",
+        "heading": "住居確保給付金など",
+        "bullets": [
+          "離職等の事情がある場合に家賃相当額を支給",
+          "要件や期間には制限がある",
+          "早めの相談で対象になるか確認できる"
+        ],
+        "actions": [
+          { "label": "生活困窮者自立支援を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/fukushisomu/bid/tsunagari.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-work",
+        "label": "仕事が見つからない",
+        "heading": "就労準備支援・就労訓練",
+        "bullets": [
+          "就労準備支援や認定就労訓練が利用できる",
+          "無理のない段階から社会参加を目指す",
+          "福祉事務所を通じて申し込む"
+        ],
+        "actions": [
+          { "label": "各種相談窓口一覧を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/jose/together/soudanmadoguchi.html", "source": "浜松市公式サイト" }
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["収入・支出・借入などの状況を簡単に整理する"],
+      "this_week": ["お住まいの区の福祉事務所に電話で相談する"],
+      "outside": ["必要に応じて生活保護の申請や給付金の手続きに進む"]
+    },
+    "action_grid": [
+      { "label": "生活困窮者自立支援を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/fukushisomu/bid/tsunagari.html" },
+      { "label": "生活保護を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/fukushisomu/welfare/life/index.html" },
+      { "label": "各種相談窓口一覧を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/jose/together/soudanmadoguchi.html" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/road-repair-mirror/",
+    "lead": "道路の穴やカーブミラーの破損、街路灯の不具合を見つけたら、浜松市のLINE通報システム「いっちゃお!」で写真と位置情報を送って通報できます。緊急の場合は電話での連絡も可能です。",
+    "note": "「いっちゃお!」はLINE公式アカウント「しゃんべぇ情報局」への登録が必要です。国道1号・474号は道路緊急ダイヤル(#9910)、それ以外の緊急時は道路保全課(053-457-2425)が窓口です。",
+    "real_cards": [
+      {
+        "icon": "📱",
+        "title": "LINEで通報できる「いっちゃお!」",
+        "body": "「しゃんべぇ情報局」に登録すると、スマートフォンから写真と位置情報を添付して道路の損傷を通報できます。舗装・側溝・カーブミラー・街路灯など複数カテゴリーに対応しています。"
+      },
+      {
+        "icon": "🕳️",
+        "title": "道路の穴・破損は最優先で対応",
+        "body": "通行に危険が及ぶような道路の穴や破損は、通報を受けて優先的に現地確認・補修が行われます。緊急性が高い場合は電話での連絡が確実です。"
+      },
+      {
+        "icon": "🪞",
+        "title": "カーブミラーの新設は別の要望窓口へ",
+        "body": "既存のカーブミラーの破損・不具合は「いっちゃお!」で通報できますが、新設の要望は地域からの要望として別途扱われます。"
+      },
+      {
+        "icon": "☎️",
+        "title": "国道1号・474号は道路緊急ダイヤル",
+        "body": "国道1号や三遠南信自動車道(474号)の損傷は、道路緊急ダイヤル「#9910」で24時間受け付けています。市道はいっちゃお!または道路保全課(053-457-2425)へ。"
+      }
+    ],
+    "qa": [
+      {
+        "question": "道路に大きな穴を見つけました。どうすればいいですか",
+        "answer": "危険性が高い場合は道路保全課(053-457-2425)に直接電話するのが確実です。緊急でない場合はLINE「いっちゃお!」でも通報できます。"
+      },
+      {
+        "question": "カーブミラーが壊れています",
+        "answer": "既存のカーブミラーの破損は「<a href=\"https://www.city.hamamatsu.shizuoka.jp/dourohozen/icchao.html\" target=\"_blank\" rel=\"noopener\">いっちゃお!</a>」で通報できます。新設の要望は地域の要望として別途相談してください。"
+      },
+      {
+        "question": "街路灯が切れています",
+        "answer": "道路照明の不具合として「いっちゃお!」で通報できます。位置情報と写真を添付すると対応がスムーズです。"
+      },
+      {
+        "question": "「いっちゃお!」はどうやって使えばいいですか",
+        "answer": "LINE公式アカウント「しゃんべぇ情報局」に登録し、「通報サービスいっちゃお!」から道路損傷を選んで、カテゴリー・写真・位置情報を送信します。"
+      },
+      {
+        "question": "国道で穴を見つけたときはどこに連絡すればいいですか",
+        "answer": "国道1号・474号(三遠南信自動車道)は道路緊急ダイヤル「#9910」が窓口です。それ以外の市道は浜松市の道路保全課へ連絡してください。"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "type-hole",
+        "label": "道路の穴・舗装の損傷",
+        "heading": "路面の損傷を見つけたとき",
+        "bullets": [
+          "危険性が高い場合は電話が確実",
+          "軽微なものはLINE「いっちゃお!」で通報",
+          "写真と位置情報があると対応が早い"
+        ],
+        "actions": [
+          { "label": "道路損傷通報システム「いっちゃお!」を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/dourohozen/icchao.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-mirror",
+        "label": "カーブミラー・ガードレール",
+        "heading": "交通安全施設の不具合",
+        "bullets": [
+          "破損・ズレは「いっちゃお!」で通報",
+          "新設要望は地域要望として別扱い",
+          "危険度が高ければ電話連絡も検討"
+        ],
+        "actions": [
+          { "label": "道路損傷通報システム「いっちゃお！」を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/dourohozen/icchao.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-light",
+        "label": "街路灯・道路照明",
+        "heading": "道路照明の不具合",
+        "bullets": [
+          "点灯しない・つきっぱなしも通報対象",
+          "「いっちゃお!」のカテゴリーから選択",
+          "夜間の安全にかかわるため早めに通報"
+        ],
+        "actions": [
+          { "label": "道路の損傷を見つけたときは？を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/dourohozen/traffic/road_youbou_syuuzen/index.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-national",
+        "label": "国道での損傷",
+        "heading": "国道1号・474号の場合",
+        "bullets": [
+          "道路緊急ダイヤル#9910が窓口",
+          "24時間受け付けている",
+          "市道と管理者が異なる点に注意"
+        ],
+        "actions": [
+          { "label": "道路の管理区分、お問い合わせ先を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/dourohozen/traffic/road_kubun/index.html", "source": "浜松市公式サイト" }
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["場所と状況を写真に撮っておく"],
+      "this_week": ["LINE「いっちゃお!」で通報するか、道路保全課(053-457-2425)に電話する"],
+      "outside": ["緊急性が高い場合はすぐに電話連絡する"]
+    },
+    "action_grid": [
+      { "label": "道路損傷通報システム「いっちゃお!」を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/dourohozen/icchao.html" },
+      { "label": "道路の管理区分、お問い合わせ先を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/dourohozen/traffic/road_kubun/index.html" },
+      { "label": "よくある質問：道路・交通・河川を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/faq/kurashi-tetsuzuki/doro/index.html" }
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/vacant-house-consultation/",
+    "lead": "親の家や実家をどうするか迷ったときは、まず浜松市の空き家相談窓口や空き家バンク、解体補助金などの制度を確認するところから始めましょう。区によって身近な相談窓口も分かれています。",
+    "note": "空き家対策の総合窓口は市民生活課(市民安全グループ)ですが、区ごとの区振興課や行政センターでも身近な相談を受け付けています。不動産の売却や活用まで含めて考えたい場合は、地域の不動産事業者に相談する方法もあります。",
+    "real_cards": [
+      {
+        "icon": "🏚️",
+        "title": "空き家対策の総合窓口は市民生活課",
+        "body": "空家等対策計画、解体補助金、譲渡所得の特別控除、空き家バンクなどを市民生活課(市民安全グループ、053-457-2231)が総合的に案内しています。"
+      },
+      {
+        "icon": "🗺️",
+        "title": "区ごとの身近な窓口もある",
+        "body": "中央区は区振興課や東・西・南の各行政センター、浜名区は北行政センターや区振興課、天竜区は区振興課が、それぞれ地域に近い相談窓口として案内できます。"
+      },
+      {
+        "icon": "🏘️",
+        "title": "空き家バンクや相談会も活用できる",
+        "body": "中山間地域を中心にした空き家バンクや、年度ごとの空き家ワンストップ相談会など、活用や売却を考えるための機会が用意されています。"
+      },
+      {
+        "icon": "🏠",
+        "title": "解体補助金・税制優遇の制度もある",
+        "body": "危険な空き家の解体費用補助や、譲渡所得の3,000万円特別控除など、空き家の維持・処分にかかる負担を軽くする制度があります。"
+      }
+    ],
+    "qa": [
+      {
+        "question": "実家が空き家になりそうです。まず何をすればいいですか",
+        "answer": "まず<a href=\"https://www.city.hamamatsu.shizuoka.jp/simink/akiyatoiawase.html\" target=\"_blank\" rel=\"noopener\">空き家に関する問い合わせ先</a>で市民生活課(053-457-2231)に相談し、活用・売却・解体などの選択肢を確認してください。"
+      },
+      {
+        "question": "空き家バンクに登録するとどうなりますか",
+        "answer": "移住・定住を希望する人に情報が公開され、マッチングが期待できます。特に中山間地域向けの空き家バンクが用意されています。"
+      },
+      {
+        "question": "解体費用の補助はありますか",
+        "answer": "危険な空き家(特定空家等に該当するもの等)の解体費用を補助する制度があります。対象要件は市民生活課にご確認ください。"
+      },
+      {
+        "question": "空き家を売った場合の税金の優遇はありますか",
+        "answer": "一定の要件を満たす場合、譲渡所得から3,000万円を控除できる特例があります。詳細は市民生活課または税務署にご確認ください。"
+      },
+      {
+        "question": "行政の相談だけでなく、売却や活用も含めて相談したいです",
+        "answer": "行政の相談窓口に加えて、地域の不動産事業者に相談する方法もあります。浜松市周辺では富士ヶ丘サービス(https://www.fujigaoka-service.co.jp/)が空き家・実家の相談を受け付けています。"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "type-first",
+        "label": "まず整理したい",
+        "heading": "空き家をどうするか迷っている段階",
+        "bullets": [
+          "市民生活課(053-457-2231)に相談する",
+          "活用・売却・解体などの選択肢を確認する",
+          "空き家ワンストップ相談会も利用できる"
+        ],
+        "actions": [
+          { "label": "空き家に関するお問合わせ先を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiyatoiawase.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-bank",
+        "label": "空き家バンクを利用したい",
+        "heading": "空き家バンクへの登録",
+        "bullets": [
+          "中山間地域を中心にした空き家バンクがある",
+          "移住コーディネーターが相談に応じる",
+          "登録には一定の条件がある"
+        ],
+        "actions": [
+          { "label": "浜松市空き家バンクを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiya/akiyabank.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-demolish",
+        "label": "解体・税制を検討したい",
+        "heading": "解体補助金・税制優遇",
+        "bullets": [
+          "危険な空き家の解体費用補助がある",
+          "譲渡所得の3,000万円特別控除も対象になりうる",
+          "要件は市民生活課で確認する"
+        ],
+        "actions": [
+          { "label": "空き家解体補助金を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiya/akiyahozixyo.html", "source": "浜松市公式サイト" }
+        ]
+      },
+      {
+        "id": "type-realestate",
+        "label": "売却や活用も相談したい",
+        "heading": "不動産事業者への相談",
+        "bullets": [
+          "行政窓口とあわせて民間の相談も選択肢",
+          "浜松市周辺の空き家・実家相談は富士ヶ丘サービスでも対応",
+          "無理な勧誘のない相談先を選ぶことが大切"
+        ],
+        "actions": [
+          { "label": "富士ヶ丘サービスを見る", "href": "https://www.fujigaoka-service.co.jp/", "source": "富士ヶ丘サービス" }
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["空き家の現状(築年数・立地・管理状況)を整理する"],
+      "this_week": ["市民生活課(053-457-2231)に相談し、利用できる制度を確認する"],
+      "outside": ["必要に応じて空き家バンクや不動産事業者への相談も検討する"]
+    },
+    "action_grid": [
+      { "label": "空き家に関するお問合わせ先を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiyatoiawase.html" },
+      { "label": "浜松市空き家バンクを見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiya/akiyabank.html" },
+      { "label": "空き家解体補助金を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiya/akiyahozixyo.html" }
+    ]
+  }
+]

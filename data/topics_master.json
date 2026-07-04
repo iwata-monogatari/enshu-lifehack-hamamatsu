@@ -4309,11 +4309,6 @@
     "confidence": "high"
    },
    {
-    "url": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/renrakugomi_in_nagare.html",
-    "label": "連絡ごみの出し方（インターネット受付）",
-    "confidence": "high"
-   },
-   {
     "url": "https://www.hamamatsu-renrakugomi.jp/gomi/",
     "label": "浜松市連絡ごみ受付センター インターネット受付",
     "confidence": "high"
@@ -5200,7 +5195,37 @@
     "label": "観光"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kyoiku/bunka/shisetsu/index.html",
+    "label": "文化施設一覧 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/maps/c-actcity.html",
+    "label": "アクトシティ浜松 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/artmuse/",
+    "label": "浜松市美術館 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://yoyacool.e-harp.jp/hamamatsu",
+    "label": "浜松市スポーツ・文化施設予約システム「まつぼっくり」",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "教育委員会文化振興課（本庁主管）。施設の会議室・ホール予約は各施設窓口、または予約システム「まつぼっくり」",
+   "tel": "アクトシティ浜松 053-451-1111／浜松市美術館 053-454-6801",
+   "reservation": "多くの文化施設の会議室・ホールは「浜松市スポーツ・文化施設予約システム まつぼっくり」でインターネット予約が可能（要事前利用者登録、登録は施設窓口のみ・郵送不可）",
+   "fee": "施設・企画展により異なるため個別確認が必要"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "文化施設一覧ページとアクトシティ浜松・美術館の個別ページ、予約システム「まつぼっくり」の存在を公式サイトで確認。料金・休館日は施設ごとに異なるため断定を避けた。"
  },
  {
   "href": "/life/play-out/facilities-library-parks/",
@@ -5229,7 +5254,31 @@
     "label": "地図から探す"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shisetsu-annai/",
+    "label": "施設案内 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.lib-city-hamamatsu.jp/",
+    "label": "浜松市立図書館",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kyoiku/leisure/koen/index.html",
+    "label": "公園 - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "施設の種類ごとに担当課が異なる（図書館は中央図書館、公園は都市整備部公園管理事務所等）。総合案内は市民コールセンター",
+   "tel": "市民コールセンター 053-457-2111（平日8時30分〜17時15分）",
+   "note": "浜松市の施設案内サイトは「文化・教養」「公園・スポーツ・レジャー」等のカテゴリ、および区・地域別マップから検索できる"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "施設案内サイト（shisetsu-annai）でカテゴリ別・地域別検索ができることを確認。政令指定都市のため施設数が非常に多く、1か所への集約案内ではなく検索導線の案内とした。"
  },
  {
   "href": "/life/play-out/find-parks/",
@@ -5258,7 +5307,36 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kyoiku/leisure/koen/index.html",
+    "label": "公園 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shinse/koen/use.html",
+    "label": "公園を使用したい場合 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://hama-park.or.jp/management/",
+    "label": "公園管理 - 浜松公園緑地協会",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shisetsu-annai/",
+    "label": "施設案内 - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "都市整備部公園管理事務所（大規模公園の一部は浜松公園緑地協会など指定管理者が管理）",
+   "tel": "公園管理事務所 053-473-1829",
+   "note": "日常利用（遊具で遊ぶ・散歩等）は手続き不要。遠足・地域行事・イベント/撮影での使用は目的別に事前申請が必要"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "公園管理事務所の連絡先、公園使用手続きページ、浜松公園緑地協会が管理する主要公園（佐鳴湖公園・都田総合公園等）を公式サイトで確認。市内公園の総数は確認できず断定を避けた。"
  },
  {
   "href": "/life/play-out/",
@@ -5277,7 +5355,31 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/",
+    "label": "浜松市公式サイト",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shisetsu-annai/",
+    "label": "施設案内 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://yoyacool.e-harp.jp/hamamatsu",
+    "label": "浜松市スポーツ・文化施設予約システム「まつぼっくり」",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "施設の種類ごとに担当課が異なる。総合案内は市民コールセンター",
+   "tel": "市民コールセンター 053-457-2111（平日8時30分〜17時15分）",
+   "note": "政令指定都市のため図書館・公園・スポーツ・文化施設とも市内に多数あり、区ごとに複数拠点がある"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "カテゴリハブページ。浜松市の施設案内・予約システムの存在を確認し、多拠点である旨を明記。"
  },
  {
   "href": "/life/play-out/kids-playgrounds/",
@@ -5306,7 +5408,31 @@
     "label": "地図から探す"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.hamamatsu-pippi.net/",
+    "label": "浜松市子育て情報サイト ぴっぴ",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.hamamatsu-pippi.net/tsunagaru/publicfacility/",
+    "label": "公園・公共施設 - 浜松市子育て情報サイト ぴっぴ",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.hamamatsu-pippi.net/blog/odekake/season/50978.html",
+    "label": "室内遊び場編 - 浜松市子育て情報サイト ぴっぴ",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "こども家庭部（児童館は各館運営）。子育て情報全般は子育て情報サイト「ぴっぴ」が窓口",
+   "tel": "確認中（要確認）。個別施設は各館へ問い合わせ",
+   "note": "児童館は市内複数カ所（無料）。浜松こども館は0歳から利用できる屋内型施設（大人200円、小中高生100円などの案内あり）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "子育て情報サイト「ぴっぴ」で児童館が市内複数カ所にあること、浜松こども館の料金・対象年齢の目安を確認。児童館の担当課直通番号は確認できず「確認中」とした。"
  },
  {
   "href": "/life/play-out/parking-access/",
@@ -5335,7 +5461,31 @@
     "label": "公園"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/doro/chushajo/index.html",
+    "label": "駐車場 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/ud/universal/omoiyari/index.html",
+    "label": "「思いやり駐車場」について - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/d-minami/traffic/bicycle/machi.html",
+    "label": "浜松駅周辺の駐輪場について - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "道路耕地部道路保全課（駐輪場）、都市整備部（市営駐車場）等、施設・目的により担当課が異なる",
+   "tel": "市民コールセンター 053-457-2111（平日8時30分〜17時15分）",
+   "note": "公共施設の駐車場の台数・料金は施設ごとに異なる。浜松駅周辺の駐輪場は14施設・自転車2,281台分等の収容実績あり（24時間無料）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "駐車場案内ページ、思いやり駐車場制度、浜松駅周辺駐輪場の収容台数を公式サイトで確認。個別施設の駐車場情報は施設ごとに異なるため断定を避けた。"
  },
  {
   "href": "/life/play-out/rent-public-facilities/",
@@ -5365,7 +5515,26 @@
     "label": "図書館・文化関連施設"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://yoyacool.e-harp.jp/hamamatsu",
+    "label": "浜松市スポーツ・文化施設予約システム「まつぼっくり」",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/sports/kaihou/202401.html",
+    "label": "小中学校体育施設の開放について - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "市民部スポーツ振興課（まつぼっくり運営）、企画調整部情報システム課（システム面）",
+   "tel": "スポーツ振興課 053-457-2421／情報システム課 053-457-2723",
+   "reservation": "多くの体育館・文化施設は「まつぼっくり」（2025年3月に新システムへ移行）で予約。利用者登録は対象施設の窓口のみ（郵送不可）。学校体育施設の地域開放は別システム「まちかぎリモート」を使用"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "予約システム「まつぼっくり」が2025年3月に新システムへ移行したこと、学校施設は別システム「まちかぎリモート」であることを公式サイトで確認。窓口を1か所と決めつけず施設ごとに異なる旨を明記。"
  },
  {
   "href": "/life/play-out/sports-facilities/",
@@ -5396,7 +5565,32 @@
     "label": "地図から探す"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kyoiku/leisure/shisetsu/index.html",
+    "label": "レジャー・スポーツ施設 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://yoyacool.e-harp.jp/hamamatsu",
+    "label": "浜松市スポーツ・文化施設予約システム「まつぼっくり」",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/sports/kaihou/202401.html",
+    "label": "小中学校体育施設の開放について - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "市民部スポーツ振興課（本庁主管）。各体育館は指定管理者が運営する場合がある",
+   "tel": "スポーツ振興課 053-457-2421",
+   "reservation": "多くの施設は「まつぼっくり」でインターネット予約（要事前利用者登録）。学校体育施設の地域開放は「まちかぎリモート」という別システム",
+   "fee": "施設ごとに料金表が個別に公開されている（例: 浜北体育館、雄踏総合体育館）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "浜松アリーナ・浜北体育館・天竜体育館・雄踏総合体育館など多数の施設があり、予約システムが「まつぼっくり」と「まちかぎリモート」の2系統に分かれることを公式サイトで確認。"
  },
  {
   "href": "/life/play-out/swimming-pools/",
@@ -5425,7 +5619,21 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/koen-kan/pool.html",
+    "label": "令和7年度夏休み市内の屋外プール情報 - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "市民部スポーツ振興課（屋外プールの開設案内）、都市整備部（公園内プールの一部）",
+   "tel": "市民コールセンター 053-457-2111",
+   "note": "屋外プールは夏休み期間限定（多くは7月中旬〜8月31日）。児童プール（浜松城公園・和地山公園・相生公園・船越公園・舞阪表浜公園等）は無料、北部水泳場・可美公園総合センター・亀崎ファミリーランドプール等は有料。屋内プールは古橋廣之進記念浜松市総合水泳場ToBiO等があるが、浜北温水プールのように閉館した施設もあるため事前確認が必要"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "夏休み屋外プール情報ページで開設期間・料金（無料/有料施設の内訳）を確認。浜北温水プールが閉館済みであることも確認し、屋内プールの営業状況は変わりうる旨を明記。"
  },
  {
   "href": "/life/play-out/visit-library/",
@@ -5454,7 +5662,26 @@
     "label": "地図から探す"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.lib-city-hamamatsu.jp/",
+    "label": "浜松市立図書館",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/maps/c-chuo-lib.html",
+    "label": "中央図書館 - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "中央図書館（中央区14館・浜名区5館・天竜区5館の計24館体制、館ごとに窓口）",
+   "tel": "中央図書館 053-456-0234",
+   "note": "座席予約制度があるのは中央図書館・西図書館の2館のみ。利用カードは1枚で市内共通。中央図書館の開館時間は平日9時〜19時、土日祝9時〜18時（毎月第4木曜日・年末年始休館）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "座席予約制度が中央図書館・西図書館の2館のみであることを公式サイトで確認（他バッチでの確認結果と一致）。市内図書館数は24館（分室含め紹介ページでは23図書館+分室等の表記揺れあり）。中央図書館の開館時間・電話番号を個別ページで確認。"
  },
  {
   "href": "/life/start-living/bulky-garbage-dropoff/",
@@ -5488,7 +5715,33 @@
     "label": "施設ガイド 磐田市クリーンセンター"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/renrakugomi_in_nagare.html",
+    "label": "連絡ごみ（粗大ごみ）の出し方について知りたい - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/jikohannyu.html",
+    "label": "家庭ごみを自己搬入する場合 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/renrakugomitenpo.html",
+    "label": "連絡ごみ処理手数料納付済証取扱所一覧 - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "環境部一般廃棄物対策課（本庁主管）。粗大ごみの申込専用窓口は連絡ごみ受付センター",
+   "tel": "連絡ごみ受付センター 053-453-2288／環境部一般廃棄物対策課 053-453-0011",
+   "name_local": "浜松市では粗大ごみを「連絡ごみ」と呼ぶ",
+   "apply_method": "電話・インターネット・LINEで申込。処理手数料納付済証（シール）をコンビニ等で購入し品物に貼付。自己搬入も選択可"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "「連絡ごみ」呼称・受付センター電話番号・申込方法（電話/ネット/LINE）・自己搬入の選択肢を公式サイトで確認。",
+  "verified_by": "ai"
  },
  {
   "href": "/life/start-living/certificates/",
@@ -5536,7 +5789,37 @@
     "label": "郵便請求制度"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/jyuminhyo_heijitsu.html",
+    "label": "住民票の写し、住民票記載事項証明書 請求方法【平日窓口】 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/koseki_heijitsu.html",
+    "label": "戸籍全部事項証明書（戸籍謄本）等 請求方法【平日窓口】 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/conveni.html",
+    "label": "証明書コンビニ交付サービス - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/tesuuryo.html",
+    "label": "印鑑証明、戸籍、住民票関係 証明書等交付手数料 - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "各区区民生活課（区役所・行政センターの証明・届出窓口）。戸籍は本籍が浜松市にある場合のみ取得可",
+   "tel": "確認中（要確認、各区区民生活課の代表番号は city-hall-branches トピックを参照）",
+   "methods": "平日窓口・マイナンバーカードによるコンビニ交付・郵送請求の3方式"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "住民票・戸籍・印鑑登録証明書・附票それぞれの請求方法（窓口/コンビニ/郵送）を公式サイトで確認。戸籍は本籍地限定である点を明記。",
+  "verified_by": "ai"
  },
  {
   "href": "/life/start-living/city-hall-branches/",
@@ -5567,7 +5850,32 @@
     "label": "リアルタイム窓口混雑情報"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shisetsu-annai/shiyakusho/",
+    "label": "市役所・区役所・行政センター - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/koho2/sosiki/build01.html",
+    "label": "浜松市役所庁舎案内 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/oshirase_desaki.html",
+    "label": "住民異動届 出先機関のご案内 - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "本庁（中央区元城町103-2）。中央区役所・浜名区役所・天竜区役所の3区役所と、中央区内の東・西・南行政センター、浜名区内の北行政センターが窓口",
+   "tel": "本庁・市民コールセンター 053-457-2111／中央区区民生活課 053-457-2125／浜名区区民生活課 053-585-1111／天竜区区民生活課 053-922-0019",
+   "note": "2024年1月の区再編で7区(中区・東区・西区・南区・北区・浜北区・天竜区)から3区(中央区・浜名区・天竜区)へ再編。旧区役所庁舎は行政センターとして存続し区役所同等の窓口機能を提供"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "3区+4行政センター体制、本庁・各区区民生活課の電話番号を公式サイトで確認。天竜区には行政センターがない点も明記。",
+  "verified_by": "ai"
  },
  {
   "href": "/life/start-living/dog-registration/",
@@ -5601,7 +5909,28 @@
     "label": "環境課のご案内"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.hama-aikyou.jp/information/kainushi/",
+    "label": "犬を飼い始めたらどうしたらいいか - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/aikyou/hikkoshi_oss.html",
+    "label": "マイナポータルで申請した方へのご案内（犬登録） - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "浜松市動物愛護教育センター（中央区）が主な窓口",
+   "tel": "053-487-1616",
+   "fee": "新規登録3,000円（生涯1回）。転入時は前自治体の鑑札・登録番号があれば登録変更で対応",
+   "note": "他バッチ確認済み情報と一致（動物愛護教育センターが窓口）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "登録手数料3,000円、転入時の登録変更手続き、マイナポータル対応の有無を公式サイトで確認。",
+  "verified_by": "ai"
  },
  {
   "href": "/life/start-living/dog-registration-rabies/",
@@ -5634,7 +5963,28 @@
     "label": "ペットの手続き一覧"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.hama-aikyou.jp/information/kainushi/",
+    "label": "犬を飼い始めたらどうしたらいいか - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.hama-aikyou.jp/vaccin/",
+    "label": "狂犬病予防定期集合注射について - 浜松市動物愛護教育センター",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "浜松市動物愛護教育センター（中央区）。北区・浜北区・天竜区エリアは保健所浜北支所でも相談可",
+   "tel": "動物愛護教育センター 053-487-1616／保健所浜北支所 053-585-1398",
+   "fee": "注射済票交付手数料550円（動物病院で接種した場合、証明書を持って別途申請）。市の集合注射は現地でその場交付",
+   "frequency": "生後91日以上の登録犬は年1回接種が法律で義務"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "注射済票の手数料550円、集合注射の実施時期（例年春頃）、動物病院接種後の別途申請フローを確認。",
+  "verified_by": "ai"
  },
  {
   "href": "/life/start-living/garbage-sorting-calendar/",
@@ -5673,7 +6023,37 @@
     "label": "カレンダー・ガイドブックの入手方法（よくある質問）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/",
+    "label": "分別収集カレンダー（ごみカレンダー） - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/08/chuoku08.html",
+    "label": "分別収集カレンダー中央区 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/08/hamanaku08.html",
+    "label": "分別収集カレンダー浜名区 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/ippai/haihubutsu.html",
+    "label": "ごみ・集積所に関する配布物（データ） - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "環境部一般廃棄物対策課（本庁主管）。カレンダーは区・地区ごとに番号が分かれる",
+   "tel": "053-453-0011",
+   "distribution": "例年2月頃に各戸配布。市役所・区役所・行政センター・支所・協働センターでも入手可。Web版は随時更新"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "区・地区ごとにカレンダー番号が異なること、配布時期(2月頃)、Web版での確認方法を確認。",
+  "verified_by": "ai"
  },
  {
   "href": "/life/start-living/how-to-garbage/",
@@ -5710,7 +6090,32 @@
     "label": "粗大ごみの戸別収集"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/dashikata.html",
+    "label": "ごみの分別方法について - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/calendar/",
+    "label": "分別収集カレンダー（ごみカレンダー） - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/renrakugomi_in_nagare.html",
+    "label": "連絡ごみ（粗大ごみ）の出し方について知りたい - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "環境部一般廃棄物対策課（本庁主管）。集積所は自治会単位で管理",
+   "tel": "053-453-0011",
+   "rule": "収集日朝8時30分までに指定の集積所へ。もえるごみ・もえないごみ・プラスチック製容器包装は指定ごみ袋、びん/かん/ペットボトルは色別コンテナ、特定品目は専用コンテナ"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "分別区分（もえるごみ/もえないごみ/プラ容器包装/びん・かん・ペット/特定品目）と収集時刻ルールを公式サイトで確認。",
+  "verified_by": "ai"
  },
  {
   "href": "/life/start-living/",
@@ -5728,7 +6133,31 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/",
+    "label": "浜松市公式サイト",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tennyu_annai.html",
+    "label": "引越しの手続きのご案内 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shisetsu-annai/shiyakusho/",
+    "label": "市役所・区役所・行政センター - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "手続き内容により区役所・行政センター等、担当が分かれる。迷ったら市民コールセンターへ",
+   "tel": "市民コールセンター 053-457-2111"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "カテゴリハブページ。3区体制・行政センター体制の概要を案内。",
+  "verified_by": "ai"
  },
  {
   "href": "/life/start-living/moved-in/",
@@ -5766,7 +6195,37 @@
     "label": "飼い犬の登録・狂犬病予防注射"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tennyu_annai.html",
+    "label": "浜松市へ転入・市内転居する皆さまへ（引越しの手続きのご案内） - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/koseki/hikkoshi/index.html",
+    "label": "引越しに関する手続き - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/bangouseido/card_henko.html",
+    "label": "マイナンバーカードの記載内容の変更・追加 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/service/suidou/service/uketsuke.html",
+    "label": "使用開始・中止の受付（上下水道受付センター） - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "住民異動は区役所・行政センター。水道は上下水道受付センター。ごみは環境部一般廃棄物対策課",
+   "tel": "市民コールセンター 053-457-2111／上下水道受付センター 0120-09-1132",
+   "note": "転入時は住民異動届・マイナンバーカード住所変更・水道使用開始・ごみ分別確認・（該当者は）犬の登録変更をまとめて行うのが効率的"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "転入後にまとめて行うべき手続き群（住民異動・マイナンバー・水道・ごみ・ペット登録）とそれぞれの窓口を整理して確認。",
+  "verified_by": "ai"
  },
  {
   "href": "/life/start-living/moving-address-change/",
@@ -5804,7 +6263,37 @@
     "label": "上下水道の手続き"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tennyu.html",
+    "label": "転入届 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tenkyo.html",
+    "label": "転居届 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tensyutsu_yuso.html",
+    "label": "郵送による転出届 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/jyumin/tensyutsu_online.html",
+    "label": "オンラインによる転出届 - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "区役所・行政センターのほか支所・協働センター・市民サービスセンターなど市内約50か所",
+   "tel": "中央区区民生活課053-457-2125／浜名区区民生活課053-585-1111／天竜区区民生活課053-922-0019",
+   "deadline": "引っ越しをした日から14日以内が原則"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "転入・転居・転出それぞれの届出期限14日以内、オンライン転出届の存在、約50か所の取扱窓口を公式サイトで確認。",
+  "verified_by": "ai"
  },
  {
   "href": "/life/start-living/mynumber/",
@@ -5842,7 +6331,37 @@
     "label": "電子証明書の更新"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/bangouseido/card_sinsei.html",
+    "label": "マイナンバーカードの申請 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/bangouseido/card_uketori.html",
+    "label": "マイナンバーカードの受取 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/dsc/bangou/sinsapo.html",
+    "label": "マイナンバーカード申請サポート窓口 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/bid/sunday-myno.html",
+    "label": "マイナンバーカードの日曜交付について - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "区民生活課（区役所・行政センター）。申請サポート窓口は本庁等に設置",
+   "tel": "確認中（要確認、区ごとの申請サポート窓口の直通番号は個別ページ要確認）",
+   "methods": "スマートフォン・パソコン・郵便申請・申請サポート窓口（無料）の4方式。受け取りは通知はがき記載の会場、日曜交付は要予約"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "申請4方式・受取方法・日曜交付・代理受取制度を公式サイトで確認。",
+  "verified_by": "ai"
  },
  {
   "href": "/life/start-living/pets-lost-animals/",
@@ -5885,7 +6404,27 @@
     "label": "よくある質問（住宅・ペット）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.hama-aikyou.jp/hogoinu/",
+    "label": "迷い犬について知りたい - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.pref.shizuoka.jp/kenkofukushi/eiseiyakuji/dobutsuaigo/1003146/1003134/1025173.html",
+    "label": "飼犬・飼猫がいなくなってしまった時 - 静岡県公式",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "地域により窓口が異なる。中央区(旧中区・東区・西区・南区)は動物愛護教育センター、浜名区・天竜区(旧北区・浜北区・天竜区)は保健所浜北支所",
+   "tel": "動物愛護教育センター 053-487-1616／保健所浜北支所 053-585-1398",
+   "note": "夜間・休日は区役所守衛への連絡が案内される場合あり。警察署への同時連絡も推奨"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "地域(旧区)により窓口が中央区系と浜名区・天竜区系で分かれる点を公式サイトで確認。断定を避け地域差を明記。",
+  "verified_by": "ai"
  },
  {
   "href": "/life/start-living/public-transit/",
@@ -5924,7 +6463,32 @@
     "label": "磐田市地域公共交通計画"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kotsu/traffic/unkou/index.html",
+    "label": "各地域での運行状況 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/tn-machi/traffic/unkou/index.html",
+    "label": "天竜区の公共交通 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/tn-machi/traffic/unkou/tatsuyama.html",
+    "label": "龍山ふれあいバス - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "都市整備部交通政策課（本庁主管）。天竜区内路線は天竜区役所地域振興課でも案内",
+   "tel": "053-457-2441",
+   "note": "遠鉄バス・遠州鉄道・天竜浜名湖鉄道が中央区市街地の中心。浜名区・天竜区は細江みをつくしバス・天竜ふれあいバス等の地域バス（多くは予約制デマンド運行）が生活の足"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "遠鉄バス・遠州鉄道・天浜線の概要、浜名区・天竜区の地域バス（デマンド運行含む）を公式サイトで確認。「お助け号」は磐田市の呼称で浜松市には同名の制度は確認できず、浜松市の実際のコミュニティバス名称に置き換えて執筆。",
+  "verified_by": "ai"
  },
  {
   "href": "/life/start-living/resident-registration/",
@@ -5961,7 +6525,37 @@
     "label": "戸籍の附票"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/jyuminhyo_heijitsu.html",
+    "label": "住民票の写し、住民票記載事項証明書 請求方法【平日窓口】 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/conveni.html",
+    "label": "証明書コンビニ交付サービス - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/jyuminhyo_yuso.html",
+    "label": "戸籍・住民票 郵送請求 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/shomei/kakunin_ji.html",
+    "label": "法人による住民票の写し 請求方法【郵送】 - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "各区区民生活課（区役所・行政センターの証明・届出窓口）",
+   "tel": "確認中（要確認、各区区民生活課の代表番号は city-hall-branches トピックを参照）",
+   "methods": "平日窓口・コンビニ交付（マイナンバーカード）・郵送請求"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "住民票の写し請求の3方式（窓口/コンビニ/郵送）、代理・法人請求の扱いを公式サイトで確認。",
+  "verified_by": "ai"
  },
  {
   "href": "/life/start-living/water-sewer/",
@@ -6007,7 +6601,37 @@
     "label": "上下水道に関する届け出"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/suido/index.html",
+    "label": "浜松市の上下水道 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/service/suidou/service/uketsuke.html",
+    "label": "使用開始・中止の受付（上下水道受付センター） - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/service/suidou/qa/qa1.html",
+    "label": "届け出とお問い合わせ - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/suido/cus_uketsuke.html",
+    "label": "水道・下水道の各種手続き - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "浜松市上下水道部が所管の市営水道。届出窓口は上下水道受付センター",
+   "tel": "0120-09-1132（他バッチで確認済み。電話受付は平日8時〜19時、FAX 053-476-8101）",
+   "note": "下水道未整備地域は浄化槽の維持管理が別途必要。漏水時の料金減免制度あり"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "上下水道受付センターの電話番号・受付時間、支払い方法、漏水減免制度を公式サイトで確認。",
+  "verified_by": "ai"
  },
  {
   "href": "/life/start-living/water-start-stop-fees/",
@@ -6057,7 +6681,27 @@
     "label": "上下水道（総合案内）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/service/suidou/service/uketsuke.html",
+    "label": "使用開始・中止の受付（上下水道受付センター） - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/suido/cus_uketsuke.html",
+    "label": "水道・下水道の各種手続き - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "上下水道受付センターが届出窓口",
+   "tel": "0120-09-1132（電話は平日8時〜19時、繁忙期3/10〜4/10は土日祝も8時30分〜17時）／FAX 053-476-8101",
+   "deadline": "使用開始・使用中止とも希望日の2日〜1週間前を目安に届出。立ち合いは原則不要"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "届出の目安期限（2日〜1週間前）、電話・インターネット・FAXの3方式、繁忙期の土日受付を公式サイトで確認。",
+  "verified_by": "ai"
  },
  {
   "href": "/life/troubles-consult/animal-pet-consultation/",
@@ -6095,7 +6739,37 @@
     "label": "譲渡動物情報"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.hama-aikyou.jp/information/kainushi/",
+    "label": "犬を飼い始めたらどうしたらいいか - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/pet/index.html",
+    "label": "ペット・動物 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/rojyousiboudoubutsu.html",
+    "label": "路上死亡動物回収申込システム - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.hama-aikyou.jp/",
+    "label": "浜松市動物愛護教育センター",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "浜松市動物愛護教育センター（区による違いはなく市内1か所）",
+   "tel": "053-487-1616",
+   "address": "浜松市中央区舘山寺町199番地",
+   "hours": "平日8時30分〜17時15分"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "動物愛護教育センターの電話・住所をWebSearch/WebFetchで確認。犬の登録義務や野良猫対策、路上死亡動物の通報方法もあわせて確認。"
  },
  {
   "href": "/life/troubles-consult/cannot-pay-tax/",
@@ -6133,7 +6807,36 @@
     "label": "収納課のご案内"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/noze/sizeiyuuyo.html",
+    "label": "市税の猶予制度 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/noze/nouzeicenter.html",
+    "label": "浜松市納税センターについて - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/noze/taisaku.html",
+    "label": "特別滞納対策室 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/zekin/zei/noze/okure/index.html",
+    "label": "納付が遅れると - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "財務部収納対策課（猶予制度）／浜松市納税センター（納付相談）。区による窓口の違いはなし",
+   "tel": "収納対策課053-457-2251／納税センター053-478-7200",
+   "note": "高額・長期滞納は特別滞納対策室が担当し差押えに至る場合がある"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "収納対策課・納税センター・特別滞納対策室の3窓口をWebFetchで確認。区による違いはない市内共通の窓口体系。"
  },
  {
   "href": "/life/troubles-consult/care-consultation/",
@@ -6170,7 +6873,31 @@
     "label": "認知症の相談・支援"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html",
+    "label": "地域包括支援センター（高齢者相談センター）一覧 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/index.html",
+    "label": "介護保険 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kourei/houkatsu/top.html",
+    "label": "地域包括支援センター（高齢者相談センター） - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "地域包括支援センター（市内22か所、担当地区ごと）。介護保険の申請は中央区・長寿支援課、浜名区・天竜区・長寿保険課",
+   "tel": "中央区053-457-2324／浜名区053-585-1122／天竜区053-922-0065",
+   "note": "2024年1月の区再編で中央区・浜名区・天竜区の3区体制"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "parents-careカテゴリで確認済みの区ごとの介護保険窓口情報と、地域包括支援センター一覧(22か所)をWebSearchで再確認。"
  },
  {
   "href": "/life/troubles-consult/child-consultation/",
@@ -6215,7 +6942,36 @@
     "label": "ヤングケアラーの相談窓口"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/jidosodan/soudan/jiso/index.html",
+    "label": "浜松市児童相談所 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kosodate/gyakutai/index.html",
+    "label": "ストップ！児童虐待 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kosodate/20210916.html",
+    "label": "相談窓口・支援サービス一覧（こどもの貧困対策） - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.cfa.go.jp/policies/jidougyakutai/gyakutai-taiou-dial",
+    "label": "児童相談所虐待対応ダイヤル189",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "浜松市児童相談所（専門相談）。日常の子育て相談は中央・東・西・南・浜名・北・天竜の各こども家庭センター",
+   "tel": "児童相談所053-457-2703／緊急時は189(いちはやく)",
+   "address": "浜松市中央区中央一丁目12-1（県浜松総合庁舎内）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "浜松市児童相談所の電話・住所をWebFetchで確認。地域ごとのこども家庭センターの存在と189番の案内もあわせて確認。"
  },
  {
   "href": "/life/troubles-consult/consumer-fraud/",
@@ -6257,7 +7013,32 @@
     "label": "特殊詐欺対策（ストップ、オレオレ詐欺）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kurashi/shiminnsoudann.html",
+    "label": "市民相談・交通事故相談・消費生活相談 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/hotline/",
+    "label": "消費者ホットライン188の案内 - 消費者庁",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.kokusen.go.jp/soudan_now/data/coolingoff.html",
+    "label": "クーリング・オフ - 国民生活センター",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "くらしのセンター（消費生活センター）。区による違いはなく市内1か所",
+   "tel": "053-457-2205",
+   "hours": "平日9時〜16時30分（メール相談は不可）",
+   "address": "浜松市中央区海老塚町51-1"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "くらしのセンターの電話・受付時間をWebFetchで確認。土日夜間は消費者ホットライン188を案内する構成とした。"
  },
  {
   "href": "/life/troubles-consult/disability-consultation/",
@@ -6302,7 +7083,31 @@
     "label": "精神保健福祉総合相談（予約制）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/syoghuku/welfare/obstacle/kyougikai/itiran_17.html",
+    "label": "事業所一覧（浜松市障がい者相談支援センター） - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/syoghuku/welfare/obstacle/seishin/kokoro.html",
+    "label": "こころの健康相談 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/syoghuku/welfare/obstacle/syurousien/otoiawas.html",
+    "label": "障がい者就労支援機関お問い合わせ先 - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "地域(中・東・西・南・浜北・北・天竜)ごとの障がい者相談支援センター",
+   "tel": "中053-488-8077／東053-424-0371／西053-597-1124／南053-401-6881／浜北053-587-1010／北053-523-2255／天竜053-589-5580",
+   "note": "旧7区ベースの7地域に分かれており、現在の3区(中央・浜名・天竜)とは区分が異なる点に注意"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "7地域の障がい者相談支援センターの電話番号をWebFetchで確認。現行の3区体制と一致しないため区分を明記した。"
  },
  {
   "href": "/life/troubles-consult/farmland/certificates/",
@@ -6323,7 +7128,26 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/syoumei.html",
+    "label": "各種証明（農地法許可証明、農地台帳記載事項証明、耕作面積証明） - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/tetuduki.html",
+    "label": "農地に関する許可申請・届出・証明・照会等 - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "浜松市農業委員会事務局（本局は中央区、地域ごとに農地利用グループあり）",
+   "tel": "本局053-457-2481",
+   "fee": "農地法許可証明・農地台帳記載事項証明は1通350円、耕作面積証明・照会のみは無料"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "証明3種類の手数料と申請書類をWebFetchで確認。窓口持参が原則である点も確認。"
  },
  {
   "href": "/life/troubles-consult/farmland/change-use/",
@@ -6349,7 +7173,31 @@
     "label": "農地の転用"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchitenyou.html",
+    "label": "農地を住宅や事業用地として利用したい（農地転用） - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/nouchikubun.html",
+    "label": "農地区分（立地基準）の照会について - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/ihantenyou.html",
+    "label": "違反転用（農地法違反）について - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "浜松市農業委員会事務局（本局・北部農地利用グループ・浜北農地利用グループ）",
+   "tel": "本局053-457-2481／北部農地利用グループ053-523-3106／浜北農地利用グループ053-585-1118",
+   "note": "市街化区域は届出のみ、市街化調整区域等は許可申請が必要"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "農地転用の届出・許可申請の区分と、地域別の農地利用グループ窓口をWebFetchで確認。"
  },
  {
   "href": "/life/troubles-consult/farmland/conversion/",
@@ -6379,7 +7227,26 @@
     "label": "農振除外（農用地区域からの除外）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html",
+    "label": "農地転用（農地法第4条・第5条届出・許可申請） - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchi.html",
+    "label": "「農地」について（浜松市農業委員会）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "浜松市農業委員会事務局（本局・北部農地利用グループ・浜北農地利用グループ）",
+   "tel": "本局053-457-2481／北部農地利用グループ053-523-3106／浜北農地利用グループ053-585-1118",
+   "note": "転用手続きと登記上の地目変更は別手続き（地目変更登記は法務局）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "第4条・第5条の区分と、転用後も地目が変わらないケースの説明ページをWebFetchで確認。"
  },
  {
   "href": "/life/troubles-consult/farmland/",
@@ -6426,7 +7293,31 @@
     "label": "磐田市農業委員会"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchi.html",
+    "label": "「農地」について（浜松市農業委員会）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchisouzoku.html",
+    "label": "農地の相続（農地法第3条の3届出） - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/tetuduki.html",
+    "label": "農地に関する許可申請・届出・証明・照会等 - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "浜松市農業委員会事務局（本局＝中央区、北部農地利用グループ＝浜名区旧北区、浜北農地利用グループ＝浜名区旧浜北区・天竜区）",
+   "tel": "本局053-457-2481",
+   "note": "農地サブカテゴリのハブページ。土地所在地により担当窓口が変わる"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "農業委員会事務局の3窓口体制（本局・北部農地利用グループ・浜北農地利用グループ）をWebFetchで確認し、ハブページとして整理。"
  },
  {
   "href": "/life/troubles-consult/farmland/inheritance/",
@@ -6467,7 +7358,31 @@
     "label": "相続土地国庫帰属制度の概要"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchisouzoku.html",
+    "label": "農地の相続（農地法第3条の3届出） - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/syoyuusyafumeinouchi.html",
+    "label": "所有者不明農地（相続未登記農地）の活用について - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.moj.go.jp/MINJI/minji05_00590.html",
+    "label": "相続登記の申請義務化 - 法務省",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "浜松市農業委員会事務局（本局・北部農地利用グループ・浜北農地利用グループ）",
+   "tel": "北部農地利用グループ053-523-3106／浜北農地利用グループ053-585-1118",
+   "duration": "相続開始から10か月以内に届出が必要"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "農地法第3条の3届出の期限(10か月以内)と地域別窓口をWebFetchで確認。相続登記義務化(法務省)もあわせて案内。"
  },
  {
   "href": "/life/troubles-consult/farmland/noshin-exclusion/",
@@ -6489,7 +7404,26 @@
     "label": "農地関係手続き"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nouriyou/jogai/jogai2.html",
+    "label": "青地を白地にしたい（除外） - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/nouchikubun.html",
+    "label": "農地区分（立地基準）の照会について - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "中央区・産業部農地利用課／浜名区(旧北区)・北部農地利用グループ／浜名区(旧浜北区)・浜北農地利用グループ／天竜区・農業振興課天竜農業グループ",
+   "tel": "産業部農地利用課053-457-2335／北部農地利用グループ053-523-3106／浜北農地利用グループ053-585-1118／天竜農業グループ053-922-0030",
+   "duration": "受付は年2回(2〜3月・7〜8月)、決定まで最短8か月〜1年程度"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "農振除外の受付時期・所要期間・地域別4窓口の電話番号をWebFetchで確認。天竜区が農業振興課という別部署である点に注意して記載。"
  },
  {
   "href": "/life/troubles-consult/farmland/sell-or-rent/",
@@ -6527,7 +7461,31 @@
     "label": "農地バンク事業"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchisyutoku.html",
+    "label": "農地を買いたい・借りたい - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/20220411.html",
+    "label": "農地の貸借（農地バンク事業（農地中間管理事業）） - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.shizuoka-nk.or.jp/t-kanri/",
+    "label": "農地中間管理事業について - 静岡県農業振興公社",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "浜松市農業委員会事務局（農地法第3条許可）。農地バンクは静岡県農業振興公社が運営",
+   "tel": "農業委員会事務局本局053-457-2481",
+   "note": "農地中間管理事業(農地バンク)の契約期間は原則10年"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "農地法3条許可の窓口と、静岡県農業振興公社が運営する農地バンクの仕組みをWebSearch/WebFetchで確認。浜松市農地銀行システムの存在も確認。"
  },
  {
   "href": "/life/troubles-consult/foreign-resident-consultation/",
@@ -6556,7 +7514,32 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kokusai/tabunka/index.html",
+    "label": "浜松市の多文化共生・国際交流 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/maps/c-tabunkakyousei.html",
+    "label": "多文化共生センター（地図） - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/hamaj/11japanese/11_1.html",
+    "label": "浜松市外国人学習支援センター（カナル・ハママツ） - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "浜松市多文化共生センター（クリエート浜松4階、区による違いはなく市内1か所）",
+   "tel": "053-458-2170",
+   "hours": "平日9時〜17時30分",
+   "note": "対応言語は時期により変動する可能性があるため、事前確認が安全側"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "多文化共生センターの所在地・電話・開所時間をWebFetchで確認。ポルトガル語等の多言語対応資料の存在も確認したが、対応言語の詳細は確認中扱いとした。"
  },
  {
   "href": "/life/troubles-consult/",
@@ -6574,7 +7557,25 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/",
+    "label": "浜松市公式サイト",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/jose/together/soudanmadoguchi.html",
+    "label": "各種相談窓口一覧 - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "内容によって担当課が異なる。不明な場合は市民コールセンター",
+   "tel": "市民コールセンター053-457-2111（平日8時30分〜17時15分）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "カテゴリハブページ。市民コールセンターの電話番号と各種相談窓口一覧ページをWebSearchで確認。"
  },
  {
   "href": "/life/troubles-consult/legal-general-consultation/",
@@ -6619,7 +7620,31 @@
     "label": "市役所以外で行っている法的相談"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kurashi/shiminnsoudann.html",
+    "label": "市民相談・交通事故相談・消費生活相談 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/jose/together/soudan.html",
+    "label": "あいホール相談室 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/jose/together/soudanmadoguchi.html",
+    "label": "各種相談窓口一覧 - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "市民相談窓口（弁護士による無料法律相談は予約制）。区による違いはなく中央区に集約",
+   "tel": "市民相談053-457-2025",
+   "note": "女性のための法律相談はあいホール相談室が別窓口"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "市民相談窓口の電話番号と、あいホール相談室(女性のための法律相談)の存在をWebFetch/WebSearchで確認。"
  },
  {
   "href": "/life/troubles-consult/living-costs-trouble/",
@@ -6653,7 +7678,31 @@
     "label": "福祉相談課のご案内"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/fukushisomu/bid/tsunagari.html",
+    "label": "生活困窮者自立支援 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/fukushisomu/welfare/life/index.html",
+    "label": "生活保護 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/jose/together/soudanmadoguchi.html",
+    "label": "各種相談窓口一覧 - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "区ごとの福祉事務所（中央・東・西・南・浜名・北・天竜）",
+   "tel": "確認中（要確認、区ごとに異なるため個別確認が必要）",
+   "hours": "平日8時30分〜17時15分"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "生活困窮者自立支援制度・生活保護のページをWebSearchで確認。区ごとの福祉事務所の個別電話番号までは特定できず確認中扱いとした。"
  },
  {
   "href": "/life/troubles-consult/road-repair-mirror/",
@@ -6684,7 +7733,26 @@
     "label": "道路河川課のご案内"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/dourohozen/icchao.html",
+    "label": "道路損傷通報システム「いっちゃお！」について - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/dourohozen/traffic/road_kubun/index.html",
+    "label": "道路の管理区分、お問い合わせ先 - 浜松市",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "土木部道路保全課（LINE「いっちゃお！」でも通報可）",
+   "tel": "道路保全課053-457-2425／国道1号・474号は道路緊急ダイヤル#9910",
+   "note": "側溝のふた掛けやカーブミラー新設は地域要望として別扱い"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "LINE通報システム「いっちゃお！」の仕組みと、道路保全課の電話番号、国道の窓口区分をWebFetchで確認。"
  },
  {
   "href": "/life/troubles-consult/vacant-house-consultation/",
@@ -6726,7 +7794,36 @@
     "label": "固定資産税・都市計画税"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/simink/akiyatoiawase.html",
+    "label": "空き家に関するお問合わせ先 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/simink/akiya/akiyabank.html",
+    "label": "浜松市空き家バンク - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/simink/akiya/akiyahozixyo.html",
+    "label": "浜松市空き家解体補助金 - 浜松市",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.fujigaoka-service.co.jp/",
+    "label": "富士ヶ丘サービス",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "市民生活課（市民安全グループ）が総合窓口。区ごとの区振興課・行政センターでも身近な相談が可能",
+   "tel": "市民生活課053-457-2231",
+   "note": "会社導線：富士ヶ丘サービス（浜松市周辺の空き家・不動産相談）への控えめな案内を含む"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "空き家問い合わせ先一覧（市民生活課＋区ごとの窓口）をWebFetchで確認。富士ヶ丘サービスへの控えめな案内をqa/tabsに追加。"
  },
  {
   "href": "/life/work-life/city-tax-payment/",
@@ -6755,7 +7852,35 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/zei-soumu/zei/noze/noufu.html",
+    "label": "納付場所や納付方法など",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/zei-soumu/zei/noze/kouza.html",
+    "label": "口座振替のご案内（市税）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/zei-soumu/webkouzafurikae.html",
+    "label": "浜松市Web口座振替受付サービス（市税）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/noze/sizeiyuuyo.html",
+    "label": "市税の猶予制度",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "納付方法全般：財務部税務総務課（本庁）／納付が難しい場合の相談：財務部収納対策課",
+   "tel": "053-457-2261（税務総務課）／053-457-2251（収納対策課）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "納付方法（口座振替・コンビニ・スマホ決済・クレジットカード）と担当課（税務総務課）をWebFetchで確認。区役所・行政センターでの窓口取り扱いの違いは公式ページに明記がなかったため、安全側の表現にとどめた。"
  },
  {
   "href": "/life/work-life/",
@@ -6774,7 +7899,25 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/",
+    "label": "浜松市公式サイト",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/zei-soumu/zei/noze/index.html",
+    "label": "納税について",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "税目・手続きにより担当課が異なる（市民税課・税務総務課・収納対策課・国保年金課等）",
+   "tel": "053-457-2111（市民コールセンター）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "カテゴリハブページ。配下15件の調査で判明した主要窓口（税務総務課・市民税課・国保年金課・産業振興課・農業振興課等）をreal_cardsに要約。"
  },
  {
   "href": "/life/work-life/job-change/",
@@ -6804,7 +7947,35 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/sangyosomu/soudan/shigoto/roudou_soudan.html",
+    "label": "労働相談（無料ダイヤル）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/sangyosomu/sinia.html",
+    "label": "シニアが活躍するための相談窓口",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kosodate/boshikafu/jiritsushien_center.html",
+    "label": "ひとり親サポートセンター",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/",
+    "label": "浜松市公式サイト",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "産業部労働政策課（就職相談は関係機関を案内。個別の職業紹介は行わない）",
+   "tel": "053-457-2115（労働政策課）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "労働政策課は労働相談の入口だが個別求人紹介はしないことをWebFetchで確認。しずおかジョブステーション西部やひとり親サポートセンター等の関係機関窓口も確認。就労支援ガイドPDFは内容抽出不可のため使用を避けた。"
  },
  {
   "href": "/life/work-life/job-recruitment/",
@@ -6834,7 +8005,30 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shise/shokuinsaiyo/index.html",
+    "label": "職員採用",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shise/shokuinsaiyo/jokyo/index.html",
+    "label": "採用試験実施状況",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/",
+    "label": "浜松市公式サイト",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "人事委員会（正規職員試験）／人事課（会計年度任用職員）／消防総務課（消防職員）／教職員課（教員）",
+   "tel": "053-457-2201（人事委員会）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "第1類〜第4類の試験区分、会計年度任用職員・消防・教員でそれぞれ担当課が異なることをWebFetchで確認。"
  },
  {
   "href": "/life/work-life/light-vehicle-tax/",
@@ -6863,7 +8057,35 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shiminze/zei/siminze/car.html",
+    "label": "軽自動車税",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shiminze/zei/siminze/car_genmen1.html",
+    "label": "軽自動車税の減免申請（身体等）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/noze/zei/car_shoumei_mado.html",
+    "label": "車検用軽自動車税納税証明書",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/",
+    "label": "浜松市公式サイト",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "財務部市民税課",
+   "tel": "053-457-2077（市民税課・軽自動車税担当）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "納期限（5月31日）、担当課（市民税課）、減免制度、車検用納税証明書の提示原則不要化（軽JNKS導入）をWebFetchで確認。"
  },
  {
   "href": "/life/work-life/my-number-card/",
@@ -6888,7 +8110,35 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/bangouseido/card_sinsei.html",
+    "label": "マイナンバーカードの申請",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/siminkj/sinsei/bangouseido/card_uketori.html",
+    "label": "マイナンバーカードの受取",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/dsc/bangou/sinsapo.html",
+    "label": "マイナンバーカード申請サポート窓口",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/koseki/mynumber/index.html",
+    "label": "マイナンバーカード・電子証明書",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "受取窓口はお住まいの区の区民生活課、または各行政センターの証明・届出担当（区ごとに窓口・電話番号が異なる）",
+   "tel": "053-457-2128（中央区区民生活課）／053-585-1112（浜名区区民生活課）／053-922-0019（天竜区区民生活課）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "申請方法（スマホ・PC・郵便・サポート窓口）と、受取窓口が区ごとに分かれることをWebFetchで確認。代理受取・日曜交付のページも実在確認済み。"
  },
  {
   "href": "/life/work-life/national-health-insurance-tax/",
@@ -6918,7 +8168,35 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kokuho/kokuho_nenkin/kokuho/hokenryou.html",
+    "label": "保険料について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kokuho/kokuho_nenkin/kokuho/kokuho_tetuduki/karikeisann.html",
+    "label": "保険料の仮計算（試算）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kokuho/kokuho_nenkin/kokuho/kokuho_tetuduki/madoguti.html",
+    "label": "国民健康保険窓口一覧表",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kokuho/kokuho_nenkin/kokuho/nouhutainou.html",
+    "label": "納付の相談・保険料を滞納すると",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "健康福祉部国保年金課（本庁）。届出は区役所・行政センター内の保険年金担当でも受付",
+   "tel": "053-457-2637（国保年金課）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "浜松市は国保を「保険料」方式で賦課（税ではない）。4区分の内訳・軽減制度・区ごとの窓口電話番号をWebFetchで確認。"
  },
  {
   "href": "/life/work-life/nhk-pension/",
@@ -6944,7 +8222,35 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kokuho/kokuho_nenkin/nenkin/todokede.html",
+    "label": "届出について（国民年金）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kokuho/kokuho_nenkin/kokuho/kokuho_tetuduki/dattai3.html",
+    "label": "職場等の健康保険に加入した場合",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kokuho/kokuho_nenkin/kokuho/kokuho_tetuduki/madoguti.html",
+    "label": "国民健康保険窓口一覧表",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kokuho/kokuho_nenkin/kokuho/kokuho_tetuduki/sousaihi.html",
+    "label": "葬祭費を請求するときは",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "健康福祉部国保年金課（本庁）。区ごとに中央福祉事業所・浜名福祉事業所・天竜福祉事業所等の窓口あり",
+   "tel": "053-457-2637（国保年金課）／053-457-2211（中央福祉事業所）／053-585-1125（浜名福祉事業所）／053-922-0021（天竜福祉事業所）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "退職・転入時の国保加入手続き、国民年金の届出窓口（区役所・行政センター・支所等）、外国籍の方は区役所・行政センター限定であることをWebFetchで確認。"
  },
  {
   "href": "/life/work-life/resident-tax/",
@@ -6973,7 +8279,35 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shiminze/zei/siminze/zeitoha.html",
+    "label": "市民税・県民税（住民税）とは",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shiminze/zei/siminze/shiminze_keisan.html",
+    "label": "市民税・県民税の計算",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shiminze/zei/siminze/sinkoku.html",
+    "label": "市民税・県民税申告について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shiminze/zei/siminze/osameru.html",
+    "label": "市民税・県民税及び森林環境税を納める人、課税されない人",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "財務部市民税課",
+   "tel": "053-457-2145（市民税課）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "特別徴収・普通徴収の仕組み、申告要否、非課税基準、担当課（市民税課）をWebFetchで確認。"
  },
  {
   "href": "/life/work-life/start-business/",
@@ -7003,7 +8337,35 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shinko/shien/founding.html",
+    "label": "創業支援",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/sangyoshinko/2016122601.html",
+    "label": "浜松市創業支援事業費補助金（インキュベート施設賃料補助金）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/sangyoshinko/shinko/shien/cafejigyosyouke.html",
+    "label": "はままつ起業家カフェの事業承継支援",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/shiminkatsudo/chusankan/index.html",
+    "label": "浜松市の中山間地域「オクハマ」",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "産業部産業振興課（はままつ起業家カフェ）",
+   "tel": "053-457-2281（産業振興課）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "はままつ起業家カフェ・特定創業支援等事業・中山間地域向け起業資金貸与事業をWebFetchで確認。旧HAMACTサイトは閉鎖され後継は/sangyo/startup/index.htmlに移行済みのため本文・リンクを差し替え。中山間地域コミュニティビジネス起業資金の個別ページは404のため、上位の中山間地域ページにリンク。"
  },
  {
   "href": "/life/work-life/start-farming/",
@@ -7032,7 +8394,30 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/hajimetai.html",
+    "label": "農業をはじめたい",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/noushin/shinko/agri/shinki/syuunoukeikaku.html",
+    "label": "認定新規就農者制度について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/noushin/portal/nougyou/syunokyuhu/index.html",
+    "label": "新規就農者育成総合対策（経営開始資金等）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "農林水産部農業振興課（就農相談）／浜北農地利用グループ（浜名区浜北地域・天竜区の農地）／北部農地利用グループ（浜名区北地域の農地）",
+   "tel": "053-457-2331（農業振興課）／053-585-1118（浜北農地利用グループ）／053-523-3106（北部農地利用グループ）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "農業振興課が総合窓口、農地相談は地域ごとの農地利用グループに分かれることをWebFetchで確認。天竜区の中山間地域農林業については公式ページに明確な専用記載がなかったため、地域農業パワーアップ支援事業等の一般的な案内にとどめた。"
  },
  {
   "href": "/life/work-life/subsidies/",
@@ -7057,7 +8442,30 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shinko/shien/support.html",
+    "label": "補助金・サポート",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/sangyosomu/saiyo.html",
+    "label": "浜松市中小企業等採用活動支援事業費補助金",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/sangyoshinko/shinsangyo/hojokin/h30/r3soushutsu2ji.html",
+    "label": "新産業創出事業費補助事業",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "産業部産業振興課",
+   "tel": "053-457-2281（産業振興課）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "検索でヒットする浜松市補助金一覧表（/sangyoshinko/hojokin.html）とデジタル化支援事業費補助金の個別URL（/sangyoshinko/dejitaruhojokin.html）はWebFetchで404だったため使用を避け、実在確認できた補助金・サポートページ（/shinko/shien/support.html）や個別補助金ページにリンクを差し替え。"
  },
  {
   "href": "/life/work-life/tax/",
@@ -7086,7 +8494,35 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/zei-soumu/zei/noze/index.html",
+    "label": "納税について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/zei-soumu/sizeinokanpu.html",
+    "label": "市税の還付について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shisanze/zei/madokazei.html",
+    "label": "固定資産評価・公課証明書の交付を受けたいとき",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/",
+    "label": "浜松市公式サイト",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "税目により担当課が異なる（住民税・軽自動車税は市民税課、固定資産税は資産税課、納付方法は税務総務課、証明書は収納対策課等）",
+   "tel": "053-457-2261（税務総務課）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "税目ごとの担当課の分かれ方、元目分庁舎への集約をWebFetchで確認。税務署が開設する確定申告会場の個別URLは404だったため、税務署からのお知らせページに差し替え。"
  },
  {
   "href": "/life/work-life/tax-certificates/",
@@ -7116,7 +8552,35 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shiminze/zei/syoumeikojin.html",
+    "label": "税務各種証明書（個人）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shiminze/zei/siminze_kazeisyoumei.html",
+    "label": "課税証明書の交付を受けたいとき",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shisanze/zei/madokazei.html",
+    "label": "固定資産評価・公課証明書の交付を受けたいとき",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shiminze/zei/syoumeihoujin.html",
+    "label": "税務各種証明書（法人）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "所得証明書・課税証明書は市民税課／固定資産関連は資産税課／納税証明書は収納対策課",
+   "tel": "053-457-2144（市民税課）／053-457-2157（資産税課）／053-457-2268（収納対策課）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "証明書の種類ごとに担当課が異なること、コンビニ交付・オンライン申請の対応をWebFetchで確認。「土・日曜日に税務証明書をとることができますか」の個別FAQページは404だったため、税務各種証明書（個人）ページに差し替え。"
  },
  {
   "href": "/life/work-life/tax-guide/",
@@ -7146,6 +8610,34 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_hamamatsu": [
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/noze/sizeiyuuyo.html",
+    "label": "市税の猶予制度",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/kokuho/kokuho_nenkin/kokuho/nouhutainou.html",
+    "label": "納付の相談・保険料を滞納すると",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/shiminze/zei/kokuzei.html",
+    "label": "税務署からのお知らせ",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.hamamatsu.shizuoka.jp/",
+    "label": "浜松市公式サイト",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "市税の猶予相談は財務部収納対策課／国民健康保険料の納付相談はお住まいの区の国保担当窓口・国保年金課",
+   "tel": "053-457-2251（収納対策課）／053-457-2637（国保年金課）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "徴収猶予・換価の猶予の要件と申請の流れ、国保料と市税で相談窓口が異なることをWebFetchで確認。"
  }
 ]
