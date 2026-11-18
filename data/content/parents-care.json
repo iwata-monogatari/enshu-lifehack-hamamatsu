@@ -197,8 +197,16 @@
      "結果通知までおおむね1か月かかる"
     ],
     "actions": [
-     {"label": "要介護認定の申請を見る", "href": "/life/parents-care/care-certification-support-center/", "source": "浜松ライフハック"},
-     {"label": "介護保険課(本庁)に電話する", "href": "tel:053-457-2374", "source": "053-457-2374"}
+     {
+      "label": "要介護認定の申請を見る",
+      "href": "/life/parents-care/care-certification-support-center/",
+      "source": "浜松ライフハック"
+     },
+     {
+      "label": "介護保険課(本庁)に電話する",
+      "href": "tel:053-457-2374",
+      "source": "053-457-2374"
+     }
     ]
    },
    {
@@ -211,8 +219,16 @@
      "ケアマネジャーと相談しながら決める"
     ],
     "actions": [
-     {"label": "介護保険（浜松市公式）を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/index.html", "source": "浜松市公式"},
-     {"label": "介護施設の探し方を見る", "href": "/life/parents-care/find-nursing-home/", "source": "浜松ライフハック"}
+     {
+      "label": "介護保険（浜松市公式）を見る",
+      "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/index.html",
+      "source": "浜松市公式"
+     },
+     {
+      "label": "介護施設の探し方を見る",
+      "href": "/life/parents-care/find-nursing-home/",
+      "source": "浜松ライフハック"
+     }
     ]
    },
    {
@@ -225,8 +241,16 @@
      "見守りや移動支援もあわせて検討する"
     ],
     "actions": [
-     {"label": "地域包括支援センターを見る", "href": "/life/parents-care/community-support-center/", "source": "浜松ライフハック"},
-     {"label": "高齢者の移動手段を見る", "href": "/life/parents-care/elderly-transportation/", "source": "浜松ライフハック"}
+     {
+      "label": "地域包括支援センターを見る",
+      "href": "/life/parents-care/community-support-center/",
+      "source": "浜松ライフハック"
+     },
+     {
+      "label": "高齢者の移動手段を見る",
+      "href": "/life/parents-care/elderly-transportation/",
+      "source": "浜松ライフハック"
+     }
     ]
    },
    {
@@ -239,8 +263,16 @@
      "地域包括支援センターやケアマネに相談する"
     ],
     "actions": [
-     {"label": "地域包括支援センターに相談する", "href": "/life/parents-care/community-support-center/", "source": "浜松ライフハック"},
-     {"label": "介護施設の探し方を見る", "href": "/life/parents-care/find-nursing-home/", "source": "浜松ライフハック"}
+     {
+      "label": "地域包括支援センターに相談する",
+      "href": "/life/parents-care/community-support-center/",
+      "source": "浜松ライフハック"
+     },
+     {
+      "label": "介護施設の探し方を見る",
+      "href": "/life/parents-care/find-nursing-home/",
+      "source": "浜松ライフハック"
+     }
     ]
    }
   ],
@@ -259,11 +291,55 @@
    ]
   },
   "action_grid": [
-   {"label": "介護保険を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/index.html"},
-   {"label": "介護保険課(本庁)に電話する", "href": "tel:053-457-2374"},
-   {"label": "地域包括支援センターに相談する", "href": "/life/parents-care/community-support-center/"},
-   {"label": "介護施設の探し方を見る", "href": "/life/parents-care/find-nursing-home/"}
-  ]
+   {
+    "label": "介護保険を見る（浜松市公式）",
+    "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/index.html"
+   },
+   {
+    "label": "介護保険課(本庁)に電話する",
+    "href": "tel:053-457-2374"
+   },
+   {
+    "label": "地域包括支援センターに相談する",
+    "href": "/life/parents-care/community-support-center/"
+   },
+   {
+    "label": "介護施設の探し方を見る",
+    "href": "/life/parents-care/find-nursing-home/"
+   }
+  ],
+  "update": {
+   "title": "介護の相談から認定申請まで、家族が準備するもの",
+   "checked": "2026-11-18",
+   "sections": [
+    [
+     "まず親の住所を担当するセンターへ",
+     "地域包括支援センターは区だけでなく町名などの担当地区が決まっています。離れて暮らす家族から相談する場合も、親の住所を伝え、公式の担当地区一覧で窓口を確かめます。"
+    ],
+    [
+     "主治医と日常生活の困りごとを整理",
+     "申請書には主治医の名前・医療機関名・最終診察日を記入します。主治医へ意見書作成が可能か確認し、食事・入浴・服薬・移動など、支援が必要な場面を家族のメモにしておきます。"
+    ],
+    [
+     "被保険者証と医療保険の情報を確認",
+     "介護保険被保険者証などが必要です。加入する医療保険により、資格情報画面・資格情報のお知らせ・資格確認書等も確認します。40〜64歳の人は特定疾病の要件があるため主治医に相談してください。"
+    ],
+    [
+     "本人が動けない場合も相談できる",
+     "本人・家族のほか、地域包括支援センター等が申請する方法があります。郵送申請も案内されています。中央区053-457-2324、浜名区053-585-1122、天竜区053-922-0065が介護保険担当の窓口です。"
+    ]
+   ],
+   "sources": [
+    [
+     "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/20230323ninntei.html",
+     "要介護認定：申請できる人・必要なもの"
+    ],
+    [
+     "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html",
+     "地域包括支援センターの担当地区一覧"
+    ]
+   ]
+  }
  },
  {
   "href": "/life/parents-care/care-certification-support-center/",
@@ -328,8 +404,16 @@
      "必要書類を確認してから訪問する"
     ],
     "actions": [
-     {"label": "長寿支援課に電話する", "href": "tel:053-457-2324", "source": "053-457-2324"},
-     {"label": "介護認定の申請手続きを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/20230323ninntei.html", "source": "浜松市公式"}
+     {
+      "label": "長寿支援課に電話する",
+      "href": "tel:053-457-2324",
+      "source": "053-457-2324"
+     },
+     {
+      "label": "介護認定の申請手続きを見る",
+      "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/20230323ninntei.html",
+      "source": "浜松市公式"
+     }
     ]
    },
    {
@@ -342,8 +426,16 @@
      "必要書類を確認してから訪問する"
     ],
     "actions": [
-     {"label": "浜名区長寿保険課に電話する", "href": "tel:053-585-1122", "source": "053-585-1122"},
-     {"label": "介護認定の申請手続きを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/20230323ninntei.html", "source": "浜松市公式"}
+     {
+      "label": "浜名区長寿保険課に電話する",
+      "href": "tel:053-585-1122",
+      "source": "053-585-1122"
+     },
+     {
+      "label": "介護認定の申請手続きを見る",
+      "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/20230323ninntei.html",
+      "source": "浜松市公式"
+     }
     ]
    },
    {
@@ -356,8 +448,16 @@
      "必要書類を確認してから訪問する"
     ],
     "actions": [
-     {"label": "天竜区長寿保険課に電話する", "href": "tel:053-922-0065", "source": "053-922-0065"},
-     {"label": "介護認定の申請手続きを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/20230323ninntei.html", "source": "浜松市公式"}
+     {
+      "label": "天竜区長寿保険課に電話する",
+      "href": "tel:053-922-0065",
+      "source": "053-922-0065"
+     },
+     {
+      "label": "介護認定の申請手続きを見る",
+      "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/20230323ninntei.html",
+      "source": "浜松市公式"
+     }
     ]
    },
    {
@@ -370,8 +470,16 @@
      "行政センターの窓口でも対応可能"
     ],
     "actions": [
-     {"label": "市民コールセンターに電話する", "href": "tel:053-457-2111", "source": "053-457-2111"},
-     {"label": "地域包括支援センターを見る", "href": "/life/parents-care/community-support-center/", "source": "浜松ライフハック"}
+     {
+      "label": "市民コールセンターに電話する",
+      "href": "tel:053-457-2111",
+      "source": "053-457-2111"
+     },
+     {
+      "label": "地域包括支援センターを見る",
+      "href": "/life/parents-care/community-support-center/",
+      "source": "浜松ライフハック"
+     }
     ]
    }
   ],
@@ -390,11 +498,55 @@
    ]
   },
   "action_grid": [
-   {"label": "介護認定の申請手続きを見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/20230323ninntei.html"},
-   {"label": "市民コールセンターに電話する", "href": "tel:053-457-2111"},
-   {"label": "地域包括支援センターを見る", "href": "/life/parents-care/community-support-center/"},
-   {"label": "介護保険のしくみを見る", "href": "/life/parents-care/long-term-care-insurance/"}
-  ]
+   {
+    "label": "介護認定の申請手続きを見る（浜松市公式）",
+    "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/20230323ninntei.html"
+   },
+   {
+    "label": "市民コールセンターに電話する",
+    "href": "tel:053-457-2111"
+   },
+   {
+    "label": "地域包括支援センターを見る",
+    "href": "/life/parents-care/community-support-center/"
+   },
+   {
+    "label": "介護保険のしくみを見る",
+    "href": "/life/parents-care/long-term-care-insurance/"
+   }
+  ],
+  "update": {
+   "title": "介護の相談から認定申請まで、家族が準備するもの",
+   "checked": "2026-11-18",
+   "sections": [
+    [
+     "まず親の住所を担当するセンターへ",
+     "地域包括支援センターは区だけでなく町名などの担当地区が決まっています。離れて暮らす家族から相談する場合も、親の住所を伝え、公式の担当地区一覧で窓口を確かめます。"
+    ],
+    [
+     "主治医と日常生活の困りごとを整理",
+     "申請書には主治医の名前・医療機関名・最終診察日を記入します。主治医へ意見書作成が可能か確認し、食事・入浴・服薬・移動など、支援が必要な場面を家族のメモにしておきます。"
+    ],
+    [
+     "被保険者証と医療保険の情報を確認",
+     "介護保険被保険者証などが必要です。加入する医療保険により、資格情報画面・資格情報のお知らせ・資格確認書等も確認します。40〜64歳の人は特定疾病の要件があるため主治医に相談してください。"
+    ],
+    [
+     "本人が動けない場合も相談できる",
+     "本人・家族のほか、地域包括支援センター等が申請する方法があります。郵送申請も案内されています。中央区053-457-2324、浜名区053-585-1122、天竜区053-922-0065が介護保険担当の窓口です。"
+    ]
+   ],
+   "sources": [
+    [
+     "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/20230323ninntei.html",
+     "要介護認定：申請できる人・必要なもの"
+    ],
+    [
+     "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html",
+     "地域包括支援センターの担当地区一覧"
+    ]
+   ]
+  }
  },
  {
   "href": "/life/parents-care/care-started/",
@@ -459,8 +611,16 @@
      "要介護認定の申請を検討する"
     ],
     "actions": [
-     {"label": "地域包括支援センターを見る", "href": "/life/parents-care/community-support-center/", "source": "浜松ライフハック"},
-     {"label": "要介護認定の申請を見る", "href": "/life/parents-care/care-certification-support-center/", "source": "浜松ライフハック"}
+     {
+      "label": "地域包括支援センターを見る",
+      "href": "/life/parents-care/community-support-center/",
+      "source": "浜松ライフハック"
+     },
+     {
+      "label": "要介護認定の申請を見る",
+      "href": "/life/parents-care/care-certification-support-center/",
+      "source": "浜松ライフハック"
+     }
     ]
    },
    {
@@ -473,8 +633,16 @@
      "早めの相談で選択肢が広がる"
     ],
     "actions": [
-     {"label": "地域包括支援センターを見る", "href": "/life/parents-care/community-support-center/", "source": "浜松ライフハック"},
-     {"label": "認知症の相談を見る", "href": "/life/parents-care/dementia-consultation/", "source": "浜松ライフハック"}
+     {
+      "label": "地域包括支援センターを見る",
+      "href": "/life/parents-care/community-support-center/",
+      "source": "浜松ライフハック"
+     },
+     {
+      "label": "認知症の相談を見る",
+      "href": "/life/parents-care/dementia-consultation/",
+      "source": "浜松ライフハック"
+     }
     ]
    },
    {
@@ -487,8 +655,16 @@
      "帰省のタイミングで窓口に同行する"
     ],
     "actions": [
-     {"label": "離れて暮らす親の見守りを見る", "href": "/life/parents-care/check-parents/", "source": "浜松ライフハック"},
-     {"label": "高齢者の移動手段を見る", "href": "/life/parents-care/elderly-transportation/", "source": "浜松ライフハック"}
+     {
+      "label": "離れて暮らす親の見守りを見る",
+      "href": "/life/parents-care/check-parents/",
+      "source": "浜松ライフハック"
+     },
+     {
+      "label": "高齢者の移動手段を見る",
+      "href": "/life/parents-care/elderly-transportation/",
+      "source": "浜松ライフハック"
+     }
     ]
    },
    {
@@ -501,8 +677,16 @@
      "成年後見制度も視野に入れる"
     ],
     "actions": [
-     {"label": "介護保険のしくみを見る", "href": "/life/parents-care/long-term-care-insurance/", "source": "浜松ライフハック"},
-     {"label": "成年後見制度を見る", "href": "/life/parents-care/adult-guardianship/", "source": "浜松ライフハック"}
+     {
+      "label": "介護保険のしくみを見る",
+      "href": "/life/parents-care/long-term-care-insurance/",
+      "source": "浜松ライフハック"
+     },
+     {
+      "label": "成年後見制度を見る",
+      "href": "/life/parents-care/adult-guardianship/",
+      "source": "浜松ライフハック"
+     }
     ]
    }
   ],
@@ -521,10 +705,61 @@
    ]
   },
   "action_grid": [
-   {"label": "地域包括支援センターを見る", "href": "/life/parents-care/community-support-center/"},
-   {"label": "要介護認定の申請を見る", "href": "/life/parents-care/care-certification-support-center/"},
-   {"label": "高齢者の方へを見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/index.html"},
-   {"label": "市民コールセンターに電話する", "href": "tel:053-457-2111"}
+   {
+    "label": "地域包括支援センターを見る",
+    "href": "/life/parents-care/community-support-center/"
+   },
+   {
+    "label": "要介護認定の申請を見る",
+    "href": "/life/parents-care/care-certification-support-center/"
+   },
+   {
+    "label": "高齢者の方へを見る（浜松市公式）",
+    "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/index.html"
+   },
+   {
+    "label": "市民コールセンターに電話する",
+    "href": "tel:053-457-2111"
+   }
+  ],
+  "update": {
+   "title": "介護の相談から認定申請まで、家族が準備するもの",
+   "checked": "2026-11-18",
+   "sections": [
+    [
+     "まず親の住所を担当するセンターへ",
+     "地域包括支援センターは区だけでなく町名などの担当地区が決まっています。離れて暮らす家族から相談する場合も、親の住所を伝え、公式の担当地区一覧で窓口を確かめます。"
+    ],
+    [
+     "主治医と日常生活の困りごとを整理",
+     "申請書には主治医の名前・医療機関名・最終診察日を記入します。主治医へ意見書作成が可能か確認し、食事・入浴・服薬・移動など、支援が必要な場面を家族のメモにしておきます。"
+    ],
+    [
+     "被保険者証と医療保険の情報を確認",
+     "介護保険被保険者証などが必要です。加入する医療保険により、資格情報画面・資格情報のお知らせ・資格確認書等も確認します。40〜64歳の人は特定疾病の要件があるため主治医に相談してください。"
+    ],
+    [
+     "本人が動けない場合も相談できる",
+     "本人・家族のほか、地域包括支援センター等が申請する方法があります。郵送申請も案内されています。中央区053-457-2324、浜名区053-585-1122、天竜区053-922-0065が介護保険担当の窓口です。"
+    ]
+   ],
+   "sources": [
+    [
+     "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/20230323ninntei.html",
+     "要介護認定：申請できる人・必要なもの"
+    ],
+    [
+     "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html",
+     "地域包括支援センターの担当地区一覧"
+    ]
+   ]
+  },
+  "checklist": [
+   "親の住所を担当する地域包括支援センターを確認した",
+   "主治医と最後に受診した日を整理した",
+   "困っている日常生活の場面をメモした",
+   "申請できる家族や支援者を相談した",
+   "認定結果が出るまでの支援を相談した"
   ]
  },
  {
@@ -590,8 +825,16 @@
      "帰省時に生活状況を確認する"
     ],
     "actions": [
-     {"label": "地域包括支援センターを見る", "href": "/life/parents-care/community-support-center/", "source": "浜松ライフハック"},
-     {"label": "高齢者見守り110番に電話する", "href": "tel:053-457-2661", "source": "053-457-2661"}
+     {
+      "label": "地域包括支援センターを見る",
+      "href": "/life/parents-care/community-support-center/",
+      "source": "浜松ライフハック"
+     },
+     {
+      "label": "高齢者見守り110番に電話する",
+      "href": "tel:053-457-2661",
+      "source": "053-457-2661"
+     }
     ]
    },
    {
@@ -604,8 +847,16 @@
      "近隣住民への声かけもあわせて検討する"
     ],
     "actions": [
-     {"label": "緊急通報システムを見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/zaitaku/kinkyuu.html", "source": "浜松市公式"},
-     {"label": "高齢者福祉課に電話する", "href": "tel:053-457-2790", "source": "053-457-2790"}
+     {
+      "label": "緊急通報システムを見る（浜松市公式）",
+      "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/zaitaku/kinkyuu.html",
+      "source": "浜松市公式"
+     },
+     {
+      "label": "高齢者福祉課に電話する",
+      "href": "tel:053-457-2790",
+      "source": "053-457-2790"
+     }
     ]
    },
    {
@@ -618,8 +869,16 @@
      "近隣にも見守りを依頼しておく"
     ],
     "actions": [
-     {"label": "認知症の相談を見る", "href": "/life/parents-care/dementia-consultation/", "source": "浜松ライフハック"},
-     {"label": "地域包括支援センターを見る", "href": "/life/parents-care/community-support-center/", "source": "浜松ライフハック"}
+     {
+      "label": "認知症の相談を見る",
+      "href": "/life/parents-care/dementia-consultation/",
+      "source": "浜松ライフハック"
+     },
+     {
+      "label": "地域包括支援センターを見る",
+      "href": "/life/parents-care/community-support-center/",
+      "source": "浜松ライフハック"
+     }
     ]
    },
    {
@@ -632,8 +891,16 @@
      "緊急時の連絡先を共有しておく"
     ],
     "actions": [
-     {"label": "はままつあんしんネットワークを見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/netwark/netwarkdukuri.html", "source": "浜松市公式"},
-     {"label": "高齢者の移動手段を見る", "href": "/life/parents-care/elderly-transportation/", "source": "浜松ライフハック"}
+     {
+      "label": "はままつあんしんネットワークを見る（浜松市公式）",
+      "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/netwark/netwarkdukuri.html",
+      "source": "浜松市公式"
+     },
+     {
+      "label": "高齢者の移動手段を見る",
+      "href": "/life/parents-care/elderly-transportation/",
+      "source": "浜松ライフハック"
+     }
     ]
    }
   ],
@@ -652,11 +919,55 @@
    ]
   },
   "action_grid": [
-   {"label": "緊急通報システムを見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/zaitaku/kinkyuu.html"},
-   {"label": "はままつあんしんネットワークを見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/netwark/netwarkdukuri.html"},
-   {"label": "地域包括支援センターを見る", "href": "/life/parents-care/community-support-center/"},
-   {"label": "高齢者見守り110番に電話する", "href": "tel:053-457-2661"}
-  ]
+   {
+    "label": "緊急通報システムを見る（浜松市公式）",
+    "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/zaitaku/kinkyuu.html"
+   },
+   {
+    "label": "はままつあんしんネットワークを見る（浜松市公式）",
+    "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/netwark/netwarkdukuri.html"
+   },
+   {
+    "label": "地域包括支援センターを見る",
+    "href": "/life/parents-care/community-support-center/"
+   },
+   {
+    "label": "高齢者見守り110番に電話する",
+    "href": "tel:053-457-2661"
+   }
+  ],
+  "update": {
+   "title": "2026年度の高齢者予防接種：期間と事前準備",
+   "checked": "2026-11-18",
+   "sections": [
+    [
+     "インフルエンザは2027年1月31日まで",
+     "助成期間は2026年10月1日〜2027年1月31日、期間中1回、自己負担1,600円です。浜松市に住民登録があり、接種当日65歳以上の人、または60〜64歳で所定の重い障がいがある人が対象です。市内委託医療機関へ直接予約します。"
+    ],
+    [
+     "新型コロナは2027年3月31日まで",
+     "同じ年齢等の要件を満たす人が対象で、2026年10月1日〜2027年3月31日の間に1回、自己負担8,000円です。接種の可否・時期は医療機関に相談してください。"
+    ],
+    [
+     "無料接種の書類は接種前に確認",
+     "生活保護受給世帯・市民税非課税世帯は、無料接種券や所定の証明書類による免除があります。接種後の払い戻しはできません。市外で受けたい場合も、接種前に健康づくりセンターまたは感染症対策課へ申請してください。"
+    ]
+   ],
+   "sources": [
+    [
+     "https://www.city.hamamatsu.shizuoka.jp/yobo/health/yobo/koureisyainfuluenza.html",
+     "2026年度高齢者インフルエンザ予防接種"
+    ],
+    [
+     "https://www.city.hamamatsu.shizuoka.jp/koho2/pr/kouhou_all/2609/3news-04.html",
+     "インフルエンザ・新型コロナの助成期間と自己負担"
+    ],
+    [
+     "https://www.city.hamamatsu.shizuoka.jp/yobo/health/yobo/shigaiyobousessyu.html",
+     "市外で高齢者予防接種を受ける場合"
+    ]
+   ]
+  }
  },
  {
   "href": "/life/parents-care/community-support-center/",
@@ -721,8 +1032,16 @@
      "元浜・鴨江・佐鳴台など地区ごとに窓口がある"
     ],
     "actions": [
-     {"label": "地域包括支援センター一覧を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html", "source": "浜松市公式"},
-     {"label": "高齢者福祉課に電話する", "href": "tel:053-457-2338", "source": "053-457-2338"}
+     {
+      "label": "地域包括支援センター一覧を見る（浜松市公式）",
+      "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html",
+      "source": "浜松市公式"
+     },
+     {
+      "label": "高齢者福祉課に電話する",
+      "href": "tel:053-457-2338",
+      "source": "053-457-2338"
+     }
     ]
    },
    {
@@ -735,8 +1054,16 @@
      "町名から担当センターを確認する"
     ],
     "actions": [
-     {"label": "地域包括支援センター一覧を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html", "source": "浜松市公式"},
-     {"label": "高齢者福祉課に電話する", "href": "tel:053-457-2338", "source": "053-457-2338"}
+     {
+      "label": "地域包括支援センター一覧を見る（浜松市公式）",
+      "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html",
+      "source": "浜松市公式"
+     },
+     {
+      "label": "高齢者福祉課に電話する",
+      "href": "tel:053-457-2338",
+      "source": "053-457-2338"
+     }
     ]
    },
    {
@@ -749,8 +1076,16 @@
      "区域が広いため事前の電話確認がおすすめ"
     ],
     "actions": [
-     {"label": "地域包括支援センター一覧を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html", "source": "浜松市公式"},
-     {"label": "高齢者福祉課に電話する", "href": "tel:053-457-2338", "source": "053-457-2338"}
+     {
+      "label": "地域包括支援センター一覧を見る（浜松市公式）",
+      "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html",
+      "source": "浜松市公式"
+     },
+     {
+      "label": "高齢者福祉課に電話する",
+      "href": "tel:053-457-2338",
+      "source": "053-457-2338"
+     }
     ]
    },
    {
@@ -763,8 +1098,16 @@
      "市民コールセンターでも案内してもらえる"
     ],
     "actions": [
-     {"label": "高齢者福祉課に電話する", "href": "tel:053-457-2338", "source": "053-457-2338"},
-     {"label": "市民コールセンターに電話する", "href": "tel:053-457-2111", "source": "053-457-2111"}
+     {
+      "label": "高齢者福祉課に電話する",
+      "href": "tel:053-457-2338",
+      "source": "053-457-2338"
+     },
+     {
+      "label": "市民コールセンターに電話する",
+      "href": "tel:053-457-2111",
+      "source": "053-457-2111"
+     }
     ]
    }
   ],
@@ -783,11 +1126,55 @@
    ]
   },
   "action_grid": [
-   {"label": "地域包括支援センター一覧を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html"},
-   {"label": "高齢者福祉課に電話する", "href": "tel:053-457-2338"},
-   {"label": "要介護認定の申請を見る", "href": "/life/parents-care/care-certification-support-center/"},
-   {"label": "認知症の相談を見る", "href": "/life/parents-care/dementia-consultation/"}
-  ]
+   {
+    "label": "地域包括支援センター一覧を見る（浜松市公式）",
+    "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html"
+   },
+   {
+    "label": "高齢者福祉課に電話する",
+    "href": "tel:053-457-2338"
+   },
+   {
+    "label": "要介護認定の申請を見る",
+    "href": "/life/parents-care/care-certification-support-center/"
+   },
+   {
+    "label": "認知症の相談を見る",
+    "href": "/life/parents-care/dementia-consultation/"
+   }
+  ],
+  "update": {
+   "title": "介護の相談から認定申請まで、家族が準備するもの",
+   "checked": "2026-11-18",
+   "sections": [
+    [
+     "まず親の住所を担当するセンターへ",
+     "地域包括支援センターは区だけでなく町名などの担当地区が決まっています。離れて暮らす家族から相談する場合も、親の住所を伝え、公式の担当地区一覧で窓口を確かめます。"
+    ],
+    [
+     "主治医と日常生活の困りごとを整理",
+     "申請書には主治医の名前・医療機関名・最終診察日を記入します。主治医へ意見書作成が可能か確認し、食事・入浴・服薬・移動など、支援が必要な場面を家族のメモにしておきます。"
+    ],
+    [
+     "被保険者証と医療保険の情報を確認",
+     "介護保険被保険者証などが必要です。加入する医療保険により、資格情報画面・資格情報のお知らせ・資格確認書等も確認します。40〜64歳の人は特定疾病の要件があるため主治医に相談してください。"
+    ],
+    [
+     "本人が動けない場合も相談できる",
+     "本人・家族のほか、地域包括支援センター等が申請する方法があります。郵送申請も案内されています。中央区053-457-2324、浜名区053-585-1122、天竜区053-922-0065が介護保険担当の窓口です。"
+    ]
+   ],
+   "sources": [
+    [
+     "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/20230323ninntei.html",
+     "要介護認定：申請できる人・必要なもの"
+    ],
+    [
+     "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html",
+     "地域包括支援センターの担当地区一覧"
+    ]
+   ]
+  }
  },
  {
   "href": "/life/parents-care/dementia-consultation/",

@@ -303,7 +303,11 @@
           "焦らず一つずつ手続きを進める"
         ],
         "actions": [
-          { "label": "地域包括支援センター一覧を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html", "source": "浜松市公式サイト" }
+          {
+            "label": "地域包括支援センター一覧を見る",
+            "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html",
+            "source": "浜松市公式サイト"
+          }
         ]
       },
       {
@@ -316,7 +320,11 @@
           "行政センターでも申請を受け付けている"
         ],
         "actions": [
-          { "label": "介護保険のしくみを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/index.html", "source": "浜松市公式サイト" }
+          {
+            "label": "介護保険のしくみを見る",
+            "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/index.html",
+            "source": "浜松市公式サイト"
+          }
         ]
       },
       {
@@ -329,7 +337,11 @@
           "成年後見制度も検討材料になる"
         ],
         "actions": [
-          { "label": "地域包括支援センターを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/houkatsu/top.html", "source": "浜松市公式サイト" }
+          {
+            "label": "地域包括支援センターを見る",
+            "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/houkatsu/top.html",
+            "source": "浜松市公式サイト"
+          }
         ]
       },
       {
@@ -342,20 +354,71 @@
           "詳しくは区の窓口や地域包括支援センターへ"
         ],
         "actions": [
-          { "label": "在宅で受けられるサービスを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/zaitaku.html", "source": "浜松市公式サイト" }
+          {
+            "label": "在宅で受けられるサービスを見る",
+            "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/zaitaku.html",
+            "source": "浜松市公式サイト"
+          }
         ]
       }
     ],
     "steps": {
-      "today": ["今の困りごとを簡単にメモする"],
-      "this_week": ["お住まいの地域包括支援センターに電話で相談する"],
-      "outside": ["必要に応じて要介護認定の申請に進む"]
+      "today": [
+        "今の困りごとを簡単にメモする"
+      ],
+      "this_week": [
+        "お住まいの地域包括支援センターに電話で相談する"
+      ],
+      "outside": [
+        "必要に応じて要介護認定の申請に進む"
+      ]
     },
     "action_grid": [
-      { "label": "地域包括支援センター一覧を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html" },
-      { "label": "介護保険を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/index.html" },
-      { "label": "在宅サービスを見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/zaitaku.html" }
-    ]
+      {
+        "label": "地域包括支援センター一覧を見る（浜松市公式）",
+        "href": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html"
+      },
+      {
+        "label": "介護保険を見る（浜松市公式）",
+        "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/index.html"
+      },
+      {
+        "label": "在宅サービスを見る（浜松市公式）",
+        "href": "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/zaitaku.html"
+      }
+    ],
+    "update": {
+      "title": "介護の相談から認定申請まで、家族が準備するもの",
+      "checked": "2026-11-18",
+      "sections": [
+        [
+          "まず親の住所を担当するセンターへ",
+          "地域包括支援センターは区だけでなく町名などの担当地区が決まっています。離れて暮らす家族から相談する場合も、親の住所を伝え、公式の担当地区一覧で窓口を確かめます。"
+        ],
+        [
+          "主治医と日常生活の困りごとを整理",
+          "申請書には主治医の名前・医療機関名・最終診察日を記入します。主治医へ意見書作成が可能か確認し、食事・入浴・服薬・移動など、支援が必要な場面を家族のメモにしておきます。"
+        ],
+        [
+          "被保険者証と医療保険の情報を確認",
+          "介護保険被保険者証などが必要です。加入する医療保険により、資格情報画面・資格情報のお知らせ・資格確認書等も確認します。40〜64歳の人は特定疾病の要件があるため主治医に相談してください。"
+        ],
+        [
+          "本人が動けない場合も相談できる",
+          "本人・家族のほか、地域包括支援センター等が申請する方法があります。郵送申請も案内されています。中央区053-457-2324、浜名区053-585-1122、天竜区053-922-0065が介護保険担当の窓口です。"
+        ]
+      ],
+      "sources": [
+        [
+          "https://www.city.hamamatsu.shizuoka.jp/kaigo/care/20230323ninntei.html",
+          "要介護認定：申請できる人・必要なもの"
+        ],
+        [
+          "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/soudan/houkatsu.html",
+          "地域包括支援センターの担当地区一覧"
+        ]
+      ]
+    }
   },
   {
     "href": "/life/troubles-consult/child-consultation/",
@@ -742,9 +805,18 @@
       }
     ],
     "action_grid": [
-      { "label": "各種証明（農地法許可証明等）を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/syoumei.html" },
-      { "label": "農地に関する許可申請・届出・証明等を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/tetuduki.html" },
-      { "label": "農業委員会事務局に相談する", "href": "tel:053-457-2481" }
+      {
+        "label": "各種証明（農地法許可証明等）を見る（浜松市公式）",
+        "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/syoumei.html"
+      },
+      {
+        "label": "農地に関する許可申請・届出・証明等を見る（浜松市公式）",
+        "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/3jyou.html"
+      },
+      {
+        "label": "農業委員会事務局に相談する",
+        "href": "tel:053-457-2481"
+      }
     ]
   },
   {
@@ -893,7 +965,11 @@
           "用途(住宅・駐車場等)を明確にしておく"
         ],
         "actions": [
-          { "label": "農地転用（農地法第4条・第5条届出・許可申請）を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html", "source": "浜松市公式サイト" }
+          {
+            "label": "農地転用（農地法第4条・第5条届出・許可申請）を見る",
+            "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html",
+            "source": "浜松市公式サイト"
+          }
         ]
       },
       {
@@ -906,7 +982,11 @@
           "市街化区域は届出のみで可能"
         ],
         "actions": [
-          { "label": "農地転用（農地法第4条・第5条届出・許可申請）を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html", "source": "浜松市公式サイト" }
+          {
+            "label": "農地転用（農地法第4条・第5条届出・許可申請）を見る",
+            "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html",
+            "source": "浜松市公式サイト"
+          }
         ]
       },
       {
@@ -919,7 +999,11 @@
           "転用完了後の届出が必要な場合もある"
         ],
         "actions": [
-          { "label": "「農地」について（農業委員会）を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchi.html", "source": "浜松市公式サイト" }
+          {
+            "label": "「農地」について（農業委員会）を見る",
+            "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouchi.html",
+            "source": "浜松市公式サイト"
+          }
         ]
       },
       {
@@ -932,19 +1016,38 @@
           "着工前の相談が重要"
         ],
         "actions": [
-          { "label": "農地に関する許可申請・届出等を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/tetuduki.html", "source": "浜松市公式サイト" }
+          {
+            "label": "農地に関する許可申請・届出等を見る",
+            "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/3jyou.html",
+            "source": "浜松市公式サイト"
+          }
         ]
       }
     ],
     "steps": {
-      "today": ["転用したい農地の場所と用途を整理する"],
-      "this_week": ["農業委員会事務局(担当地域の窓口)に相談する"],
-      "outside": ["必要書類を準備し届出・許可申請を行う"]
+      "today": [
+        "転用したい農地の場所と用途を整理する"
+      ],
+      "this_week": [
+        "農業委員会事務局(担当地域の窓口)に相談する"
+      ],
+      "outside": [
+        "必要書類を準備し届出・許可申請を行う"
+      ]
     },
     "action_grid": [
-      { "label": "農地転用（農地法第4条・第5条）を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html" },
-      { "label": "農地転用（農地法第4条・第5条）を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html" },
-      { "label": "農地に関する許可申請・届出等を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/tetuduki.html" }
+      {
+        "label": "農地転用（農地法第4条・第5条）を見る（浜松市公式）",
+        "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html"
+      },
+      {
+        "label": "農地転用（農地法第4条・第5条）を見る（浜松市公式）",
+        "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/nouten.html"
+      },
+      {
+        "label": "農地に関する許可申請・届出等を見る（浜松市公式）",
+        "href": "https://www.city.hamamatsu.shizuoka.jp/nogyoi/shinko/agri/farmland/3jyou.html"
+      }
     ]
   },
   {
@@ -1781,7 +1884,11 @@
           "空き家ワンストップ相談会も利用できる"
         ],
         "actions": [
-          { "label": "空き家に関するお問合わせ先を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiyatoiawase.html", "source": "浜松市公式サイト" }
+          {
+            "label": "空き家に関するお問合わせ先を見る",
+            "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiyatoiawase.html",
+            "source": "浜松市公式サイト"
+          }
         ]
       },
       {
@@ -1794,7 +1901,11 @@
           "登録には一定の条件がある"
         ],
         "actions": [
-          { "label": "浜松市空き家バンクを見る", "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiya/akiyabank.html", "source": "浜松市公式サイト" }
+          {
+            "label": "浜松市空き家バンクを見る",
+            "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiya/akiyabank.html",
+            "source": "浜松市公式サイト"
+          }
         ]
       },
       {
@@ -1807,7 +1918,11 @@
           "要件は市民生活課で確認する"
         ],
         "actions": [
-          { "label": "空き家解体補助金を見る", "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiya/akiyahozixyo.html", "source": "浜松市公式サイト" }
+          {
+            "label": "空き家解体補助金を見る",
+            "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiya/akiyahozixyo.html",
+            "source": "浜松市公式サイト"
+          }
         ]
       },
       {
@@ -1820,19 +1935,62 @@
           "無理な勧誘のない相談先を選ぶことが大切"
         ],
         "actions": [
-          { "label": "富士ヶ丘サービスを見る", "href": "https://www.fujigaoka-service.co.jp/", "source": "富士ヶ丘サービス" }
+          {
+            "label": "富士ヶ丘サービスを見る",
+            "href": "https://www.fujigaoka-service.co.jp/",
+            "source": "富士ヶ丘サービス"
+          }
         ]
       }
     ],
     "steps": {
-      "today": ["空き家の現状(築年数・立地・管理状況)を整理する"],
-      "this_week": ["市民生活課(053-457-2231)に相談し、利用できる制度を確認する"],
-      "outside": ["必要に応じて空き家バンクや不動産事業者への相談も検討する"]
+      "today": [
+        "空き家の現状(築年数・立地・管理状況)を整理する"
+      ],
+      "this_week": [
+        "市民生活課(053-457-2231)に相談し、利用できる制度を確認する"
+      ],
+      "outside": [
+        "必要に応じて空き家バンクや不動産事業者への相談も検討する"
+      ]
     },
     "action_grid": [
-      { "label": "空き家に関するお問合わせ先を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiyatoiawase.html" },
-      { "label": "浜松市空き家バンクを見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiya/akiyabank.html" },
-      { "label": "空き家解体補助金を見る（浜松市公式）", "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiya/akiyahozixyo.html" }
-    ]
+      {
+        "label": "空き家に関するお問合わせ先を見る（浜松市公式）",
+        "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiyatoiawase.html"
+      },
+      {
+        "label": "浜松市空き家バンクを見る（浜松市公式）",
+        "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiya/akiyabank.html"
+      },
+      {
+        "label": "空き家解体補助金を見る（浜松市公式）",
+        "href": "https://www.city.hamamatsu.shizuoka.jp/simink/akiya/akiyahozixyo.html"
+      }
+    ],
+    "update": {
+      "title": "空き家解体補助：2026年度の事前相談と主な条件",
+      "checked": "2026-11-18",
+      "sections": [
+        [
+          "事前相談は12月25日必着",
+          "事前相談の受付期間は2026年4月20日〜12月25日。先着順の仮受付で、申請は定員20名と案内されています。11月18日時点の残枠はこのサイトでは確定できません。工事の契約・着手前に、市民生活課053-457-2231へ手順を確認してください。"
+        ],
+        [
+          "相続・建築時期・利用状況の条件がある",
+          "1981年5月31日以前に建築済み等、2022年12月31日以前の相続・遺贈、過去1年以上の空き家、相続人等の建物登記、指定団体による売却不可能との判定など、全要件を満たす必要があります。単に古い家であれば対象になる制度ではありません。"
+        ],
+        [
+          "家財処分費は解体費と分ける",
+          "補助は解体費の3分の1、最大50万円です。家具・食器など一般廃棄物の処理費は補助対象外なので、同じ事業者へ依頼する場合も見積りを分けます。共有者の同意や解体後の土地利用条件も事前確認が必要です。"
+        ]
+      ],
+      "sources": [
+        [
+          "https://www.city.hamamatsu.shizuoka.jp/simink/akiya/akiyahozixyo.html",
+          "令和8年度の空き家解体補助金"
+        ]
+      ]
+    }
   }
 ]

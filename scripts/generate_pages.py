@@ -22,6 +22,8 @@ generate_pages.py — data/topics_master.json + data/city.json から中項目�
 import argparse
 import json
 import re
+from urllib.parse import urlparse
+from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -46,6 +48,39 @@ def esc(s):
     if s is None:
         return ""
     return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
+
+
+def inline_links(text):
+    """Render authored links in card copy, escaping other text and attributes."""
+    class Links(HTMLParser):
+        def __init__(self):
+            super().__init__(convert_charrefs=True)
+            self.parts = []
+            self.link_open = False
+        def handle_starttag(self, tag, attrs):
+            href = dict(attrs).get('href', '')
+            if tag == 'a' and (href.startswith(('/', '#', 'https://', 'http://', 'tel:', 'mailto:'))):
+                self.parts.append(f'<a href="{esc(href)}">')
+                self.link_open = True
+        def handle_endtag(self, tag):
+            if tag == 'a' and self.link_open:
+                self.parts.append('</a>')
+                self.link_open = False
+        def handle_data(self, data):
+            self.parts.append(esc(data))
+    parser = Links()
+    parser.feed(text)
+    parser.close()
+    if parser.link_open: parser.parts.append('</a>')
+    return ''.join(parser.parts)
+
+
+def decorated(s):
+    """Preserve leading category emoji while keeping it out of spoken labels."""
+    for icon in CATEGORY_ICON.values():
+        if s.startswith(icon):
+            return f'<span aria-hidden="true">{esc(icon)}</span>{esc(s[len(icon):])}'
+    return esc(s)
 
 
 def load():
@@ -76,8 +111,8 @@ def real_cards_html(cards):
     parts = []
     for c in cards:
         parts.append(
-            f'<div class="card real-card"><h3>{esc(c.get("icon",""))} {esc(c.get("title",""))}</h3>'
-            f'<p>{esc(c.get("body",""))}</p></div>'
+            f'<div class="card real-card"><h3><span aria-hidden="true">{esc(c.get("icon",""))}</span> {esc(c.get("title",""))}</h3>'
+            f'<p>{inline_links(c.get("body",""))}</p></div>'
         )
     return f'<h2 class="sec">先に知っておきたいこと</h2><div class="grid">{"".join(parts)}</div>'
 
@@ -154,8 +189,10 @@ def facts_html(facts):
     if not facts:
         return ""
     rows = []
+    labels = {'window':'相談・申請先','tel':'電話','apply_period':'申請時期','fee':'費用','note':'注意点','notice':'案内','documents':'必要書類','items':'対象項目','method':'手続き方法','methods':'手続き方法','target':'対象','hours':'受付時間','deadline':'期限','guide':'案内資料','region_note':'地域ごとの違い','rule':'出し方','distribution':'入手方法','frequency':'頻度','reservation':'予約','duration':'期間','obligation':'届出','notification':'届出'}
+    labels.update({'address':'所在地','apply_method':'申請方法','flow':'手順','flow_nursery':'保育施設の手続き','flow_school':'学校の手続き','mail_address':'郵送先','name_local':'市での名称'})
     for k, v in facts.items():
-        rows.append(f"<p class=\"mini\"><b>{esc(k)}</b>：{esc(v)}</p>")
+        rows.append(f"<p class=\"mini\"><b>{esc(labels.get(k, k))}</b>：{esc(v)}</p>")
     return "".join(rows)
 
 
@@ -164,9 +201,11 @@ def sources_html(sources, city_name):
         return f"<p class=\"mini\">出典URL未確定（{esc(city_name)}公式サイトでの個別確認が必要）</p>"
     links = []
     for s in sources:
+        host = urlparse(s['url']).netloc
+        label = '浜松市公式' if host == 'www.city.hamamatsu.shizuoka.jp' else ('関連ガイド' if not host else ('浜松市子育て情報サイト' if host == 'www.hamamatsu-pippi.net' else '参照先'))
         links.append(
             f'<a class="official-link" href="{esc(s["url"])}" target="_blank" rel="noopener">'
-            f'{esc(s["label"])} <span>{esc(city_name)}公式</span></a>'
+            f'{esc(s["label"])} <span>{label}</span></a>'
         )
     return "".join(links)
 
@@ -179,7 +218,7 @@ def related_links_html(item, category_items):
     links = []
     for o in others:
         title = o.get("title") or o.get("title_iwata") or o["href"]
-        links.append(f'<a class="official-link" href="{esc(o["href"])}">{esc(title)}</a>')
+        links.append(f'<a class="official-link" href="{esc(o["href"])}">{decorated(title)}</a>')
     return "".join(links)
 
 
@@ -215,14 +254,24 @@ def render_page(item, city, category_items, content_map):
     hub_href = min((i["href"] for i in category_items), key=len)
     is_hub = item["href"] == hub_href
     if is_hub:
-        breadcrumb = f'<p class="breadcrumb"><a href="/">{esc(site_name)}</a> ／ {esc(icon)} {esc(category)}</p>'
+        breadcrumb = f'<p class="breadcrumb"><a href="/">{esc(site_name)}</a> ／ <span aria-hidden="true">{esc(icon)}</span> {esc(category)}</p>'
     else:
         breadcrumb = (
             f'<p class="breadcrumb"><a href="/">{esc(site_name)}</a> ／ '
-            f'<a href="{esc(hub_href)}">{esc(icon)} {esc(category)}</a> ／ {esc(title)}</p>'
+            f'<a href="{esc(hub_href)}"><span aria-hidden="true">{esc(icon)}</span> {esc(category)}</a> ／ {esc(title)}</p>'
         )
 
     content = content_map.get(item["href"])
+    update_html = ''
+    if content and content.get('update'):
+        update = content['update']
+        sections = ''.join(f'<h3>{esc(s[0])}</h3><p>{esc(s[1])}</p>' for s in update['sections'])
+        links = ''.join(f'<li><a href="{esc(s[0])}">{esc(s[1])}</a></li>' for s in update.get('sources', []))
+        update_html = f'<section class="guide-update" id="guide-update"><p class="eyebrow">{esc(update["checked"])} 確認・補足</p><h2>{esc(update["title"])}</h2>{sections}<ul class="source-links">{links}</ul></section>'
+    checklist_html = ''
+    if content and content.get('checklist'):
+        boxes = ''.join(f'<label><input type="checkbox" data-check="{i}"><span>{esc(s)}</span></label>' for i,s in enumerate(content['checklist']))
+        checklist_html = f'<section class="checklist" data-checklist="{esc(item["href"])}"><h2>済んだことを確認する</h2><p>チェックはこの端末のブラウザに保存されます。個人情報は入力しないでください。</p><p class="check-progress" aria-live="polite"></p>{boxes}<button type="button" class="check-reset">チェックをリセット</button></section>'
 
     if content and content.get("lead"):
         lead = esc(content["lead"])
@@ -248,22 +297,28 @@ def render_page(item, city, category_items, content_map):
     html = f"""<!doctype html><html lang="ja"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} | {esc(site_name)}</title>
-<meta name="description" content="{esc(city_name)}の{esc(category)}に関する情報を整理する非公式ナビです。最新・正確な情報は必ず{esc(city_name)}公式ページで確認してください。">
+<meta name="description" content="{esc(content.get('lead','')[:155] if content else title)}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="{esc(city['site_url'] + item['href'])}">
+<link rel="stylesheet" href="/assets/resident-guide.css?v=20261118">
 <!-- PART:head-css:START --><link rel="stylesheet" href="/assets/site.css?v=20260702"><!-- PART:head-css:END --></head><body>
 <!-- PART:header:START --><header class="site"><div class="wrap"><a class="logo" href="/">{esc(site_name)}</a></div></header><!-- PART:header:END -->
 <!-- PART:disclaimer:START --><div class="disclaimer"><div class="wrap">{esc(site_name)}は{esc(city_name)}公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div><!-- PART:disclaimer:END -->
 <main><div class="wrap">
 {breadcrumb}
-<section class="hero"><div class="hero-visual"><h1>{esc(title)}</h1></div><div class="hero-body"><p class="lead">{lead}</p></div></section>
+<section class="hero"><div class="hero-visual"><h1>{decorated(title)}</h1></div><div class="hero-body"><p class="lead">{lead}</p></div></section>
 {note_html}
+{update_html}
+{checklist_html}
 {rich_html}
-<h2 class="sec">公式窓口・確認先</h2><div class="official">{facts_html(item.get('facts'))}{sources_html(item.get('sources_hamamatsu'), city_name)}</div>
+<h2 class="sec">窓口・出典・確認先</h2><div class="official">{facts_html(item.get('facts'))}{sources_html(item.get('sources_hamamatsu'), city_name)}</div>
 <h2 class="sec">あわせて確認したい{esc(category)}のリンク</h2><div class="official">{related_links_html(item, category_items)}</div>
-{cv_block_html(city)}
-<section class="feedback-box" id="feedback"><h2 class="sec" style="margin-top:0">これで解決しそうですか？</h2><p class="mini" style="margin:0 0 10px">いただいた反応は、ページ改善のためだけに使います。お名前や連絡先は取得しません。</p><div class="fb-actions"><button type="button" class="fb-btn" data-feedback="solved">解決しそう</button><button type="button" class="fb-btn" data-feedback="still_worried">まだ不安</button><button type="button" class="fb-btn" data-feedback="could_not_find">探している情報がなかった</button></div><p class="fb-thanks">ありがとうございました。いただいた声は今後のページ改善に役立てます。</p></section>
-<p class="verified">最終確認日：{esc(verified_date)} ／ 本ページは公式情報を整理したものです。最新・正確な情報は必ず{esc(city_name)}公式ページで確認してください。</p>
+{'' if category == 'もしもの時' or any(s in item['href'] for s in ['holiday-night-emergency-care', 'night-holiday-medical']) else cv_block_html(city)}
+<section class="feedback-box" id="feedback"><h2 class="sec" style="margin-top:0">情報の誤りに気付いたとき</h2><p><a href="/about/">運営者・編集方針と連絡方法</a>をご覧ください。行政の申請・相談は各公式窓口へ直接お問い合わせください。</p></section>
+<p class="verified">基礎情報の確認日：{esc(verified_date)}{' ／ 変更・補足の確認日：' + esc(content['update']['checked']) if content and content.get('update') else ''}。確認日は記載した範囲のものです。公式ページの受付状況も確認してください。</p>
+<nav class="guide-nav" aria-label="次に調べる"><a href="/guides/">目的別ガイド</a><a href="/updates/">確認した最新情報</a><a href="/about/">運営者・編集方針</a><a href="/#search">サイト内検索</a></nav>
 </div></main><!-- PART:footer:START --><!-- PART:footer:END -->
+<script defer src="/assets/resident-guide.js"></script>
 </body></html>
 """
     return html, verified

@@ -172,7 +172,39 @@
         "label": "保健所感染症対策課に電話する",
         "href": "tel:053-453-6108"
       }
-    ]
+    ],
+    "update": {
+      "title": "2026年度の高齢者予防接種：期間と事前準備",
+      "checked": "2026-11-18",
+      "sections": [
+        [
+          "インフルエンザは2027年1月31日まで",
+          "助成期間は2026年10月1日〜2027年1月31日、期間中1回、自己負担1,600円です。浜松市に住民登録があり、接種当日65歳以上の人、または60〜64歳で所定の重い障がいがある人が対象です。市内委託医療機関へ直接予約します。"
+        ],
+        [
+          "新型コロナは2027年3月31日まで",
+          "同じ年齢等の要件を満たす人が対象で、2026年10月1日〜2027年3月31日の間に1回、自己負担8,000円です。接種の可否・時期は医療機関に相談してください。"
+        ],
+        [
+          "無料接種の書類は接種前に確認",
+          "生活保護受給世帯・市民税非課税世帯は、無料接種券や所定の証明書類による免除があります。接種後の払い戻しはできません。市外で受けたい場合も、接種前に健康づくりセンターまたは感染症対策課へ申請してください。"
+        ]
+      ],
+      "sources": [
+        [
+          "https://www.city.hamamatsu.shizuoka.jp/yobo/health/yobo/koureisyainfuluenza.html",
+          "2026年度高齢者インフルエンザ予防接種"
+        ],
+        [
+          "https://www.city.hamamatsu.shizuoka.jp/koho2/pr/kouhou_all/2609/3news-04.html",
+          "インフルエンザ・新型コロナの助成期間と自己負担"
+        ],
+        [
+          "https://www.city.hamamatsu.shizuoka.jp/yobo/health/yobo/shigaiyobousessyu.html",
+          "市外で高齢者予防接種を受ける場合"
+        ]
+      ]
+    }
   },
   {
     "href": "/life/health-medical/cancer-specific-checkups/",
@@ -1253,7 +1285,7 @@
     "qa": [
       {
         "question": "健康はままつ21とはどんな計画ですか",
-        "answer": "浜松市の健康増進計画で、市民の健康づくりの指針となるものです。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/kenkozoshin/health/health_21/index.html\" target=\"_blank\" rel=\"noopener\">浜松市公式ページ(健康はままつ21)</a>をご覧ください。"
+        "answer": "浜松市の健康増進計画で、市民の健康づくりの指針となるものです。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/kenkozoshin/health/health_21_2024/index.html\" target=\"_blank\" rel=\"noopener\">浜松市公式ページ(健康はままつ21)</a>をご覧ください。"
       },
       {
         "question": "健康づくりの相談はどこにすればいいですか",
@@ -1355,7 +1387,7 @@
         "actions": [
           {
             "label": "健康はままつ21を見る",
-            "href": "https://www.city.hamamatsu.shizuoka.jp/kenkozoshin/health/health_21/index.html",
+            "href": "https://www.city.hamamatsu.shizuoka.jp/kenkozoshin/health/health_21_2024/index.html",
             "source": "浜松市公式"
           },
           {
@@ -1387,7 +1419,7 @@
       },
       {
         "label": "健康はままつ21を見る",
-        "href": "https://www.city.hamamatsu.shizuoka.jp/kenkozoshin/health/health_21/index.html"
+        "href": "https://www.city.hamamatsu.shizuoka.jp/kenkozoshin/health/health_21_2024/index.html"
       },
       {
         "label": "オンライン相談を見る",
@@ -2145,6 +2177,38 @@
         "label": "保健所感染症対策課に電話する",
         "href": "tel:053-453-6108"
       }
-    ]
+    ],
+    "update": {
+      "title": "2026年度の高齢者予防接種：期間と事前準備",
+      "checked": "2026-11-18",
+      "sections": [
+        [
+          "インフルエンザは2027年1月31日まで",
+          "助成期間は2026年10月1日〜2027年1月31日、期間中1回、自己負担1,600円です。浜松市に住民登録があり、接種当日65歳以上の人、または60〜64歳で所定の重い障がいがある人が対象です。市内委託医療機関へ直接予約します。"
+        ],
+        [
+          "新型コロナは2027年3月31日まで",
+          "同じ年齢等の要件を満たす人が対象で、2026年10月1日〜2027年3月31日の間に1回、自己負担8,000円です。接種の可否・時期は医療機関に相談してください。"
+        ],
+        [
+          "無料接種の書類は接種前に確認",
+          "生活保護受給世帯・市民税非課税世帯は、無料接種券や所定の証明書類による免除があります。接種後の払い戻しはできません。市外で受けたい場合も、接種前に健康づくりセンターまたは感染症対策課へ申請してください。"
+        ]
+      ],
+      "sources": [
+        [
+          "https://www.city.hamamatsu.shizuoka.jp/yobo/health/yobo/koureisyainfuluenza.html",
+          "2026年度高齢者インフルエンザ予防接種"
+        ],
+        [
+          "https://www.city.hamamatsu.shizuoka.jp/koho2/pr/kouhou_all/2609/3news-04.html",
+          "インフルエンザ・新型コロナの助成期間と自己負担"
+        ],
+        [
+          "https://www.city.hamamatsu.shizuoka.jp/yobo/health/yobo/shigaiyobousessyu.html",
+          "市外で高齢者予防接種を受ける場合"
+        ]
+      ]
+    }
   }
 ]

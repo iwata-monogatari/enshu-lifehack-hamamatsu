@@ -31,3 +31,15 @@ favicon.svg
 
 本サイトは浜松市公式サイトではありません。最新・正確な情報は浜松市公式サイトをご確認ください。
 運営：富士ヶ丘サービス ／ 代表：大石浩之
+
+# 2026年11月18日以降の編集・再生成
+
+全体の再生成は `python scripts/build-all.py`。既存の158案内に加え、トップ、目的別ガイド3件、全件検索、更新記録、運営者案内、サイトマップ、検索索引を同期する。
+
+- 既存案内の原稿：`data/content/*.json`、基本項目・出典：`data/topics_master.json`
+- 目的別ガイド・トップの更新案内：`data/guide-hubs.json`
+- 今回確認した補足は `update.checked`、`supplement_checked_date` で管理。既存の基礎情報の確認日を一括更新しない。
+- 期限付き案内の `end` は日本時間の日付で終了表示に切り替わる。公式の受付状況を取得する仕組みではない。新年度の期限を推測で繰り上げない。
+- チェックリストはブラウザのlocalStorageのみを使用する。保存キーに紐付く項目の順番を変える際は既存チェックの意味を保持するかキーのバージョンを更新する。
+- 検査：`python scripts/inspect_all.py`、`node scripts/test-search.mjs`、`node scripts/check-synonyms.mjs`。公開前後に新規導線、検索、PC・狭幅の実ブラウザ表示も確認する。
+- 2026-11-18の補足・出典修正を重複追加しない。差分と `reports/2026-11-18-update.md` を参照し、最新mainと公式原文を照合して編集する。

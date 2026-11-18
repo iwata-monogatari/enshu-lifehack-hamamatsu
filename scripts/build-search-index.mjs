@@ -42,6 +42,8 @@ function extractLead(href) {
 
 function main() {
   const topicsMaster = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/topics_master.json'), 'utf8'));
+  const hubs = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/guide-hubs.json'), 'utf8'));
+  topicsMaster.push(...hubs.guides.map(g => ({href:`/guides/${g.slug}/`,title:g.title,icon:g.icon,category:'目的別ガイド',synonyms:[g.description]})));
   const searchIndex = topicsMaster
     .map((topic) => {
       const lead = extractLead(topic.href);

@@ -36,7 +36,7 @@ function main() {
 
   const indexPath = path.join(ROOT, 'index.html');
   const html = fs.readFileSync(indexPath, 'utf8');
-  const re = /(<section id="category-links"><h2>[^<]*<\/h2><p class="lead">[^<]*<\/p>)<div class="cat-grid">[\s\S]*?<\/div>(<\/section>)/;
+  const re = /(<section[^>]*id="category-links"[^>]*><h2>[^<]*<\/h2><p class="lead">[\s\S]*?<\/p>)<div class="(?:cat-grid|category-accordion)">[\s\S]*?<\/div>(<\/section>)/;
   if (!re.test(html)) {
     throw new Error('category-links セクションのcat-gridが見つかりません');
   }

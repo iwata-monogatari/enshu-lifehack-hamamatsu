@@ -13,14 +13,15 @@ PUBLISHABLE_STATUSES = ('ai-checked', 'machine-verified', 'human-verified', 'pub
 def main():
     ledger = json.loads((ROOT / 'data/topics_master.json').read_text(encoding='utf-8'))
     published = [t for t in ledger if t.get('status') in PUBLISHABLE_STATUSES]
-    urls = ['/', '/terms/'] + sorted(t['href'] for t in published)
+    hubs=json.loads((ROOT / 'data/guide-hubs.json').read_text(encoding='utf-8'))
+    urls = ['/', '/terms/', '/about/', '/updates/', '/guides/'] + ['/guides/'+g['slug']+'/' for g in hubs['guides']] + sorted(t['href'] for t in published)
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:
         lines.append(f'<url><loc>{SITE}{u}</loc></url>')
     lines.append('</urlset>')
     out = ROOT / 'sitemap.xml'
-    out.write_text('\n'.join(lines) + '\n', encoding='utf-8')
+    out.write_text('\n'.join(lines) + '\n', encoding='utf-8', newline='\n')
     print(f'生成完了: {out}（{len(urls)}件）')
 
 if __name__ == '__main__':

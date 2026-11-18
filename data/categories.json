@@ -48,7 +48,7 @@
    "id": "start-living",
    "emoji": "🧭",
    "title": "暮らし始めた",
-   "description": "転入直後の手続き・証明書・ごみ・水道（15項目）",
+   "description": "転入直後の手続き・証明書・ごみ・水道（16項目）",
    "url": "https://hamamatsu.enshu-lifehack.com/life/start-living/",
    "items": [
     {
@@ -125,6 +125,10 @@
      "id": "water-start-stop-fees",
      "label": "引っ越し日に水が出ない",
      "url": "https://hamamatsu.enshu-lifehack.com/life/start-living/water-start-stop-fees/"
+    },
+    {
+     "label": "浜松市のパスポート｜申請前の準備と11月の停止日",
+     "url": "/life/start-living/passport/"
     }
    ]
   },
@@ -191,7 +195,7 @@
    "id": "family-grow",
    "emoji": "👶",
    "title": "家族が増える",
-   "description": "妊娠・出産・子育て支援（12項目）",
+   "description": "妊娠・出産・子育て支援（13項目）",
    "url": "https://hamamatsu.enshu-lifehack.com/life/family-grow/",
    "items": [
     {
@@ -253,6 +257,10 @@
      "id": "single-parent-support",
      "label": "ひとり親家庭の手当・医療費・養育費を",
      "url": "https://hamamatsu.enshu-lifehack.com/life/family-grow/single-parent-support/"
+    },
+    {
+     "label": "浜松市の病児・病後児保育｜cohana登録と予約の準備",
+     "url": "/life/family-grow/sick-child-care/"
     }
    ]
   },
@@ -260,7 +268,7 @@
    "id": "play-out",
    "emoji": "🌳",
    "title": "遊ぶ・使う・出かける",
-   "description": "公園・図書館・スポーツ施設（9項目）",
+   "description": "公園・図書館・スポーツ施設（10項目）",
    "url": "https://hamamatsu.enshu-lifehack.com/life/play-out/",
    "items": [
     {
@@ -307,6 +315,10 @@
      "id": "visit-library",
      "label": "図書館へ行く前に",
      "url": "https://hamamatsu.enshu-lifehack.com/life/play-out/visit-library/"
+    },
+    {
+     "label": "家康公祭り2026｜11月21・22日の会場と来場準備",
+     "url": "/life/play-out/ieyasu-festival-2026/"
     }
    ]
   },
@@ -467,7 +479,7 @@
     },
     {
      "id": "national-health-insurance-tax",
-     "label": "国民健康保険税",
+     "label": "国民健康保険料",
      "url": "https://hamamatsu.enshu-lifehack.com/life/work-life/national-health-insurance-tax/"
     },
     {
@@ -634,7 +646,7 @@
    "id": "troubles-consult",
    "emoji": "🧩",
    "title": "困った・相談したい",
-   "description": "生活・税金・農地・法律相談（18項目）",
+   "description": "生活・税金・農地・法律相談（12項目）",
    "url": "https://hamamatsu.enshu-lifehack.com/life/troubles-consult/",
    "items": [
     {

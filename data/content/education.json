@@ -172,7 +172,31 @@
     "label": "学校・地域連携課に電話する",
     "href": "tel:053-457-2423"
    }
-  ]
+  ],
+  "update": {
+   "title": "2027年4月の学童申込み：新規と継続で期限が違う",
+   "checked": "2026-11-18",
+   "sections": [
+    [
+     "新1年生・現在入会していない児童",
+     "2027年4月入会の申込み期限は2026年12月11日（金）です。希望する放課後児童会へ、令和9年度の入会申込書と必要書類を提出します。"
+    ],
+    [
+     "すでに入会している児童",
+     "継続利用の申込み期限は2026年11月13日（金）でした。公設民営の児童会は年度ごとに申込みが必要です。未提出の場合は利用中の児童会へ相談してください。"
+    ],
+    [
+     "入会と待機登録を区別する",
+     "年度途中は利用希望日の7日前（土日祝日を除く）までが申込目安です。定員に達している場合は待機登録となり、空きが出た際の選考になります。民間の学童等は各施設の案内も確認してください。"
+    ]
+   ],
+   "sources": [
+    [
+     "https://www.hamamatsu-pippi.net/contents/7826.html",
+     "放課後児童会の入会申込みと必要書類（ぴっぴ）"
+    ]
+   ]
+  }
  },
  {
   "href": "/life/education/educational-consulting/",
@@ -454,7 +478,7 @@
     "actions": [
      {
       "label": "学区外就学の案内を見る",
-      "href": "https://www.city.hamamatsu.shizuoka.jp/sogo/shinsei/gakkugai/gakkugaisyuugaku.html",
+      "href": "https://www.city.hamamatsu.shizuoka.jp/sogo/shinsei/gakkugai/gakkugai-kyokakijun.html",
       "source": "浜松市公式"
      },
      {
@@ -518,7 +542,31 @@
     "label": "市民コールセンターに電話する",
     "href": "tel:053-457-2111"
    }
-  ]
+  ],
+  "update": {
+   "title": "2027年度の入学・学区外就学の確認ポイント",
+   "checked": "2026-11-18",
+   "sections": [
+    [
+     "学校は住民登録住所に基づいて指定",
+     "小学校の入学通知書は2026年12月下旬、中学校は2027年1月の発送予定です。入学説明会は1〜2月に各校で開催。住所変更や転入後は新住所に基づく通知を確認してください。"
+    ],
+    [
+     "学区外就学は要件ごとに期限が違う",
+     "2026年10月15日から受付が始まっています。兄弟姉妹、転居予定、通学区域制度の弾力的運用などで要件と申請期限が異なります。学区外を希望するだけで入学できるわけではありません。"
+    ],
+    [
+     "10月20日付の訂正にも注意",
+     "市は通学区域制度の弾力的運用の受入不可能校について、浜北北部中を「5名程度」から「受入不可能校」に訂正しています。古い募集案内だけで判断せず、最新版を確認してください。"
+    ]
+   ],
+   "sources": [
+    [
+     "https://www.city.hamamatsu.shizuoka.jp/sogo/shinsei/nyugaku.html",
+     "2027年度市立小中学校への新入学"
+    ]
+   ]
+  }
  },
  {
   "href": "/life/education/",
@@ -784,7 +832,7 @@
    },
    {
     "question": "指定された学校以外に通いたい場合はどうすればいいですか",
-    "answer": "学区外就学の許可基準に該当する場合は申請できます。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/sogo/shinsei/gakkugai/gakkugaisyuugaku.html\" target=\"_blank\" rel=\"noopener\">浜松市公式の学区外就学ページ</a>をご覧いただくか、教育支援課（053-457-2406）にご相談ください。"
+    "answer": "学区外就学の許可基準に該当する場合は申請できます。詳しくは<a href=\"https://www.city.hamamatsu.shizuoka.jp/sogo/shinsei/gakkugai/gakkugai-kyokakijun.html\" target=\"_blank\" rel=\"noopener\">浜松市公式の学区外就学ページ</a>をご覧いただくか、教育支援課（053-457-2406）にご相談ください。"
    },
    {
     "question": "転校の相談はいつ頃から始めればいいですか",
@@ -870,7 +918,7 @@
     "actions": [
      {
       "label": "学区外就学の案内を見る",
-      "href": "https://www.city.hamamatsu.shizuoka.jp/sogo/shinsei/gakkugai/gakkugaisyuugaku.html",
+      "href": "https://www.city.hamamatsu.shizuoka.jp/sogo/shinsei/gakkugai/gakkugai-kyokakijun.html",
       "source": "浜松市公式"
      },
      {
@@ -906,13 +954,37 @@
    },
    {
     "label": "学区外就学の案内を見る（浜松市公式）",
-    "href": "https://www.city.hamamatsu.shizuoka.jp/sogo/shinsei/gakkugai/gakkugaisyuugaku.html"
+    "href": "https://www.city.hamamatsu.shizuoka.jp/sogo/shinsei/gakkugai/gakkugai-kyokakijun.html"
    },
    {
     "label": "教育支援課に電話する",
     "href": "tel:053-457-2428"
    }
-  ]
+  ],
+  "update": {
+   "title": "2027年度の入学・学区外就学の確認ポイント",
+   "checked": "2026-11-18",
+   "sections": [
+    [
+     "学校は住民登録住所に基づいて指定",
+     "小学校の入学通知書は2026年12月下旬、中学校は2027年1月の発送予定です。入学説明会は1〜2月に各校で開催。住所変更や転入後は新住所に基づく通知を確認してください。"
+    ],
+    [
+     "学区外就学は要件ごとに期限が違う",
+     "2026年10月15日から受付が始まっています。兄弟姉妹、転居予定、通学区域制度の弾力的運用などで要件と申請期限が異なります。学区外を希望するだけで入学できるわけではありません。"
+    ],
+    [
+     "10月20日付の訂正にも注意",
+     "市は通学区域制度の弾力的運用の受入不可能校について、浜北北部中を「5名程度」から「受入不可能校」に訂正しています。古い募集案内だけで判断せず、最新版を確認してください。"
+    ]
+   ],
+   "sources": [
+    [
+     "https://www.city.hamamatsu.shizuoka.jp/sogo/shinsei/nyugaku.html",
+     "2027年度市立小中学校への新入学"
+    ]
+   ]
+  }
  },
  {
   "href": "/life/education/school-expense-support/",
@@ -1423,7 +1495,7 @@
    },
    {
     "label": "学区外就学の案内を見る（浜松市公式）",
-    "href": "https://www.city.hamamatsu.shizuoka.jp/sogo/shinsei/gakkugai/gakkugaisyuugaku.html"
+    "href": "https://www.city.hamamatsu.shizuoka.jp/sogo/shinsei/gakkugai/gakkugai-kyokakijun.html"
    },
    {
     "label": "教育支援課に電話する",
@@ -1433,7 +1505,31 @@
     "label": "市民コールセンターに電話する",
     "href": "tel:053-457-2111"
    }
-  ]
+  ],
+  "update": {
+   "title": "2027年度の入学・学区外就学の確認ポイント",
+   "checked": "2026-11-18",
+   "sections": [
+    [
+     "学校は住民登録住所に基づいて指定",
+     "小学校の入学通知書は2026年12月下旬、中学校は2027年1月の発送予定です。入学説明会は1〜2月に各校で開催。住所変更や転入後は新住所に基づく通知を確認してください。"
+    ],
+    [
+     "学区外就学は要件ごとに期限が違う",
+     "2026年10月15日から受付が始まっています。兄弟姉妹、転居予定、通学区域制度の弾力的運用などで要件と申請期限が異なります。学区外を希望するだけで入学できるわけではありません。"
+    ],
+    [
+     "10月20日付の訂正にも注意",
+     "市は通学区域制度の弾力的運用の受入不可能校について、浜北北部中を「5名程度」から「受入不可能校」に訂正しています。古い募集案内だけで判断せず、最新版を確認してください。"
+    ]
+   ],
+   "sources": [
+    [
+     "https://www.city.hamamatsu.shizuoka.jp/sogo/shinsei/nyugaku.html",
+     "2027年度市立小中学校への新入学"
+    ]
+   ]
+  }
  },
  {
   "href": "/life/education/study-facilities/",

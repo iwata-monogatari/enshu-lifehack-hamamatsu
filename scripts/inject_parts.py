@@ -15,7 +15,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PARTS_DIR = os.path.join(ROOT, "parts")
-EXCLUDE_DIRS = ("parts", "tmp", "output", "scratchpad", "node_modules", ".git", ".wrangler", "docs")
+EXCLUDE_DIRS = ("parts", "data", "tmp", "output", "scratchpad", "node_modules", ".git", ".wrangler", "docs")
 
 
 def load_parts():
@@ -54,6 +54,14 @@ def main():
             replacement = "<!-- PART:%s:START -->%s<!-- PART:%s:END -->" % (name, content, name)
             new_html, n = pattern.subn(lambda m: replacement, new_html)
             total_markers[name] += n
+        # The historical files also carried the same analytics tag after the footer.
+        # Keep one exact integration, including its data-site attribution.
+        seen_tracker = [False]
+        def one_tracker(m):
+            if seen_tracker[0]: return ''
+            seen_tracker[0] = True
+            return m.group(0)
+        new_html = re.sub(r'<script\b[^>]*data-fujigaoka-analytics="true"[^>]*></script>', one_tracker, new_html)
         if new_html != html:
             with open(path, "w", encoding="utf-8", newline="") as f:
                 f.write(new_html)
