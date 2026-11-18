@@ -39,6 +39,7 @@ def news():
  return '<div class="news-list">'+''.join(out)+'</div>'
 
 purpose='<div class="guide-grid">'+''.join(card('/guides/'+g['slug']+'/',g['title'],g['description'],g['icon']) for g in H['guides'])+'</div>'
+photo_intro='<p class="guide-note">街歩きの前に、昔の浜松ものぞいてみませんか。<a href="https://hamamatsualb.atawi.link/">浜松懐かし写真館</a>では、浜松駅前や弁天島、天竜などの風景を写真でたどれます。</p>'
 search='''<section id="search" class="search-box"><form onsubmit="return window.iwataSiteSearch(event)"><label for="site-search-input">困っていること・調べたい言葉から探す</label><div class="search-line"><input type="search" id="site-search-input" name="q" placeholder="例：住民票、学童、親の介護、ごみ"><button type="submit">探す</button></div></form><div class="search-examples"><a href="/?q=コンビニ交付休止#search">コンビニ交付休止</a><a href="/?q=学童#search">学童の申込み</a><a href="/?q=空き家#search">実家・空き家</a><a href="/?q=cohana#search">病児保育</a></div><div id="search-results" aria-live="polite"></div></section>'''
 urgent='<section class="guide-section urgent-panel"><h2>急いでいるとき</h2><p>命に関わる緊急時は119番。救急車を呼ぶか迷うとき、受診先を探すときは次の案内へ。</p><div class="guide-grid">'+''.join(card(life(s),t,d,i) for s,t,d,i in [
 ('emergency/emergency-medical','救急車を呼ぶか迷う','119・#7119・#8000の使い分け','🚑'),('health-medical/holiday-night-emergency-care','夜間・休日の受診先','当番医・夜間救急室を確認','🏥'),('emergency/hazard-maps','避難先・災害リスク','住所から地図と避難情報を確認','🗺️')])+'</div></section>'
@@ -49,7 +50,7 @@ for c in CAT:
  links=''.join(f'<li><a href="{esc(i["url"].replace(SITE,""))}">{esc(i["label"])}</a></li>' for i in c['items'])
  accordion.append(f'<details class="category" data-id="{c["id"]}"><summary><span class="topic-icon" aria-hidden="true">{c["emoji"]}</span><span class="card-text"><span class="card-title">{esc(c["title"])}</span><span class="card-desc">{esc(c["description"])}</span></span><span class="acc-arrow" aria-hidden="true"></span></summary><ul class="subitems">{links}<li class="subitems-more"><a href="{esc(c["url"].replace(SITE,""))}">この分野についてもっと詳しく見る</a></li></ul></details>')
 home=f'''<section class="home-hero"><p class="eyebrow">浜松の暮らしを、ひとつずつ。</p><h1>浜松市の手続き・相談先を、<br>困りごとから探せます。</h1><p class="lead">住民票、ごみ、子育て、介護、住まい、防災。<br>何から始めるかを整理して、必要な公式情報へつなぎます。</p><p class="updated-date">2026年11月18日更新 ｜ 中央区・浜名区・天竜区</p></section>
-{search}{urgent}<section class="guide-section"><h2>浜松で、何をしたいですか？</h2>{purpose}</section>
+{search}{urgent}<section class="guide-section"><h2>浜松で、何をしたいですか？</h2>{purpose}{photo_intro}</section>
 <section class="guide-section" id="latest"><h2>手続き前に確認したい、最新の案内</h2><p>11月18日に確認した受付日・変更点です。募集や予約の残枠は公式窓口で確認してください。</p>{news()}</section>
 <section class="guide-section"><h2>よく使う手続き・相談</h2><div class="guide-grid compact">{''.join(card(life(s),t,d,i) for s,t,d,i in common)}</div></section>
 <section class="guide-section"><h2>状況別チェックリスト</h2><p>確認した項目にチェックを付けられます。内容はこの端末のブラウザに保存されます。</p><div class="guide-grid compact">{''.join(card(life(s),t,d,i) for s,t,d,i in checks)}</div></section>
@@ -63,6 +64,8 @@ for g in H['guides']:
  body=f'<p class="breadcrumb"><a href="/">トップ</a> ／ <a href="/guides/">ガイド</a></p><p class="eyebrow">目的から選ぶ</p><h1><span aria-hidden="true">{g["icon"]}</span> {esc(g["title"])}</h1><p class="lead">{esc(g["lead"])}</p>'
  for s in g['sections']:
   body+=f'<section class="guide-section"><h2>{esc(s["title"])}</h2><p>{esc(s["body"])}</p><ul class="source-links">'+''.join(f'<li><a href="{life(p)}">{esc(t)}</a></li>' for p,t in s['links'])+'</ul></section>'
+  if g['slug']=='visit' and s['title']=='文化・学びを楽しむ':
+   body+=photo_intro
  body+='<p class="guide-note">2026年11月18日編集。手続きの条件・受付状況・出典はリンク先の各ガイドで確認できます。施設の予約や行政申請をこのサイトで受け付けるものではありません。</p>'
  write('/guides/'+g['slug']+'/',g['title'],g['description'],body)
 
