@@ -25,6 +25,7 @@ import re
 from urllib.parse import urlparse
 from html.parser import HTMLParser
 from pathlib import Path
+from photo_referrals import TOPIC_PHOTOS
 
 ROOT = Path(__file__).resolve().parent.parent
 LEDGER = ROOT / "data" / "topics_master.json"
@@ -312,7 +313,7 @@ def render_page(item, city, category_items, content_map):
 {checklist_html}
 {rich_html}
 <h2 class="sec">窓口・出典・確認先</h2><div class="official">{facts_html(item.get('facts'))}{sources_html(item.get('sources_hamamatsu'), city_name)}</div>
-<h2 class="sec">あわせて確認したい{esc(category)}のリンク</h2><div class="official">{related_links_html(item, category_items)}</div>
+{TOPIC_PHOTOS.get(item['href'], '')}<h2 class="sec">あわせて確認したい{esc(category)}のリンク</h2><div class="official">{related_links_html(item, category_items)}</div>
 {'' if category == 'もしもの時' or any(s in item['href'] for s in ['holiday-night-emergency-care', 'night-holiday-medical']) else cv_block_html(city)}
 <section class="feedback-box" id="feedback"><h2 class="sec" style="margin-top:0">情報の誤りに気付いたとき</h2><p><a href="/about/">運営者・編集方針と連絡方法</a>をご覧ください。行政の申請・相談は各公式窓口へ直接お問い合わせください。</p></section>
 <p class="verified">基礎情報の確認日：{esc(verified_date)}{' ／ 変更・補足の確認日：' + esc(content['update']['checked']) if content and content.get('update') else ''}。確認日は記載した範囲のものです。公式ページの受付状況も確認してください。</p>
