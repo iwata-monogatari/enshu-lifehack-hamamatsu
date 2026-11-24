@@ -4,7 +4,7 @@ No network access: editorial input lives in data/guide-hubs.json and content/*.j
 import json,re,html
 from datetime import date
 from pathlib import Path
-from photo_referrals import HOME_PHOTOS, VISIT_PHOTOS
+from photo_referrals import HOME_PHOTOS, VISIT_PHOTOS, photo_links
 from share_metadata import share_metadata
 R=Path(__file__).resolve().parent.parent
 H=json.loads((R/'data/guide-hubs.json').read_text(encoding='utf-8'))
@@ -71,7 +71,12 @@ write('/','浜松市の手続き・子育て・介護・空き家を困りごと
 for g in H['guides']:
  body=f'<p class="breadcrumb"><a href="/">トップ</a> ／ <a href="/guides/">ガイド</a></p><p class="eyebrow">目的から選ぶ</p><h1><span aria-hidden="true">{g["icon"]}</span> {esc(g["title"])}</h1><p class="lead">{esc(g["lead"])}</p>'
  for s in g['sections']:
-  body+=f'<section class="guide-section"><h2>{esc(s["title"])}</h2><p>{esc(s["body"])}</p><ul class="source-links">'+''.join(f'<li><a href="{life(p)}">{esc(t)}</a></li>' for p,t in s['links'])+'</ul></section>'
+  castle = g['slug']=='visit' and s['title']=='浜松城公園を訪ねる'
+  anchor = ' id="hamamatsu-castle-park"' if castle else ''
+  body+=f'<section class="guide-section"{anchor}><h2>{esc(s["title"])}</h2><p>{esc(s["body"])}</p><ul class="source-links">'+''.join(f'<li><a href="{life(p)}">{esc(t)}</a></li>' for p,t in s['links'])+'</ul>'
+  if castle:
+   body+=photo_links('visit_photo',('hamamatsu-castle',))
+  body+='</section>'
   if g['slug']=='visit' and s['title']=='文化・学びを楽しむ':
    body+=VISIT_PHOTOS
  guide_date = DISPLAY_DATE if g['slug']=='visit' else '2026年11月18日'
