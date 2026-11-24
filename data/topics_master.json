@@ -2487,7 +2487,7 @@
   "status": "ai-checked",
   "ai_checked_date": "2026-07-04",
   "ai_notes": "一時預かりは各施設への直接申込みが基本であること、子育て情報サイト「ぴっぴ」で空き状況検索ができることを確認。幼児教育・保育課の電話番号は検索結果で053-457-2826という情報を得たが、公式ページでの直接確認ができなかったため確認中扱いとした。",
-  "supplement_checked_date": "2026-11-18",
+  "supplement_checked_date": "2026-11-24",
   "supplement_scope": "2027年4月入園と、年度途中の入園を分けて確認"
  },
  {
@@ -6152,7 +6152,7 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "住民票・戸籍・印鑑登録証明書・附票それぞれの請求方法（窓口/コンビニ/郵送）を公式サイトで確認。戸籍は本籍地限定である点を明記。",
   "verified_by": "ai",
-  "supplement_checked_date": "2026-11-18",
+  "supplement_checked_date": "2026-11-24",
   "supplement_scope": "11月21〜23日は証明書コンビニ交付が休止"
  },
  {
@@ -6392,8 +6392,9 @@
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "区・地区ごとにカレンダー番号が異なること、配布時期(2月頃)、Web版での確認方法を確認。",
-  "verified_by": "ai"
- },
+  "verified_by": "ai",
+    "supplement_checked_date": "2026-11-24"
+  },
  {
   "href": "/life/start-living/how-to-garbage/",
   "icon": "🧭",
@@ -8904,7 +8905,7 @@
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "検索でヒットする浜松市補助金一覧表（/sangyoshinko/hojokin.html）とデジタル化支援事業費補助金の個別URL（/sangyoshinko/dejitaruhojokin.html）はWebFetchで404だったため使用を避け、実在確認できた補助金・サポートページ（/shinko/shien/support.html）や個別補助金ページにリンクを差し替え。",
-  "supplement_checked_date": "2026-11-18",
+  "supplement_checked_date": "2026-11-24",
   "supplement_scope": "住まいの省エネ支援：設備と申請時期を取り違えない"
  },
  {
@@ -9119,7 +9120,7 @@
  },
  {
   "href": "/life/start-living/passport/",
-  "title": "浜松市のパスポート｜申請前の準備と11月の停止日",
+  "title": "浜松市のパスポート｜申請と12月の停止・受取日",
   "category": "暮らし始めた",
   "icon": "📄",
   "synonyms": [
@@ -9137,12 +9138,12 @@
    }
   ],
   "facts": {},
-  "supplement_checked_date": "2026-11-18",
+  "supplement_checked_date": "2026-11-24",
   "supplement_scope": "浜松市のパスポート｜申請前の準備と11月の停止日"
  },
  {
   "href": "/life/play-out/ieyasu-festival-2026/",
-  "title": "家康公祭り2026｜11月21・22日の会場と来場準備",
+  "title": "家康公祭り2026｜11月21・22日の開催案内記録",
   "category": "遊ぶ・使う・出かける",
   "icon": "🏯",
   "synonyms": [
@@ -9160,7 +9161,7 @@
    }
   ],
   "facts": {},
-  "supplement_checked_date": "2026-11-18",
+  "supplement_checked_date": "2026-11-24",
   "supplement_scope": "家康公祭り2026｜11月21・22日の会場と来場準備"
  }
 ]
