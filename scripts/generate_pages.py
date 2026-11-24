@@ -26,6 +26,7 @@ from urllib.parse import urlparse
 from html.parser import HTMLParser
 from pathlib import Path
 from photo_referrals import TOPIC_PHOTOS
+from share_metadata import TOPIC_PREVIEWS, share_metadata
 
 ROOT = Path(__file__).resolve().parent.parent
 LEDGER = ROOT / "data" / "topics_master.json"
@@ -295,12 +296,17 @@ def render_page(item, city, category_items, content_map):
             action_grid_html(content.get("action_grid")),
         ])
 
+    description = content.get('lead','')[:155] if content else title
+    preview = (
+        '\n' + share_metadata(city['site_url'],item['href'],f'{title} | {site_name}',description)
+        if item['href'] in TOPIC_PREVIEWS else ''
+    )
     html = f"""<!doctype html><html lang="ja"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} | {esc(site_name)}</title>
-<meta name="description" content="{esc(content.get('lead','')[:155] if content else title)}">
+<meta name="description" content="{esc(description)}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="canonical" href="{esc(city['site_url'] + item['href'])}">
+<link rel="canonical" href="{esc(city['site_url'] + item['href'])}">{preview}
 <link rel="stylesheet" href="/assets/resident-guide.css?v=20261118">
 <!-- PART:head-css:START --><link rel="stylesheet" href="/assets/site.css?v=20260702"><!-- PART:head-css:END --></head><body>
 <!-- PART:header:START --><header class="site"><div class="wrap"><a class="logo" href="/">{esc(site_name)}</a></div></header><!-- PART:header:END -->

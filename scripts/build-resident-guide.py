@@ -5,6 +5,7 @@ import json,re,html
 from datetime import date
 from pathlib import Path
 from photo_referrals import HOME_PHOTOS, VISIT_PHOTOS
+from share_metadata import share_metadata
 R=Path(__file__).resolve().parent.parent
 H=json.loads((R/'data/guide-hubs.json').read_text(encoding='utf-8'))
 T=json.loads((R/'data/topics_master.json').read_text(encoding='utf-8'))
@@ -25,6 +26,7 @@ def layout(path,title,description,body,home=False):
  return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} | 浜松ライフハック</title><meta name="description" content="{esc(description)}">{headmeta}
 <link rel="canonical" href="{SITE}{path}"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
+{share_metadata(SITE,path,title+' | 浜松ライフハック',description)}
 <!-- PART:head-css:START --><link rel="stylesheet" href="/assets/site.css?v=20260705a"><!-- PART:head-css:END -->
 <link rel="stylesheet" href="/assets/resident-guide.css?v={'20261124' if home else '20261118'}"></head><body class="hub {'home' if home else 'guide-body'}">
 <a href="#main" class="skip-link">本文へ移動</a><!-- PART:header:START -->{header}<!-- PART:header:END -->
@@ -85,7 +87,7 @@ body=f'<h1>浜松の暮らし・手続き 全{len(T)}ガイド</h1><p class="lea
 write('/guides/','浜松の暮らし・手続き 全ガイド','全分野のガイドを言葉とカテゴリで絞り込んで探せます。',body)
 supp=[t for t in T if t.get('supplement_checked_date')]
 body=f'<h1>確認した最新情報・更新記録</h1><p class="lead">確認日：{DISPLAY_DATE}。浜松市の公式情報から、今後の日程と終了した案内を分けて掲載します。</p><h2>これから確認したい案内</h2>{news()}<h2>終了した案内</h2>{news(archive=True)}<h2>今回の確認範囲</h2><p>年末年始の証明書・ごみ、12月の旅券手続き、2027年4月の認可保育施設、省エネエアコン補助、家康公祭りの開催案内を更新しました。下の一覧には、以前の確認分も含まれます。受付残枠や個別の申請可否は公式窓口でご確認ください。</p><p>終了日を過ぎた案内は「案内期間終了・記録」と表示します。これは日付による表示で、公式から自動取得した受付状況ではありません。新しい募集日程を推定して掲載することはありません。</p><h2>補足したページ</h2><ul class="source-links">'+''.join(f'<li><a href="{t["href"]}#guide-update">{esc(t["title"])}</a></li>' for t in supp)+'</ul><h2>市の新着を直接確認</h2><ul class="source-links"><li><a href="https://www.city.hamamatsu.shizuoka.jp/kurashi-tetsuzuki/oshirase.html">手続き・くらしのお知らせ</a></li><li><a href="https://www.city.hamamatsu.shizuoka.jp/kenko/oshirase.html">健康・医療・福祉のお知らせ</a></li><li><a href="https://www.city.hamamatsu.shizuoka.jp/">浜松市公式サイト</a></li></ul>'
-write('/updates/','確認した最新情報・更新記録','2026年11月18日に確認した手続き・子育て・補助金・催しの変更点と出典への案内。',body)
+write('/updates/','確認した最新情報・更新記録',f'{DISPLAY_DATE}に確認した浜松の手続き・子育て・補助金・催しの変更点と出典への案内。',body)
 body='''<h1>運営者・編集方針</h1><p class="lead">浜松市の制度を、暮らしの困りごとから探しやすくする非公式の案内サイトです。</p><h2>運営者</h2><p>富士ヶ丘サービス株式会社／代表 大石浩之。行政機関ではありません。会社情報は<a href="https://www.fujigaoka-service.co.jp/">運営会社の公式サイト</a>をご覧ください。</p><h2>情報をまとめるときの方針</h2><ul><li>市・県・国、施設や交通事業者などの一次情報を優先し、各ページに確認先を掲載します。</li><li>日付・費用・対象者は年度や制度ごとに区別します。確認できないことを推測で確定しません。</li><li>既存の基礎情報と新しい補足は、確認日と範囲を分けます。個別の申請可否や医療・法律・税務の専門判断は担当窓口へ確認してください。</li><li>申込み・診療・予約を代行するサイトではありません。公式情報への案内です。</li></ul><h2>民間サービスの案内</h2><p>運営会社の不動産・介護相談へのリンクは民間サービスです。利用は任意であり、行政の制度や申請の可否に影響しません。救急・避難の入口には営業案内を配置しません。</p><h2>チェックリストの保存</h2><p>チェック状態は端末のブラウザ内に保存します。チェック内容を行政や運営会社へ送信する機能はありません。共用端末では利用後にリセットしてください。</p><h2>誤り・古い情報に気付いたとき</h2><p>対象ページのURLと、誤りと思われる内容・公式の根拠を添え、<a href="https://www.fujigaoka-service.co.jp/">運営会社の問い合わせ窓口</a>へお知らせください。行政申請や救急相談は各公式窓口へ直接ご連絡ください。</p><p><a href="/terms/">利用条件</a> ／ <a href="/updates/">更新記録</a></p>'''
 write('/about/','運営者・編集方針','浜松ライフハックの運営者、出典確認、確認日の考え方、民間サービスと公式手続きの区別。',body)
 print('Built home, directory, 3 purpose guides, updates and about')

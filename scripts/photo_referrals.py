@@ -13,6 +13,9 @@ FEATURES = {
     'showa-hamamatsu': '昭和初期の広小路・田町・馬込橋',
     'hamamatsu-castle': '浜松城の城跡と昔の天守の写真',
     'hamamatsu-aerial': '1946年からの浜松の空中写真',
+    'hamamatsu-engine-depot-1949': '昭和24年の浜松機関区',
+    'hamamatsu-festival-shops-1952': '昭和27年刊の浜松まつりと商店',
+    'hamamatsu-city-guide-1960': '昭和35年度の市勢要覧に残る浜松の暮らし',
 }
 
 
@@ -33,7 +36,7 @@ def photo_links(placement, slugs=FEATURES):
 
 HOME_PHOTOS = (
     '<div class="guide-note"><p>浜松懐かし写真館で、昔の浜松を写真で見る</p>'
-    + photo_links('home_photo', ('hamamatsu-station', 'hamana-lake', 'hamamatsu-festival'))
+    + photo_links('home_photo', ('hamamatsu-station', 'hamana-lake', 'hamamatsu-festival', 'hamamatsu-city-guide-1960'))
     + '</div>'
 )
 VISIT_PHOTOS = (
@@ -46,13 +49,13 @@ TOPIC_PHOTOS = {
     '/life/living-soon/transportation/': (
         '<section class="guide-update" id="local-photo-archive"><h2>昔の浜松駅と天竜の鉄道</h2>'
         '<p>浜松駅前のバスターミナル、遠鉄の赤電、天竜二俣駅の駅舎や車両を昔の写真で見られます。</p>'
-        + photo_links('transport_photo', ('hamamatsu-station', 'entetsu-red-train', 'tenryu-railway'))
+        + photo_links('transport_photo', ('hamamatsu-station', 'entetsu-red-train', 'tenryu-railway', 'hamamatsu-engine-depot-1949'))
         + '</section>'
     ),
     '/life/play-out/cultural-facilities/': (
         '<section class="guide-update" id="local-photo-archive"><h2>写真で調べる、浜松の祭りと街の記録</h2>'
         '<p>郷土資料を調べるときは、浜松まつり、浜松城、昭和初期の街並みや空中写真から、当時の風景もたどれます。</p>'
-        + photo_links('culture_photo', ('hamamatsu-festival', 'hamamatsu-castle', 'showa-hamamatsu', 'hamamatsu-aerial'))
+        + photo_links('culture_photo', ('hamamatsu-festival', 'hamamatsu-castle', 'showa-hamamatsu', 'hamamatsu-aerial', 'hamamatsu-festival-shops-1952'))
         + '</section>'
     ),
     '/life/play-out/ieyasu-festival-2026/': (
@@ -64,7 +67,7 @@ TOPIC_PHOTOS = {
     '/life/living-soon/about-hamamatsu/': (
         '<section class="guide-update" id="local-photo-archive"><h2>浜松の街を昔の写真で知る</h2>'
         '<p>広小路や田町の通り、鍛冶町の松菱百貨店。浜松の街なかを古写真でたどれます。</p>'
-        + photo_links('city_photo', ('showa-hamamatsu', 'matsubishi'))
+        + photo_links('city_photo', ('showa-hamamatsu', 'matsubishi', 'hamamatsu-city-guide-1960'))
         + '</section>'
     ),
 }
